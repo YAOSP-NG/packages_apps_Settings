@@ -235,4 +235,8 @@
     <!-- Hostname setting -->
     <string name="device_hostname">Hostname des Gerätes</string>
 
+    <!-- ADB debugging notifications -->
+    <string name="adb_notify">Benachrichtigung bei USB-Debugging</string>
+    <string name="adb_notify_summary">Eine Benachrichtigung anzeigen, wenn USB- order Netzwerk-Debugging verbunden ist</string>
+
 </resources>
