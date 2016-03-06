@@ -218,7 +218,8 @@
     <string name="battery_low_pulse_title">Pulse if battery low</string>
     <string name="battery_light_list_title">Colors</string>
     <string name="battery_light_low_color_title">Battery low</string>
-    <string name="battery_light_medium_color_title">Charging</string>
+    <string name="battery_light_medium_color_title">Charging - slow or normal</string>
+    <string name="battery_light_medium_fast_color_title">Charging - fast</string>
     <string name="battery_light_full_color_title">Fully charged</string>
     <string name="notification_light_title">Notification light</string>
     <string name="notification_light_general_title">General</string>
