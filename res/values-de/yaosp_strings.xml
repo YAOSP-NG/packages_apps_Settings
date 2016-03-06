@@ -202,7 +202,8 @@
     <string name="battery_low_pulse_title">Bei niedrigem Akkustand blinken</string>
     <string name="battery_light_list_title">Farben</string>
     <string name="battery_light_low_color_title">Akkustand niedrig</string>
-    <string name="battery_light_medium_color_title">Am laden</string>
+    <string name="battery_light_medium_color_title">Am laden - langsam oder normal</string>
+    <string name="battery_light_medium_fast_color_title">Am laden - schnell</string>
     <string name="battery_light_full_color_title">Vollständig geladen</string>
     <string name="notification_light_title">Benachrichtigungs-LED</string>
     <string name="notification_light_general_title">Allgemein</string>

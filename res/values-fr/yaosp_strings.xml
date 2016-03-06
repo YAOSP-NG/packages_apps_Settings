@@ -202,7 +202,8 @@
     <string name="battery_low_pulse_title">Clignoter à batterie faible</string>
     <string name="battery_light_list_title">Couleurs</string>
     <string name="battery_light_low_color_title">Batterie faible</string>
-    <string name="battery_light_medium_color_title">En charge</string>
+    <string name="battery_light_medium_color_title">En charge - lente ou normale</string>
+    <string name="battery_light_medium_fast_color_title">En charge - rapide</string>
     <string name="battery_light_full_color_title">Complètement chargée</string>
     <string name="notification_light_title">Indicateur LED de notification</string>
     <string name="notification_light_general_title">Général</string>
