@@ -100,6 +100,12 @@ import com.android.settingslib.applications.ApplicationsState.AppEntry;
 import com.android.settingslib.net.ChartData;
 import com.android.settingslib.net.ChartDataLoader;
 
+import com.android.settings.Settings.AppOpsSummaryActivity;
+import com.android.settings.applications.AppOpsDetails;
+import com.android.settings.applications.AppOpsState;
+import com.android.settings.applications.AppOpsState.OpsTemplate;
+import com.android.settings.privacyguard.AppInfoLoader;
+
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -142,6 +148,7 @@ public class InstalledAppDetails extends AppInfoBase
     private static final String KEY_NOTIFICATION = "notification_settings";
     private static final String KEY_STORAGE = "storage_settings";
     private static final String KEY_PERMISSION = "permission_settings";
+    private static final String KEY_PRIVACY = "privacy_settings";
     private static final String KEY_DATA = "data_settings";
     private static final String KEY_LAUNCH = "preferred_settings";
     private static final String KEY_BATTERY = "battery";
@@ -160,6 +167,7 @@ public class InstalledAppDetails extends AppInfoBase
     private Preference mNotificationPreference;
     private Preference mStoragePreference;
     private Preference mPermissionsPreference;
+    private Preference mPrivacyPreference;
     private Preference mLaunchPreference;
     private Preference mDataPreference;
     private Preference mMemoryPreference;
@@ -370,6 +378,8 @@ public class InstalledAppDetails extends AppInfoBase
         mStoragePreference.setOnPreferenceClickListener(this);
         mPermissionsPreference = findPreference(KEY_PERMISSION);
         mPermissionsPreference.setOnPreferenceClickListener(this);
+        mPrivacyPreference = findPreference(KEY_PRIVACY);
+        mPrivacyPreference.setOnPreferenceClickListener(this);
         mDataPreference = findPreference(KEY_DATA);
         if (mDataPreference != null) {
             mDataPreference.setOnPreferenceClickListener(this);
@@ -732,6 +742,16 @@ public class InstalledAppDetails extends AppInfoBase
         }
     }
 
+    private void startManagePrivacyActivity() {
+        // start new activity to manage app privacy
+        Bundle args = new Bundle();
+        args.putString(AppOpsDetails.ARG_PACKAGE_NAME, mAppEntry.info.packageName);
+
+        SettingsActivity sa = (SettingsActivity) getActivity();
+        sa.startPreferencePanel(AppOpsDetails.class.getName(), args,
+                R.string.privacy_guard_manager_title, null, this, 2);
+    }
+
     private void startAppInfoFragment(Class<?> fragment, CharSequence title) {
         startAppInfoFragment(fragment, title, this, mAppEntry);
     }
@@ -820,6 +840,8 @@ public class InstalledAppDetails extends AppInfoBase
                     getString(R.string.app_notifications_title));
         } else if (preference == mPermissionsPreference) {
             startManagePermissionsActivity();
+        } else if (preference == mPrivacyPreference) {
+            startManagePrivacyActivity();
         } else if (preference == mLaunchPreference) {
             startAppInfoFragment(AppLaunchSettings.class, mLaunchPreference.getTitle());
         } else if (preference == mMemoryPreference) {

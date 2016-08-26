@@ -32,7 +32,7 @@ import java.util.List;
 /**
  * An asynchronous loader implementation that loads AppInfo structures.
  */
-/* package */ class AppInfoLoader extends AsyncTaskLoader<List<AppInfo>> {
+public class AppInfoLoader extends AsyncTaskLoader<List<AppInfo>> {
     private PackageManager mPm;
     private boolean mShowSystemApps;
     private AppOpsManager mAppOps;

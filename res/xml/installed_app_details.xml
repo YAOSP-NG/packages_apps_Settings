@@ -37,6 +37,11 @@
         android:selectable="true" />
 
     <Preference
+        android:key="privacy_settings"
+        android:title="@string/privacy_guard_manager_title"
+        android:selectable="true" />
+
+    <Preference
         android:key="notification_settings"
         android:title="@string/notifications_label"
         android:selectable="true" />
