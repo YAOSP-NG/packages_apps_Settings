@@ -19,4 +19,8 @@
     <string name="yasop_version_title">Yank555.lu AOSP version</string>
     <string name="yasop_version_default">7.0.0_r6 - NRD90U - v0.00 2016-09-17\nby Jean-Pierre Rasquin (yank555.lu@gmail.com)</string>
 
+    <!-- About device screen, CPU and RAM info. -->
+    <string name="cpu_info">CPU</string>
+    <string name="mem_info">Memory</string>
+
 </resources>
