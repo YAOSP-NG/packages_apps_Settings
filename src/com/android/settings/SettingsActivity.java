@@ -112,6 +112,7 @@ import com.android.settings.print.PrintSettingsFragment;
 import com.android.settings.qstile.DevelopmentTiles;
 import com.android.settings.search.DynamicIndexableContentMonitor;
 import com.android.settings.search.Index;
+import com.android.settings.privacyguard.PrivacyGuardPrefs;
 import com.android.settings.sim.SimSettings;
 import com.android.settings.tts.TextToSpeechSettings;
 import com.android.settings.users.UserSettings;

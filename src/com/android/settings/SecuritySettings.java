@@ -231,6 +231,14 @@ public class SecuritySettings extends SettingsPreferenceFragment
         addPreferencesFromResource(R.xml.security_settings);
         root = getPreferenceScreen();
 
+        // Add options for device encryption
+        mIsAdmin = mUm.isAdminUser();
+
+        if (mIsAdmin) {
+            // App security settings
+            addPreferencesFromResource(R.xml.security_settings_pgm);
+        }
+
         // Add options for lock/unlock screen
         final int resid = getResIdForLockUnlockScreen(getActivity(), mLockPatternUtils,
                 mManagedPasswordProvider, MY_USER_ID);
@@ -271,9 +279,6 @@ public class SecuritySettings extends SettingsPreferenceFragment
         if (unlockSetOrChange instanceof GearPreference) {
             ((GearPreference) unlockSetOrChange).setOnGearClickListener(this);
         }
-
-        // Add options for device encryption
-        mIsAdmin = mUm.isAdminUser();
 
         if (mIsAdmin) {
             if (LockPatternUtils.isDeviceEncryptionEnabled()) {
