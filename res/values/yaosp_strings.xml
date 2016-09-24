@@ -220,6 +220,10 @@
     <string name="root_access_adb">ADB only</string>
     <string name="root_access_all">Apps and ADB</string>
 
+    <!-- Show su statusbar icon -->
+    <string name="show_su_statusbar_icon_title">SU statusbar icon</string>
+    <string name="show_su_statusbar_icon_summary">Show a SU # icon in statusbar whenever a root session is active</string>
+
     <!-- Memory -->
     <string name="memory_startup_apps_title">Apps started on boot</string>
 </resources>
