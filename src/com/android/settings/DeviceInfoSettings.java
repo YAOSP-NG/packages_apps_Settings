@@ -71,6 +71,8 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
     private static final String PROPERTY_EQUIPMENT_ID = "ro.ril.fccid";
     private static final String KEY_DEVICE_FEEDBACK = "device_feedback";
     private static final String KEY_SAFETY_LEGAL = "safetylegal";
+    private static final String KEY_DEVICE_CPU = "device_cpu";
+    private static final String KEY_DEVICE_MEMORY = "device_memory";
 
     static final int TAPS_TO_BE_A_DEVELOPER = 7;
 
@@ -131,6 +133,21 @@ public class DeviceInfoSettings extends SettingsPreferenceFragment implements In
         // Remove selinux information if property is not present
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_SELINUX_STATUS,
                 PROPERTY_SELINUX_STATUS);
+
+        String cpuInfo = DeviceInfoUtils.getCPUInfo();
+        String memInfo = DeviceInfoUtils.getMemInfo();
+
+        if (cpuInfo != null) {
+            setStringSummary(KEY_DEVICE_CPU, cpuInfo);
+        } else {
+            getPreferenceScreen().removePreference(findPreference(KEY_DEVICE_CPU));
+        }
+
+        if (memInfo != null) {
+            setStringSummary(KEY_DEVICE_MEMORY, memInfo);
+        } else {
+            getPreferenceScreen().removePreference(findPreference(KEY_DEVICE_MEMORY));
+        }
 
         // Remove Safety information preference if PROPERTY_URL_SAFETYLEGAL is not set
         removePreferenceIfPropertyMissing(getPreferenceScreen(), KEY_SAFETY_LEGAL,
