@@ -15,6 +15,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- About phone screen, YAOSP build info -->
+    <string name="yasop_version_title">Yank555.lu AOSP version</string>
+    <string name="yasop_version_default">by Jean-Pierre Rasquin (yank555.lu@gmail.com)</string>
+
     <!-- About device screen, CPU and RAM info. -->
     <string name="cpu_info">CPU</string>
     <string name="mem_info">Memory</string>
