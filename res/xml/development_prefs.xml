@@ -255,9 +255,10 @@
             android:entries="@array/overlay_display_devices_entries"
             android:entryValues="@array/overlay_display_devices_values" />
 
+        <!-- Remove this, we have enough customizations in display settings now
         <com.android.settings.display.DensityPreference
             android:key="density"
-            android:title="@string/developer_smallest_width" />
+            android:title="@string/developer_smallest_width" /> -->
 
     </PreferenceCategory>
 
