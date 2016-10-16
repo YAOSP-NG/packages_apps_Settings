@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Copyright (C) 2015 Yank555.lu Android Open Source Project
+<!-- Copyright (c) 2016 Yank555.lu's Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -25,5 +25,9 @@
 
     <!-- Phone info shortcut -->
     <string name="device_info_title">Phone info</string>
+
+    <!-- Vendor version -->
+    <string name="vendor_version">Vendor version</string>
+    <string name="vendor_version_default">Unknown</string>
 
 </resources>
