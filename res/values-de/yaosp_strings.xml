@@ -49,4 +49,8 @@
     <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
     <string name="unlock_quick_unlock_control_summary">Automatisch Entsperren bei Pin (Ok Taste muss nicht mehr gedrückt werden)\nAnmerkung: Funktioniert nur bei Pin mit 4 Zeichen</string>
 
+    <!-- Double-tap to sleep -->
+    <string name="double_tap_sleep_anywhere_title">Ruhezustand durch doppeltes Tippen im Sperrbildschirm</string>
+    <string name="double_tap_sleep_anywhere_summary">Doppelt Tippen Auf dem Sperrbildschirm um das Display aus zuschalten</string>
+
 </resources>

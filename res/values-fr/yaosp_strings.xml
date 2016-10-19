@@ -49,4 +49,8 @@
     <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
     <string name="unlock_quick_unlock_control_summary">Déverrouiller automatiquement l\'appareil lorsque le PIN correct est entré (inutile d\'appuyer sur OK)\nNote: ne fonctionne que pour des PINs de 4 caratères !</string>
 
+    <!-- Double-tap to sleep -->
+    <string name="double_tap_sleep_anywhere_title">Appuyez écran de vérouillage pour désactiver</string>
+    <string name="double_tap_sleep_anywhere_summary">Appuyez deux fois sur l\'écran de vérouillage pour mettre votre appareil en veille</string>
+
 </resources>
