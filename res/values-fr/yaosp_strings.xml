@@ -45,4 +45,8 @@
     <string name="display_rotation_180_title">180 degrés</string>
     <string name="display_rotation_270_title">270 degrés</string>
 
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Déverrouillage rapide</string>
+    <string name="unlock_quick_unlock_control_summary">Déverrouiller automatiquement l\'appareil lorsque le PIN correct est entré (inutile d\'appuyer sur OK)\nNote: ne fonctionne que pour des PINs de 4 caratères !</string>
+
 </resources>
