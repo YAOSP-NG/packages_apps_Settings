@@ -89,6 +89,12 @@
                 android:title="@string/tap_to_wake"
                 android:summary="@string/tap_to_wake_summary" />
 
+        <com.android.settings.preference.SystemSettingSwitchPreference
+                android:key="double_tap_sleep_anywhere"
+                android:title="@string/double_tap_sleep_anywhere_title"
+                android:summary="@string/double_tap_sleep_anywhere_summary"
+                android:defaultValue="false" />
+
         <PreferenceScreen
                 android:key="font_size"
                 android:title="@string/title_font_size"
