@@ -45,4 +45,8 @@
     <string name="display_rotation_180_title">180 Grad</string>
     <string name="display_rotation_270_title">270 Grad</string>
 
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Schnelles Entsperren</string>
+    <string name="unlock_quick_unlock_control_summary">Automatisch Entsperren bei Pin (Ok Taste muss nicht mehr gedrückt werden)\nAnmerkung: Funktioniert nur bei Pin mit 4 Zeichen</string>
+
 </resources>
