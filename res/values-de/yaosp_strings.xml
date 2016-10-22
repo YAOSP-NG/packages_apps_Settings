@@ -57,4 +57,18 @@
     <string name="double_tap_wake_doze_title">Doppeltes Antippen zum einschalten</string>
     <string name="double_tap_wake_doze_summary">Benötigt ein doppeltes antippen im Ambient-Display um das Gerät einzuschalten</string>
 
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Erweiterter Desktop</string>
+    <string name="expanded_hide_nothing">Nichts ausblenden</string>
+    <string name="expanded_hide_status">Statusleiste ausblenden</string>
+    <string name="expanded_hide_navigation">Navigationsleiste ausblenden</string>
+    <string name="expanded_hide_both">Beides ausblenden</string>
+    <string name="expanded_nothing_to_show">Schalten Sie \"Immer aktiviert\" aus, wenn der erweiterte Desktop anwendungsabhängig eingestellt werden soll.</string>
+    <string name="expanded_desktop_state">Status des erweiterten Desktop</string>
+    <string name="expanded_enabled_for_all">Immer aktiviert</string>
+    <string name="expanded_user_configurable">Eigene Konfiguration</string>
+    <string name="expanded_desktop_style">Aussehen des erweiterten Desktops</string>
+    <string name="expanded_desktop_style_description">Standardaussehen des erweiterten Desktop wählen</string>
+    <string name="expanded_desktop_title">Optionen des erweiterten Desktops</string>
+
 </resources>
