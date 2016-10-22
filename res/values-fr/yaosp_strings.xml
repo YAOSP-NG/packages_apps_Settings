@@ -57,4 +57,18 @@
     <string name="double_tap_wake_doze_title">Appuyez deux fois pour activer</string>
     <string name="double_tap_wake_doze_summary">Nécessite d\'appuyer deux fois pour activer l\'appareil en mode veille (doze)</string>
 
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Bureau étendu</string>
+    <string name="expanded_hide_nothing">Ne rien masquer</string>
+    <string name="expanded_hide_status">Masquer la barre d\'état</string>
+    <string name="expanded_hide_navigation">Masquer la barre de navigation</string>
+    <string name="expanded_hide_both">Masquer les deux</string>
+    <string name="expanded_nothing_to_show">Pour ajouter une configuration personnalisée par application pour le bureau étendu, désactivez «Activé pour tous»</string>
+    <string name="expanded_desktop_state">État de l\'extension</string>
+    <string name="expanded_enabled_for_all">Activé pour tous</string>
+    <string name="expanded_user_configurable">Paramétrage utilisateur</string>
+    <string name="expanded_desktop_style">Style de bureau étendu</string>
+    <string name="expanded_desktop_style_description">Choisir un mode de bureau étendu par défaut</string>
+    <string name="expanded_desktop_title">Options du bureau étendu</string>
+
 </resources>
