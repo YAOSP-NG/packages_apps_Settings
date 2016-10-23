@@ -89,4 +89,13 @@
         android:key="proxy_settings"
         android:title="@string/proxy_settings_title" />
 
+    <PreferenceCategory
+            android:title="@string/network_traffic_options_title" />
+
+        <PreferenceScreen
+                android:key="network_traffic_state"
+                 android:fragment="com.android.settings.NetworkTraffic"
+                 android:summary="@string/network_traffic_summary"
+                 android:title="@string/network_traffic_title" />
+
 </PreferenceScreen>
