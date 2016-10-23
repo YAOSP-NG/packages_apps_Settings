@@ -71,4 +71,9 @@
     <string name="expanded_desktop_style_description">Standardaussehen des erweiterten Desktop wählen</string>
     <string name="expanded_desktop_title">Optionen des erweiterten Desktops</string>
 
+    <!-- Wakeup options -->
+    <string name="display_category_wakeup_options_title">Weckmöglichkeiten</string>
+    <string name="wakeup_when_plugged_unplugged_title">Wecken bei Aufladung</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Gerät aufwecken, wenn das Ladekabel ein- oder ausgesteckt wird.</string>
+
 </resources>
