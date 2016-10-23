@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (c) 2016 Yank555.lu's Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- About phone screen, YAOSP build info -->
+    <string name="yasop_version_title">Версия Yank555.lu AOSP</string>
+    <string name="yasop_version_default">by Jean-Pierre Rasquin (yank555.lu@gmail.com)</string>
+
+    <!-- About device screen, CPU and RAM info. -->
+    <string name="cpu_info">Процессор</string>
+    <string name="mem_info">Память</string>
+
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Информация о телефоне</string>
+
+    <!-- Vendor version -->
+    <string name="vendor_version">Версия vendor</string>
+    <string name="vendor_version_default">Неизвестно</string>
+
+    <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
+    <string name="local_backup_password_title">Desktop backup password</string>
+
+    <!-- Power Menu fragment -->
+    <string name="powermenu_settings_category">Меню кнопки питания</string>
+    <string name="powermenu_settings_title">Настроить</string>
+
+    <!-- Power menu customization -->
+    <string name="power_menu_reboot_title">Перезагрузка</string>
+    <string name="power_menu_screenshot_title">Снимок экрана</string>
+    <string name="power_menu_screenrecord_title">Запись экрана</string>
+    <string name="power_menu_torch_title">Фонарик</string>
+    <string name="power_menu_airplane_title">Режим полета</string>
+    <string name="power_menu_users_title">Смена пользователя</string>
+    <string name="power_menu_search_title">Поиск</string>
+    <string name="power_menu_voice_title">Голосовой поиск</string>
+    <string name="power_menu_settings_title">Настройки</string>
+    <string name="power_menu_lockdown_title">Блокировка устройства</string>
+    <string name="power_menu_bug_report_title">Отчет об ошибке</string>
+    <string name="power_menu_sound_title">Звуковая панель</string>
+    <string name="power_menu_bug_report_disabled">Отчеты об ошибках отключены в настройках разработчика</string>
+
+    <!-- Rotation Modes  -->
+    <string name="display_rotation_title">Автоповорот экрана</string>
+    <string name="display_rotation_disabled">Отключено</string>
+    <string name="display_rotation_unit">градусов</string>
+    <string name="display_lockscreen_rotation_title">Автоповорот экрана блокировки</string>
+    <string name="display_rotation_category_title">Режимы автоповорота</string>
+    <string name="display_rotation_0_title">0 градусов</string>
+    <string name="display_rotation_90_title">90 градусов</string>
+    <string name="display_rotation_180_title">180 градусов</string>
+    <string name="display_rotation_270_title">270 градусов</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
+    <string name="unlock_quick_unlock_control_summary">Разблокировать автоматически как только был введен корректный PIN (без нажатия OK)\nПрим.: только для 4-значного PIN !</string>
+
+    <!-- Double-tap to sleep/wake -->
+    <string name="double_tap_sleep_anywhere_title">Выключение постукиванием по экрану блокировки</string>
+    <string name="double_tap_sleep_anywhere_summary">Постучите два раза по экрану блокировки чтобы выключить экран устройства</string>
+    <string name="double_tap_sleep_nav_bar_title">Выключение постукиванием по панели навигации</string>
+    <string name="double_tap_sleep_nav_bar_summary">Постучите два раза по панели навигации чтобы выключить экран устройства</string>
+    <string name="double_tap_wake_doze_title">Пробуждение постукиванием в режиме doze</string>
+    <string name="double_tap_wake_doze_summary">Будить устройство двойным постукиванием по экрану в режиме doze вместо одинарного</string>
+
+    <!-- Expanded desktop -->
+    <string name="power_menu_expanded_desktop">Расширенный рабочий стол</string>
+    <string name="expanded_hide_nothing">Ничего не скрывать</string>
+    <string name="expanded_hide_status">Скрывать строку статуса</string>
+    <string name="expanded_hide_navigation">Скрывать строку навигации</string>
+    <string name="expanded_hide_both">Скрывать все</string>
+    <string name="expanded_nothing_to_show">Чтобы добавить настройки для каждого приложения по отдельности, выключите опцию  "Включен для всех"</string>
+    <string name="expanded_desktop_state">Статус расширенного рабочего стола</string>
+    <string name="expanded_enabled_for_all">Включен для всех</string>
+    <string name="expanded_user_configurable">Пользовательские настройки</string>
+    <string name="expanded_desktop_style">Стиль расширенного рабочего стола</string>
+    <string name="expanded_desktop_style_description">Выберите стиль рабочего стола по умолчанию</string>
+    <string name="expanded_desktop_title">Настройки расширенного рабочего стола</string>
+
+</resources>
