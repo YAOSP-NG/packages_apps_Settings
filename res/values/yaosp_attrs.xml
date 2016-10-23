@@ -20,4 +20,12 @@
         <attr name="defaultSizeValue" format="float" />
         <attr name="digits" format="integer" />
     </declare-styleable>
+  
+    <!-- Base attributes available to CustomSeekBarPreference. -->
+    <declare-styleable name="CustomSeekBarPreference">
+        <attr name="interval" format="integer" />
+        <!--attr name="minimum" format="integer" />
+        <attr name="maximum" format="integer" /-->
+        <attr name="units" format="string|reference" />
+    </declare-styleable>
 </resources>
