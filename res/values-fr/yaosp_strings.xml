@@ -71,4 +71,9 @@
     <string name="expanded_desktop_style_description">Choisir un mode de bureau étendu par défaut</string>
     <string name="expanded_desktop_title">Options du bureau étendu</string>
 
+    <!-- Wakeup options -->
+    <string name="display_category_wakeup_options_title">Options de réveil</string>
+    <string name="wakeup_when_plugged_unplugged_title">Réveil en charge batterie</string>
+    <string name="wakeup_when_plugged_unplugged_summary">L\'appareil s\'allume lorsque le cable est branché/débranché</string>
+
 </resources>
