@@ -31,7 +31,7 @@
     <string name="vendor_version_default">Неизвестно</string>
 
     <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
-    <string name="local_backup_password_title">Desktop backup password</string>
+    <string name="local_backup_password_title">Пароль резервной копии</string>
 
     <!-- Power Menu fragment -->
     <string name="powermenu_settings_category">Меню кнопки питания</string>
@@ -88,5 +88,10 @@
     <string name="expanded_desktop_style">Стиль расширенного рабочего стола</string>
     <string name="expanded_desktop_style_description">Выберите стиль рабочего стола по умолчанию</string>
     <string name="expanded_desktop_title">Настройки расширенного рабочего стола</string>
+
+    <!-- Wakeup options -->
+    <string name="display_category_wakeup_options_title">Пробуждение</string>
+    <string name="wakeup_when_plugged_unplugged_title">Будить устройство при зарядке</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Будить устройство при подключении/отключении от зарядного устройства.</string>
 
 </resources>
