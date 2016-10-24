@@ -101,4 +101,7 @@
     <string name="network_traffic_animate_arrows">Animer les flèches</string>
     <string name="network_traffic_animate_arrows_summary">Surbriller les flèches lorsqu\'il y a de l\'activité réseau (entrante ou sortante respectivement)</string>
 
+    <!-- Charging vibration -->
+    <string name="charging_vibration_title">Vibration relative à la charge</string>
+
 </resources>
