@@ -28,7 +28,7 @@
 
     <!-- Power Menu fragment -->
     <string name="powermenu_settings_category">Kikapcsoló menü</string>
-    <string name="powermenu_settings_title">Személyre szabás</string>
+    <string name="powermenu_settings_title">Testreszabás</string>
 
     <!-- Power menu customization -->
     <string name="power_menu_reboot_title">Újraindítás</string>
@@ -83,9 +83,9 @@
     <string name="expanded_desktop_title">Kiterjesztett asztal beállítások</string>
 	
     <!-- Wakeup options -->
-    <string name="display_category_wakeup_options_title">Wakeup options</string>
-    <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
-    <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged.</string>
+    <string name="display_category_wakeup_options_title">Ébresztési opciók</string>
+    <string name="wakeup_when_plugged_unplugged_title">Töltésre felébred</string>
+    <string name="wakeup_when_plugged_unplugged_summary">A készülék felébred ha az áramforrást csatlakoztatod vagy lecsatlakoztatod</string>
 	
     <!-- Status bar - Network traffic -->
     <string name="network_traffic_options_title">Hálózati forgalom beállítások</string>
@@ -109,5 +109,8 @@
     <string name="network_traffic_autohide">Automatikus elrejtés</string>
     <string name="network_traffic_autohide_summary">Rejtse el az adatforgalmi indikátort, ha nincs hálózati forgalom</string>
     <string name="network_traffic_autohide_threshold">Inaktivitás határértéke</string>
+	
+    <!-- Charging vibration -->
+    <string name="charging_vibration_title">Charging vibration</string>
 
 </resources>
