@@ -101,4 +101,7 @@
     <string name="network_traffic_animate_arrows">Pfeile animieren</string>
     <string name="network_traffic_animate_arrows_summary">Pfeile aufgrund von Netzwerkaktivität aufblinken (ausgehend oder eingehend)</string>
 
+    <!-- Charging vibration -->
+    <string name="charging_vibration_title">Ladevibration</string>
+
 </resources>

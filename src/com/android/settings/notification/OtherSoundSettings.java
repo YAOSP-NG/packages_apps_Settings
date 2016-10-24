@@ -65,6 +65,7 @@ public class OtherSoundSettings extends SettingsPreferenceFragment implements In
     private static final String KEY_DIAL_PAD_TONES = "dial_pad_tones";
     private static final String KEY_SCREEN_LOCKING_SOUNDS = "screen_locking_sounds";
     private static final String KEY_CHARGING_SOUNDS = "charging_sounds";
+    private static final String KEY_CHARGING_VIBRATION = "charging_vibration";
     private static final String KEY_DOCKING_SOUNDS = "docking_sounds";
     private static final String KEY_TOUCH_SOUNDS = "touch_sounds";
     private static final String KEY_VIBRATE_ON_TOUCH = "vibrate_on_touch";
@@ -88,6 +89,14 @@ public class OtherSoundSettings extends SettingsPreferenceFragment implements In
 
     private static final SettingPref PREF_CHARGING_SOUNDS = new SettingPref(
             TYPE_GLOBAL, KEY_CHARGING_SOUNDS, Global.CHARGING_SOUNDS_ENABLED, DEFAULT_ON);
+
+    private static final SettingPref PREF_CHARGING_VIBRATION = new SettingPref(
+            TYPE_GLOBAL, KEY_CHARGING_VIBRATION, Global.CHARGING_VIBRATION_ENABLED, DEFAULT_ON) {
+        @Override
+        public boolean isApplicable(Context context) {
+            return hasHaptic(context);
+        }
+    };
 
     private static final SettingPref PREF_DOCKING_SOUNDS = new SettingPref(
             TYPE_GLOBAL, KEY_DOCKING_SOUNDS, Global.DOCK_SOUNDS_ENABLED, DEFAULT_ON) {
@@ -174,6 +183,7 @@ public class OtherSoundSettings extends SettingsPreferenceFragment implements In
         PREF_DIAL_PAD_TONES,
         PREF_SCREEN_LOCKING_SOUNDS,
         PREF_CHARGING_SOUNDS,
+        PREF_CHARGING_VIBRATION,
         PREF_DOCKING_SOUNDS,
         PREF_TOUCH_SOUNDS,
         PREF_VIBRATE_ON_TOUCH,
