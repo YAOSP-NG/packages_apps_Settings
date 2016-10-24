@@ -62,10 +62,10 @@
                 android:title="@string/accessibility_power_button_ends_call_prerefence_title"
                 android:persistent="false"/>
 
-        <SwitchPreference
+        <!--SwitchPreference
                 android:key="toggle_lock_screen_rotation_preference"
                 android:title="@string/accelerometer_title"
-                android:persistent="false"/>
+                android:persistent="false"/-->
 
         <SwitchPreference
                 android:key="toggle_speak_password_preference"
