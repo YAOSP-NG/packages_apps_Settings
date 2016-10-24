@@ -43,6 +43,7 @@ import android.support.v7.preference.DropDownPreference;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v7.preference.PreferenceCategory;
 import android.support.v7.preference.PreferenceScreen;
 import android.text.TextUtils;
 import android.util.Log;
@@ -85,7 +86,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_FONT_SIZE = "font_size";
     private static final String KEY_SCREEN_SAVER = "screensaver";
     private static final String KEY_LIFT_TO_WAKE = "lift_to_wake";
-    private static final String KEY_DOZE = "doze";
     private static final String KEY_TAP_TO_WAKE = "tap_to_wake";
     private static final String KEY_AUTO_BRIGHTNESS = "auto_brightness";
     private static final String KEY_DISPLAY_ROTATION = "display_rotation";
@@ -104,12 +104,15 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String ROTATION_ANGLE_180 = "180";
     private static final String ROTATION_ANGLE_270 = "270";
 
+    private static final String KEY_DOZE_CATEGORY = "category_doze_options";
+    private static final String KEY_DOZE = "doze";
+    private static final String KEY_ADVANCED_DOZE_OPTIONS = "advanced_doze_options";
+
     private TimeoutListPreference mScreenTimeoutPreference;
     private PreferenceScreen mDisplayRotationPreference;
     private ListPreference mNightModePreference;
     private Preference mScreenSaverPreference;
     private SwitchPreference mLiftToWakePreference;
-    private SwitchPreference mDozePreference;
     private SwitchPreference mTapToWakePreference;
     private SwitchPreference mAutoBrightnessPreference;
     private SwitchPreference mCameraGesturePreference;
@@ -122,6 +125,10 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             updateDisplayRotationPreferenceDescription();
         }
     };
+
+    private PreferenceCategory mDozeCategory;
+    private SwitchPreference mDozePreference;
+    private PreferenceScreen mAdvancedDozeOptions;
 
     private final RotationPolicy.RotationPolicyListener mRotationPolicyListener =
             new RotationPolicy.RotationPolicyListener() {
@@ -145,6 +152,8 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.display_settings);
 
         mDisplayRotationPreference = (PreferenceScreen) findPreference(KEY_DISPLAY_ROTATION);
+
+        PreferenceScreen prefSet = getPreferenceScreen();
 
         mScreenSaverPreference = findPreference(KEY_SCREEN_SAVER);
         if (mScreenSaverPreference != null
@@ -171,11 +180,13 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             removePreference(KEY_LIFT_TO_WAKE);
         }
 
+        mDozeCategory = (PreferenceCategory) findPreference(KEY_DOZE_CATEGORY);
         if (isDozeAvailable(activity)) {
+            // Doze master switch
             mDozePreference = (SwitchPreference) findPreference(KEY_DOZE);
             mDozePreference.setOnPreferenceChangeListener(this);
         } else {
-            removePreference(KEY_DOZE);
+            prefSet.removePreference(mDozeCategory);
         }
 
         if (isTapToWakeAvailable(getResources())) {
@@ -610,6 +621,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                     }
                     if (!isDozeAvailable(context)) {
                         result.add(KEY_DOZE);
+                        result.add(KEY_ADVANCED_DOZE_OPTIONS);
                     }
                     if (!isTapToWakeAvailable(context.getResources())) {
                         result.add(KEY_TAP_TO_WAKE);
