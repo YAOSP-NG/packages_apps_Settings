@@ -99,4 +99,7 @@
     <string name="network_traffic_autohide_summary">Verstecke den Verkehrsmonitor wenn keine aktivität besteht.</string>
     <string name="network_traffic_autohide_threshold">Inaktivitätsschwelle</string>
 
+    <!-- Charging vibration -->
+    <string name="charging_vibration_title">Ladevibration</string>
+
 </resources>
