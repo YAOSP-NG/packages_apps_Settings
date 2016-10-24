@@ -99,4 +99,7 @@
     <string name="network_traffic_autohide_summary">Masquer l\'affichage du traffic réseau en l\'absence d\'activité réseau</string>
     <string name="network_traffic_autohide_threshold">Seuil d\'inactivité</string>
 
+    <!-- Charging vibration -->
+    <string name="charging_vibration_title">Vibration relative à la charge</string>
+
 </resources>

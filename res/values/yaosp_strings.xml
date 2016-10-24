@@ -117,4 +117,7 @@
     <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
 
+    <!-- Charging vibration -->
+    <string name="charging_vibration_title">Charging vibration</string>
+
 </resources>
