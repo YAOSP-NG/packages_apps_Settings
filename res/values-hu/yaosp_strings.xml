@@ -72,7 +72,7 @@
     <string name="expanded_hide_status">Állapotsáv elrejtése</string>
     <string name="expanded_hide_navigation">Navigációs sáv elrejtése</string>
     <string name="expanded_hide_both">Mindkettő elrejtése</string>
-    <string name="expanded_nothing_to_show">Alkalmazásonkénti beállításhoz kapcsolja ki az "Összes engedélyezett" beállítást</string>
+    <string name="expanded_nothing_to_show">Alkalmazásonkénti beállításhoz kapcsolja ki az "összes engedélyezett" beállítást</string>
     <string name="expanded_desktop_state">Kiterjesztett asztal állapota</string>
     <string name="expanded_enabled_for_all">Összes engedélyezett</string>
     <string name="expanded_user_configurable">Felhasználói beállítás</string>
