@@ -65,10 +65,8 @@
     <string name="double_tap_sleep_anywhere_summary">Érintsd meg kétszer a záróképernyőt bárhol az alvó módhoz</string>
     <string name="double_tap_sleep_nav_bar_title">Navigációs sáv érintése alvó módhoz</string>
     <string name="double_tap_sleep_nav_bar_summary">Érintsd meg kétszer a navigációs sávot az alvó módhoz</string>
-    <string name="double_tap_wake_doze_title">Dupla érintésre ébresztés alvó módból</string>
-    <string name="double_tap_wake_doze_summary">Az ébresztéshez dupla érintés szükséges a környezeti kijelző módban(doze)</string>
 	
-	<!-- Expanded desktop -->
+    <!-- Expanded desktop -->
     <string name="power_menu_expanded_desktop">Kiterjesztett asztal üzemmód</string>
     <string name="expanded_hide_nothing">Egyiket se rejtse el</string>
     <string name="expanded_hide_status">Állapotsáv elrejtése</string>
