@@ -125,10 +125,10 @@
     <string name="doze_trigger_sigmotion_title">Jelentős mozgásra aktiválódó</string>
     <string name="doze_trigger_sigmotion_summary_on">A kijelzőt egy jelentősebb mozgás aktiválja</string>
     <string name="doze_trigger_sigmotion_summary_off">A jelentősebb mozgás érzékelő szenzor nincs beállítva az aktiváláshoz</string>
-    <string name="doze_trigger_notification_title">Értesítése aktiválódó</string>
+    <string name="doze_trigger_notification_title">Értesítésre aktiválódó</string>
     <string name="doze_trigger_notification_summary_on">A környezeti kijelzőt az értesítések aktiválják</string>
     <string name="doze_trigger_notification_summary_off">Az értesítések nincsenek beállítva az aktiváláshoz</string>
-    <string name="doze_schedule_title">Ütemezések</string>
+    <string name="doze_schedule_title">Ütemező</string>
     <string name="doze_schedule_summary_on">Az alvó módhoz egy előre beállított érték (normál [1s,10s,30s,60s,120s]) kerül alkalmazásra (alapértelmezett)</string>
     <string name="doze_schedule_summary_off">Értesítésenként csak egyszer</string>
     <string name="doze_brightness_title">Fényerőszint</string>
