@@ -149,4 +149,8 @@
     <string name="doze_brightness_title">Doze brightness level</string>
     <string name="doze_brightness_summary">Brightness level of doze pulse screen (% of max allowed brightness)</string>
 
+    <!-- Clock Settings -->
+    <string name="clock_show_title">Show clock in statusbar</string>
+    <string name="clock_seconds_title">Show seconds</string>
+
 </resources>
