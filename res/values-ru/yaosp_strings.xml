@@ -72,13 +72,11 @@
     <string name="double_tap_sleep_anywhere_summary">Постучите два раза по экрану блокировки чтобы выключить экран устройства</string>
     <string name="double_tap_sleep_nav_bar_title">Выключение постукиванием по панели навигации</string>
     <string name="double_tap_sleep_nav_bar_summary">Постучите два раза по панели навигации чтобы выключить экран устройства</string>
-    <string name="double_tap_wake_doze_title">Пробуждение постукиванием в режиме doze</string>
-    <string name="double_tap_wake_doze_summary">Будить устройство двойным постукиванием по экрану в режиме doze вместо одинарного</string>
 
     <!-- Expanded desktop -->
     <string name="power_menu_expanded_desktop">Расширенный рабочий стол</string>
     <string name="expanded_hide_nothing">Ничего не скрывать</string>
-    <string name="expanded_hide_status">Скрывать строку статуса</string>
+    <string name="expanded_hide_status">Скрывать строку состояния</string>
     <string name="expanded_hide_navigation">Скрывать строку навигации</string>
     <string name="expanded_hide_both">Скрывать все</string>
     <string name="expanded_nothing_to_show">Чтобы добавить настройки для каждого приложения по отдельности, выключите опцию  "Включен для всех"</string>
@@ -100,7 +98,7 @@
     <!-- Network traffic -->
     <string name="network_traffic_title">Сетевой трафик</string>
     <string name="show_network_traffic_state">Монитор трафика</string>
-    <string name="network_traffic_summary">Показывать монитор сетевой активности в строке статуса</string>
+    <string name="network_traffic_summary">Показывать монитор сетевой активности в строке состояния</string>
     <string name="show_network_traffic_unit">Единицы измерения</string>
     <string name="show_network_traffic_frequency">Интервал обновления</string>
     <string name="show_network_traffic_disable">Отключено</string>
@@ -116,5 +114,35 @@
     <string name="network_traffic_autohide">Скрывать автоматически</string>
     <string name="network_traffic_autohide_summary">Скрывать монитор трафика когда нет сетевой активности</string>
     <string name="network_traffic_autohide_threshold">Порог неактивности</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibration_title">Вибрация при зарядке</string>
+
+    <!-- Doze options -->
+    <string name="display_category_doze_options_title">Настройки Ambient display (doze)</string>
+    <string name="doze_settings_title">Расширенные настройки doze</string>
+    <string name="doze_timeout_title">Время подсветки doze</string>
+    <string name="doze_timeout_summary">Продолжительность подсветки экрана при уведомлении</string>
+    <string name="doze_wakeup_doubletap_title">Пробуждение постукиванием</string>
+    <string name="doze_wakeup_doubletap_summary_on">Будить устройство двойным постукиванием по экрану в режиме doze</string>
+    <string name="doze_wakeup_doubletap_summary_off">Будить устройство одиночным постукиванием по экрану в режиме doze (по умолчанию)</string>
+    <string name="doze_trigger_pickup_title">Взятие устройства в руку</string>
+    <string name="doze_trigger_pickup_summary_on">Doze включится при взятии устройства в руку</string>
+    <string name="doze_trigger_pickup_summary_off">Взятие устройства в руку не будет вызывать включение doze</string>
+    <string name="doze_trigger_sigmotion_title">Датчик движения</string>
+    <string name="doze_trigger_sigmotion_summary_on">Doze включится при срабатывании датчика движения</string>
+    <string name="doze_trigger_sigmotion_summary_off">Датчик движения не будет вызывать включение doze</string>
+    <string name="doze_trigger_notification_title">Уведомления</string>
+    <string name="doze_trigger_notification_summary_on">Doze включится при получении уведомления</string>
+    <string name="doze_trigger_notification_summary_off">Уведомления не будут вызывать включение doze</string>
+    <string name="doze_schedule_title">Повторение</string>
+    <string name="doze_schedule_summary_on">Заданные интервалы повторения doze (обычно [1с,10с,30с,60с,120с]) (по умолчанию)</string>
+    <string name="doze_schedule_summary_off">Doze сработает один раз для каждого уведомления</string>
+    <string name="doze_brightness_title">Уровень яркости</string>
+    <string name="doze_brightness_summary">Уровень яркости подсветки doze (% от максимальной разрешенной яркости)</string>
+
+    <!-- Clock Settings -->
+    <string name="clock_show_title">Показывать часы в строке состояния</string>
+    <string name="clock_seconds_title">Показывать секунды</string>
 
 </resources>
