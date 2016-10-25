@@ -125,4 +125,8 @@
     <string name="doze_brightness_title">Niveau de luminosité de l\'affichage en mode veille</string>
     <string name="doze_brightness_summary">Luminosité de l\'affichage en mode veille (% de la luminosité maximale)</string>
 
+    <!-- Clock Settings -->
+    <string name="clock_show_title">Afficher l\'horloge dans la barre d\'état</string>
+    <string name="clock_seconds_title">Afficher les secondes</string>
+
 </resources>

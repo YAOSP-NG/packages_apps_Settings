@@ -125,4 +125,8 @@
     <string name="doze_brightness_title">Ambient-Display-Helligkeit</string>
     <string name="doze_brightness_summary">Helligkeit des Ambient-Display (% der maximal erlaubten Helligkeit)</string>
 
+    <!-- Clock Settings -->
+    <string name="clock_show_title">Uhr in der Statusleiste anzeigen</string>
+    <string name="clock_seconds_title">Sekunden anzeigen</string>
+
 </resources>
