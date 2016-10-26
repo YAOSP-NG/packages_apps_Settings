@@ -68,7 +68,7 @@
 	
     <!-- Expanded desktop -->
     <string name="power_menu_expanded_desktop">Kiterjesztett asztal üzemmód</string>
-    <string name="expanded_hide_nothing">Egyiket se rejtse el</string>
+    <string name="expanded_hide_nothing">Mindkettő megjelenítése</string>
     <string name="expanded_hide_status">Állapotsáv elrejtése</string>
     <string name="expanded_hide_navigation">Navigációs sáv elrejtése</string>
     <string name="expanded_hide_both">Mindkettő elrejtése</string>
@@ -133,5 +133,9 @@
     <string name="doze_schedule_summary_off">Értesítésenként csak egyszer</string>
     <string name="doze_brightness_title">Fényerőszint</string>
     <string name="doze_brightness_summary">A környezeti kijelző fényereje (max az engedélyezett fényerő %-a)</string>
+	
+    <!-- Clock Settings -->
++   <string name="clock_show_title">Óra megjelenítése az állapotsávon</string>
++   <string name="clock_seconds_title">Másodperc megjelenítése</string>
 
 </resources>
