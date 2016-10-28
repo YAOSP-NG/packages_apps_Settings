@@ -83,4 +83,86 @@
         <item>1500</item>
         <item>2000</item>
     </string-array>
+
+    <!-- Clock Settings -->
+    <string-array name="clock_style_entries">
+        <item>@string/clock_style_right_clock</item>
+        <item>@string/clock_style_center_clock</item>
+        <item>@string/clock_style_left_clock</item>
+    </string-array>
+
+    <string-array name="clock_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="clock_am_pm_style_entries">
+        <item>@string/clock_am_pm_style_none</item>
+        <item>@string/clock_am_pm_style_small</item>
+        <item>@string/clock_am_pm_style_normal</item>
+    </string-array>
+
+    <string-array name="clock_am_pm_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="clock_date_show_entries">
+        <item>@string/clock_date_show_none</item>
+        <item>@string/clock_date_show_small</item>
+        <item>@string/clock_date_show_normal</item>
+    </string-array>
+
+    <string-array name="clock_date_show_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="clock_date_style_entries">
+        <item>@string/clock_date_style_normal</item>
+        <item>@string/clock_date_style_lowercase</item>
+        <item>@string/clock_date_style_uppercase</item>
+    </string-array>
+
+    <string-array name="clock_date_style_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="clock_date_position_entries">
+        <item>@string/clock_date_position_left</item>
+        <item>@string/clock_date_position_right</item>
+    </string-array>
+
+    <string-array name="clock_date_position_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="clock_date_format_entries_values">
+        <item>dd/MM/yy</item>
+        <item>MM/dd/yy</item>
+        <item>yyyy-MM-dd</item>
+        <item>yyyy-dd-MM</item>
+        <item>dd-MM-yyyy</item>
+        <item>MM-dd-yyyy</item>
+        <item>MMM dd</item>
+        <item>MMM dd, yyyy</item>
+        <item>MMMM dd, yyyy</item>
+        <item>EEE</item>
+        <item>EEE dd</item>
+        <item>EEE dd/MM</item>
+        <item>EEE MM/dd</item>
+        <item>EEE dd MMM</item>
+        <item>EEE MMM dd</item>
+        <item>EEE MMMM dd</item>
+        <item>EEEE dd/MM</item>
+        <item>EEEE MM/dd</item>
+        <item>@string/clock_date_format_custom</item>
+    </string-array>
+
 </resources>
