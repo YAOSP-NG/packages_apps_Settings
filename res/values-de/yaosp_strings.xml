@@ -124,7 +124,34 @@
     <string name="doze_brightness_summary">Helligkeit des Ambient-Display (% der maximal erlaubten Helligkeit)</string>
 
     <!-- Clock Settings -->
+    <string name="time_group_title">Zeit Einstellungen</string>
+    <string name="clock_group_title">Uhr Darstellung</string>
     <string name="clock_show_title">Uhr in der Statusleiste anzeigen</string>
     <string name="clock_seconds_title">Sekunden anzeigen</string>
+    <string name="clock_style_title">Ausrichtung</string>
+    <string name="clock_style_right_clock">Rechts</string>
+    <string name="clock_style_center_clock">Zentriert</string>
+    <string name="clock_style_left_clock">Links</string>
+    <string name="clock_am_pm_style_title">AM/PM</string>
+    <string name="clock_am_pm_style_normal">Normale Schriftgröße</string>
+    <string name="clock_am_pm_style_small">Kleine Schriftgröße</string>
+    <string name="clock_am_pm_style_none">Nicht anzeigen</string>
+    <string name="clock_am_pm_style_info">24-Stunden-Anzeige ist aktiviert</string>
+    <string name="clock_date_show_title">Datum</string>
+    <string name="clock_date_show_summary">Benutzerdefiniertes Datum neben der Zeit anzeigen</string>
+    <string name="clock_date_show_none">Nicht anzeigen</string>
+    <string name="clock_date_show_small">Kleine Schriftgröße</string>
+    <string name="clock_date_show_normal">Normale Schriftgröße</string>
+    <string name="clock_date_style_title">Datums-Layout</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Kleinbuchstaben</string>
+    <string name="clock_date_style_uppercase">Großbuchstaben</string>
+    <string name="clock_date_position">Datum Position</string>
+    <string name="clock_date_position_right">Rechts zur Uhr</string>
+    <string name="clock_date_position_left">Links zur Uhr</string>
+    <string name="clock_date_format">Datumsformat</string>
+    <string name="clock_date_format_edittext_title">Muss ein Datumsformat sein, z.B. MM/TT/JJ</string>
+    <string name="clock_date_format_edittext_summary">String eingeben</string>
+    <string name="clock_date_format_custom">Benutzerdefiniertes Java-Format</string>
 
 </resources>
