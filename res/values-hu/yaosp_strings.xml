@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (c) 2016 Yank555.lu's Android Open Source Project
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -28,7 +28,7 @@
 
     <!-- Power Menu fragment -->
     <string name="powermenu_settings_category">Kikapcsoló menü</string>
-    <string name="powermenu_settings_title">Személyre szabás</string>
+    <string name="powermenu_settings_title">Testreszabás</string>
 
     <!-- Power menu customization -->
     <string name="power_menu_reboot_title">Újraindítás</string>
@@ -65,21 +65,77 @@
     <string name="double_tap_sleep_anywhere_summary">Érintsd meg kétszer a záróképernyőt bárhol az alvó módhoz</string>
     <string name="double_tap_sleep_nav_bar_title">Navigációs sáv érintése alvó módhoz</string>
     <string name="double_tap_sleep_nav_bar_summary">Érintsd meg kétszer a navigációs sávot az alvó módhoz</string>
-    <string name="double_tap_wake_doze_title">Dupla érintésre ébresztés alvó módból</string>
-    <string name="double_tap_wake_doze_summary">Az ébresztéshez dupla érintés szükséges a környezeti kijelző módban(doze)</string>
 	
-	<!-- Expanded desktop -->
+    <!-- Expanded desktop -->
     <string name="power_menu_expanded_desktop">Kiterjesztett asztal üzemmód</string>
-    <string name="expanded_hide_nothing">Egyiket se rejtse el</string>
+    <string name="expanded_hide_nothing">Mindkettő megjelenítése</string>
     <string name="expanded_hide_status">Állapotsáv elrejtése</string>
     <string name="expanded_hide_navigation">Navigációs sáv elrejtése</string>
     <string name="expanded_hide_both">Mindkettő elrejtése</string>
-    <string name="expanded_nothing_to_show">Alkalmazásonkénti beállításhoz kapcsolja ki az "Összes engedélyezett" beállítást</string>
+    <string name="expanded_nothing_to_show">Alkalmazásonkénti beállításhoz kapcsolja ki az "összes engedélyezett" beállítást</string>
     <string name="expanded_desktop_state">Kiterjesztett asztal állapota</string>
     <string name="expanded_enabled_for_all">Összes engedélyezett</string>
     <string name="expanded_user_configurable">Felhasználói beállítás</string>
     <string name="expanded_desktop_style">Kiterjesztett asztal stílusa</string>
     <string name="expanded_desktop_style_description">Válasszon alapértelmezett kiterjesztett asztal stílust</string>
     <string name="expanded_desktop_title">Kiterjesztett asztal beállítások</string>
+	
+    <!-- Wakeup options -->
+    <string name="display_category_wakeup_options_title">Ébresztési opciók</string>
+    <string name="wakeup_when_plugged_unplugged_title">Töltésre felébred</string>
+    <string name="wakeup_when_plugged_unplugged_summary">A készülék felébred ha az áramforrást csatlakoztatod vagy lecsatlakoztatod</string>
+	
+    <!-- Status bar - Network traffic -->
+    <string name="network_traffic_options_title">Hálózati forgalom beállítások</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Hálózati forgalom</string>
+    <string name="show_network_traffic_state">Állapotsori forgalomkijelzés</string>
+    <string name="network_traffic_summary">Engedélyezi a hálózati forgalomkijelzést az állapotsoron</string>
+    <string name="show_network_traffic_unit">Mértékegység megjelenítése</string>
+    <string name="show_network_traffic_frequency">Frissítés gyakorisága</string>
+    <string name="show_network_traffic_disable">Letiltva</string>
+    <string name="show_network_traffic_up">Kimenő</string>
+    <string name="show_network_traffic_down">Bejövő</string>
+    <string name="show_network_traffic_all">Kimenő és bejövő</string>
+    <string name="show_network_traffic_bit">Bit / másodperc</string>
+    <string name="show_network_traffic_byte">Bájt / másodperc</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Automatikus elrejtés</string>
+    <string name="network_traffic_autohide_summary">Rejtse el az adatforgalmi indikátort, ha nincs hálózati forgalom</string>
+    <string name="network_traffic_autohide_threshold">Inaktivitás határértéke</string>
+	
+    <!-- Charging vibration -->
+    <string name="charging_vibration_title">Töltésnél rezeg</string>
+	
+    <!-- Doze options -->
+    <string name="display_category_doze_options_title">Környezeti kijelző beállítások (doze)</string>
+    <string name="doze_settings_title">Környezeti kijelző haladó beállítások</string>
+    <string name="doze_timeout_title">Környezeti kijelző időkorlát</string>
+    <string name="doze_timeout_summary">Az az időtartam, amíg a kijelző bekapcsolva marad az értesítés hatására</string>
+    <string name="doze_wakeup_doubletap_title">Dupla érintésre ébresztés alvó módból</string>
+    <string name="doze_wakeup_doubletap_summary_on">Az ébresztéshez dupla érintés szükséges a környezeti kijelző módban(doze)</string>
+    <string name="doze_wakeup_doubletap_summary_off">Az ébresztéshez egy érintés szükséges a környezeti kijelző módban(doze)</string>
+    <string name="doze_trigger_pickup_title">Felemelő mozdulatra aktiválódó</string>
+    <string name="doze_trigger_pickup_summary_on">A kijelzőt a készülék felemelése aktiválja</string>
+    <string name="doze_trigger_pickup_summary_off">A felemelő mozdulatot érzékelő szenzor nincs beállítva az aktiváláshoz</string>
+    <string name="doze_trigger_sigmotion_title">Jelentősebb mozgásra aktiválódó</string>
+    <string name="doze_trigger_sigmotion_summary_on">A kijelzőt egy jelentősebb mozgás aktiválja</string>
+    <string name="doze_trigger_sigmotion_summary_off">A jelentősebb mozgást érzékelő szenzor nincs beállítva az aktiváláshoz</string>
+    <string name="doze_trigger_notification_title">Értesítésre aktiválódó</string>
+    <string name="doze_trigger_notification_summary_on">A környezeti kijelzőt az értesítések aktiválják</string>
+    <string name="doze_trigger_notification_summary_off">Az értesítések nincsenek beállítva az aktiváláshoz</string>
+    <string name="doze_schedule_title">Ütemező</string>
+    <string name="doze_schedule_summary_on">Az alvó módhoz egy előre beállított érték (normál [1s,10s,30s,60s,120s]) kerül alkalmazásra (alapértelmezett)</string>
+    <string name="doze_schedule_summary_off">Értesítésenként csak egyszer</string>
+    <string name="doze_brightness_title">Fényerőszint</string>
+    <string name="doze_brightness_summary">A környezeti kijelző fényereje (max az engedélyezett fényerő %-a)</string>
+	
+    <!-- Clock Settings -->
+   <string name="clock_show_title">Óra megjelenítése az állapotsávon</string>
+   <string name="clock_seconds_title">Másodperc megjelenítése</string>
 
 </resources>
