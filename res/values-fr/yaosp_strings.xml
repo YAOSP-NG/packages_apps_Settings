@@ -124,7 +124,34 @@
     <string name="doze_brightness_summary">Luminosité de l\'affichage en mode veille (% de la luminosité maximale)</string>
 
     <!-- Clock Settings -->
+    <string name="time_group_title">Configuration heure</string>
+    <string name="clock_group_title">Apparance de l\'horloge</string>
     <string name="clock_show_title">Afficher l\'horloge dans la barre d\'état</string>
     <string name="clock_seconds_title">Afficher les secondes</string>
+    <string name="clock_style_title">Alignement</string>
+    <string name="clock_style_right_clock">Horloge à droite</string>
+    <string name="clock_style_center_clock">Horloge au millieu</string>
+    <string name="clock_style_left_clock">Horloge à gauche</string>
+    <string name="clock_am_pm_style_title">Mode AM/PM</string>
+    <string name="clock_am_pm_style_normal">Police de taille normale</string>
+    <string name="clock_am_pm_style_small">Police de petite taille</string>
+    <string name="clock_am_pm_style_none">Ne pas afficher</string>
+    <string name="clock_am_pm_style_info">L\'horloge au format 24 heures est activée</string>
+    <string name="clock_date_show_title">Date</string>
+    <string name="clock_date_show_summary">Afficher la date au format perso. à côté de l\'heure</string>
+    <string name="clock_date_show_none">Ne pas afficher</string>
+    <string name="clock_date_show_small">Police de petite taille</string>
+    <string name="clock_date_show_normal">Police de taille normale</string>
+    <string name="clock_date_style_title">Style de date</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Minuscules</string>
+    <string name="clock_date_style_uppercase">Majuscules</string>
+    <string name="clock_date_position">Position de la date</string>
+    <string name="clock_date_position_right">A droite de l\'heure</string>
+    <string name="clock_date_position_left">A gauche de l\'heure</string>
+    <string name="clock_date_format">Format de la date</string>
+    <string name="clock_date_format_edittext_title">La date doit être exprimée au format Java. P.ex: dd MMM yyyy</string>
+    <string name="clock_date_format_edittext_summary">Entrer le format</string>
+    <string name="clock_date_format_custom">Format java personnalisé</string>
 
 </resources>
