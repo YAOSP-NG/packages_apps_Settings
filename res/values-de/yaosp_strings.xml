@@ -128,6 +128,9 @@
     <string name="clock_group_title">Uhr Darstellung</string>
     <string name="clock_show_title">Uhr in der Statusleiste anzeigen</string>
     <string name="clock_seconds_title">Sekunden anzeigen</string>
+    <string name="clock_color_override_title">Benutzerdefinierte Farbe verwenden</string>
+    <string name="clock_color_title">Farbe</string>
+    <string name="clock_color_reset">Farbe zurücksetzen</string>
     <string name="clock_style_title">Ausrichtung</string>
     <string name="clock_style_right_clock">Rechts</string>
     <string name="clock_style_center_clock">Zentriert</string>
