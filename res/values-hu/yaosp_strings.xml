@@ -153,7 +153,7 @@
     <string name="clock_date_show_none">Ne jelenítse meg</string>
     <string name="clock_date_show_small">Kis betűméret</string>
     <string name="clock_date_show_normal">Normál betűméret</string>
-    <string name="clock_date_style_title">Dátum stílus</string>
+    <string name="clock_date_style_title">Dátum stílusa</string>
     <string name="clock_date_style_normal">Normál</string>
     <string name="clock_date_style_lowercase">Kisbetűs</string>
     <string name="clock_date_style_uppercase">Nagybetűs</string>
