@@ -34,6 +34,18 @@
             android:defaultValue="false"
             android:dependency="clock_show" />
 
+        <com.android.settings.preference.SecureSettingSwitchPreference
+            android:key="clock_color_override"
+            android:title="@string/clock_color_override_title"
+            android:defaultValue="false"
+            android:dependency="clock_show" />
+
+        <com.android.settings.preferences.colorpicker.ColorPickerPreference
+            android:key="clock_color"
+            android:title="@string/clock_color_title"
+            android:defaultValue="0xffffff"
+            android:dependency="clock_color_override" />
+
         <SwitchPreference
             android:key="24 hour"
             android:title="@string/date_time_24hour"
