@@ -135,7 +135,47 @@
     <string name="doze_brightness_summary">A környezeti kijelző fényereje (max az engedélyezett fényerő %-a)</string>
 	
     <!-- Clock Settings -->
-   <string name="clock_show_title">Óra megjelenítése az állapotsávon</string>
-   <string name="clock_seconds_title">Másodperc megjelenítése</string>
+    <string name="time_group_title">Idő beállítás</string>
+    <string name="clock_group_title">Óra megjelenés</string>
+    <string name="clock_show_title">Óra megjelenítése az állapotsávon</string>
+    <string name="clock_seconds_title">Másodperc megjelenítése</string>
+    <string name="clock_color_override_title">Egyéni szín használata</string>
+    <string name="clock_color_title">Szín</string>
+    <string name="clock_color_reset">Szín visszaállítása</string>
+    <string name="clock_style_title">Pozíció</string>
+    <string name="clock_style_right_clock">Óra jobboldalon</string>
+    <string name="clock_style_center_clock">Óra középen</string>
+    <string name="clock_style_left_clock">Óra baloldalon</string>
+    <string name="clock_am_pm_style_title">AM/PM</string>
+    <string name="clock_am_pm_style_normal">Normál betűméret</string>
+    <string name="clock_am_pm_style_small">Kis betűméret</string>
+    <string name="clock_am_pm_style_none">Ne jelenítse meg</string>
+    <string name="clock_am_pm_style_info">24 órás formátum engedélyezve</string>
+    <string name="clock_date_show_title">Dátum</string>
+    <string name="clock_date_show_summary">Megjeleníti az egyéni dátumformátumot az óra mellett</string>
+    <string name="clock_date_show_none">Ne jelenítse meg</string>
+    <string name="clock_date_show_small">Kis betűméret</string>
+    <string name="clock_date_show_normal">Normál betűméret</string>
+    <string name="clock_date_style_title">Dátum stílusa</string>
+    <string name="clock_date_style_normal">Normál</string>
+    <string name="clock_date_style_lowercase">Kisbetűs</string>
+    <string name="clock_date_style_uppercase">Nagybetűs</string>
+    <string name="clock_date_position">Dátum pozíciója</string>
+    <string name="clock_date_position_right">Órától jobbra</string>
+    <string name="clock_date_position_left">Órától balra</string>
+    <string name="clock_date_format">Dátum formátuma</string>
+    <string name="clock_date_format_edittext_title">Dátumformátum megadása pld. MM/dd/yy</string>
+    <string name="clock_date_format_edittext_summary">Érték megadása</string>
+    <string name="clock_date_format_custom">Egyéni java formátum</string>
+	
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Színválasztó</string>
+    <string name="press_color_to_apply">Érintsd meg a színt az alkalmazáshoz</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Beállít</string>
+    <string name="color_default">Alapértelmezett</string>
 
 </resources>
