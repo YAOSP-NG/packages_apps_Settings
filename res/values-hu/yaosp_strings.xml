@@ -148,13 +148,13 @@
     <string name="clock_style_left_clock">Óra baloldalon</string>
     <string name="clock_am_pm_style_title">AM/PM</string>
     <string name="clock_am_pm_style_normal">Normál betűméret</string>
-    <string name="clock_am_pm_style_small">Kis betűméret</string>
+    <string name="clock_am_pm_style_small">Kicsi betűméret</string>
     <string name="clock_am_pm_style_none">Ne jelenítse meg</string>
     <string name="clock_am_pm_style_info">24 órás formátum engedélyezve</string>
     <string name="clock_date_show_title">Dátum</string>
     <string name="clock_date_show_summary">Megjeleníti az egyéni dátumformátumot az óra mellett</string>
     <string name="clock_date_show_none">Ne jelenítse meg</string>
-    <string name="clock_date_show_small">Kis betűméret</string>
+    <string name="clock_date_show_small">Kicsi betűméret</string>
     <string name="clock_date_show_normal">Normál betűméret</string>
     <string name="clock_date_style_title">Dátum stílusa</string>
     <string name="clock_date_style_normal">Normál</string>
