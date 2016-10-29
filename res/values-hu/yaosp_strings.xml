@@ -139,6 +139,9 @@
     <string name="clock_group_title">Óra megjelenés</string>
     <string name="clock_show_title">Óra megjelenítése az állapotsávon</string>
     <string name="clock_seconds_title">Másodperc megjelenítése</string>
+    <string name="clock_color_override_title">Egyéni szín használata</string>
+    <string name="clock_color_title">Szín</string>
+    <string name="clock_color_reset">Szín visszaállítása</string>
     <string name="clock_style_title">Pozíció</string>
     <string name="clock_style_right_clock">Óra jobboldalon</string>
     <string name="clock_style_center_clock">Óra középen</string>
