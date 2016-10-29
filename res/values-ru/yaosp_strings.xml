@@ -146,6 +146,9 @@
     <string name="clock_group_title">Внешний вид часов</string>
     <string name="clock_show_title">Показывать часы в строке состояния</string>
     <string name="clock_seconds_title">Показывать секунды</string>
+    <string name="clock_color_override_title">Переопределить цвет</string>
+    <string name="clock_color_title">Цвет</string>
+    <string name="clock_color_reset">По умолчанию</string>
     <string name="clock_style_title">Расположение</string>
     <string name="clock_style_right_clock">Часы справа</string>
     <string name="clock_style_center_clock">Часы в центре</string>
