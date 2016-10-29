@@ -163,7 +163,7 @@
     <string name="clock_date_position">Dátum pozíciója</string>
     <string name="clock_date_position_right">Órától jobbra</string>
     <string name="clock_date_position_left">Órától balra</string>
-    <string name="clock_date_format">Dátumformátum</string>
+    <string name="clock_date_format">Dátum formátuma</string>
     <string name="clock_date_format_edittext_title">Dátumformátum megadása pld. MM/dd/yy</string>
     <string name="clock_date_format_edittext_summary">Érték megadása</string>
     <string name="clock_date_format_custom">Egyéni java formátum</string>
