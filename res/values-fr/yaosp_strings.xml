@@ -154,4 +154,14 @@
     <string name="clock_date_format_edittext_summary">Entrer le format</string>
     <string name="clock_date_format_custom">Format java personnalisé</string>
 
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Sélecteur de couleur</string>
+    <string name="press_color_to_apply">Appuyer sur la couleur pour l\'appliquer</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Définir</string>
+    <string name="color_default">Par défaut</string>
+
 </resources>
