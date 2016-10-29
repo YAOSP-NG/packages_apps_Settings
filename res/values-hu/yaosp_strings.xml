@@ -135,7 +135,34 @@
     <string name="doze_brightness_summary">A környezeti kijelző fényereje (max az engedélyezett fényerő %-a)</string>
 	
     <!-- Clock Settings -->
-   <string name="clock_show_title">Óra megjelenítése az állapotsávon</string>
-   <string name="clock_seconds_title">Másodperc megjelenítése</string>
+    <string name="time_group_title">Idő beállítások</string>
+    <string name="clock_group_title">Óra megjelenés</string>
+    <string name="clock_show_title">Óra megjelenítése az állapotsávon</string>
+    <string name="clock_seconds_title">Másodperc megjelenítése</string>
+    <string name="clock_style_title">Óra stílusa</string>
+    <string name="clock_style_right_clock">Óra jobboldalon</string>
+    <string name="clock_style_center_clock">Óra középen</string>
+    <string name="clock_style_left_clock">Óra baloldalon</string>
+    <string name="clock_am_pm_style_title">AM/PM</string>
+    <string name="clock_am_pm_style_normal">Normál betűméret</string>
+    <string name="clock_am_pm_style_small">Kis betűméret</string>
+    <string name="clock_am_pm_style_none">Ne jelenítse meg</string>
+    <string name="clock_am_pm_style_info">24 órás formátum engedélyezve</string>
+    <string name="clock_date_show_title">Dátum</string>
+    <string name="clock_date_show_summary">Megjeleníti az egyéni dátumformátumot az óra mellett</string>
+    <string name="clock_date_show_none">Ne jelenítse meg</string>
+    <string name="clock_date_show_small">Kis betűméret</string>
+    <string name="clock_date_show_normal">Normál betűméret</string>
+    <string name="clock_date_style_title">Dátum stílus</string>
+    <string name="clock_date_style_normal">Normál</string>
+    <string name="clock_date_style_lowercase">Kisbetűs</string>
+    <string name="clock_date_style_uppercase">Nagybetűs</string>
+    <string name="clock_date_position">Dátum pozíciója</string>
+    <string name="clock_date_position_right">Órától jobbra</string>
+    <string name="clock_date_position_left">Órától balra</string>
+    <string name="clock_date_format">Dátumformátum</string>
+    <string name="clock_date_format_edittext_title">Dátumformátum megadása pld. MM/dd/yy</string>
+    <string name="clock_date_format_edittext_summary">Érték megadása</string>
+    <string name="clock_date_format_custom">Egyéni java formátum</string>
 
 </resources>
