@@ -212,4 +212,8 @@
     <string name="notification_light_missed_call_title">Appel en absences</string>
     <string name="notification_light_voicemail_title">Messagerie vocale</string>
 
+    <!-- Lockscreen charging current indicator  -->
+    <string name="lockscreen_charging_current_title">Information de charge dans l\'écran de vérouillage</string>
+    <string name="lockscreen_charging_current_summary">Afficher courant et tension maximum de charge négociés dans l\'écran de vérouillage</string>
+
 </resources>
