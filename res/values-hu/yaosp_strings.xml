@@ -179,7 +179,7 @@
     <string name="color_default">Alapértelmezett</string>
 	
     <!-- Notification/Battery lights -->
-    <string name="edit_light_settings">-Fényjelzés beállítások</string>
+    <string name="edit_light_settings">Fényjelzés beállítások</string>
     <string name="pulse_speed_title">Villogás hossza és sebessége</string>
     <string name="default_time">Normál</string>
     <string name="custom_time">Egyéni</string>
