@@ -12,6 +12,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- About phone screen, YAOSP build info -->
+    <string name="yasop_version_title">Yank555.lu AOSP verzió</string>
+    <string name="yasop_version_default">by Jean-Pierre Rasquin (yank555.lu@gmail.com)</string>
+
     <!-- About device screen, CPU and RAM info. -->
     <string name="cpu_info">Processzor</string>
     <string name="mem_info">Memória</string>
@@ -46,11 +50,11 @@
     <string name="power_menu_bug_report_disabled">Hibajelentés le van tiltva a fejlesztői beállításokban</string>
 
     <!-- Rotation Modes  -->
-    <string name="display_rotation_title">Képernyő elforgatás</string>
+    <string name="display_rotation_title">Képernyőforgatás</string>
     <string name="display_rotation_disabled">Letiltva</string>
     <string name="display_rotation_unit">fok</string>
     <string name="display_lockscreen_rotation_title">Képernyőzár elforgatása</string>
-    <string name="display_rotation_category_title">Forgatás módok</string>
+    <string name="display_rotation_category_title">Forgatási módok</string>
     <string name="display_rotation_0_title">0 fok</string>
     <string name="display_rotation_90_title">90 fok</string>
     <string name="display_rotation_180_title">180 fok</string>
@@ -72,7 +76,7 @@
     <string name="expanded_hide_status">Állapotsáv elrejtése</string>
     <string name="expanded_hide_navigation">Navigációs sáv elrejtése</string>
     <string name="expanded_hide_both">Mindkettő elrejtése</string>
-    <string name="expanded_nothing_to_show">Alkalmazásonkénti beállításhoz kapcsolja ki az "összes engedélyezett" beállítást</string>
+    <string name="expanded_nothing_to_show">Alkalmazásonkénti beállításhoz kapcsold ki az "összes engedélyezett" beállítást</string>
     <string name="expanded_desktop_state">Kiterjesztett asztal állapota</string>
     <string name="expanded_enabled_for_all">Összes engedélyezett</string>
     <string name="expanded_user_configurable">Felhasználói beállítás</string>
@@ -148,13 +152,13 @@
     <string name="clock_style_left_clock">Óra baloldalon</string>
     <string name="clock_am_pm_style_title">AM/PM</string>
     <string name="clock_am_pm_style_normal">Normál betűméret</string>
-    <string name="clock_am_pm_style_small">Kis betűméret</string>
+    <string name="clock_am_pm_style_small">Kicsi betűméret</string>
     <string name="clock_am_pm_style_none">Ne jelenítse meg</string>
     <string name="clock_am_pm_style_info">24 órás formátum engedélyezve</string>
     <string name="clock_date_show_title">Dátum</string>
     <string name="clock_date_show_summary">Megjeleníti az egyéni dátumformátumot az óra mellett</string>
     <string name="clock_date_show_none">Ne jelenítse meg</string>
-    <string name="clock_date_show_small">Kis betűméret</string>
+    <string name="clock_date_show_small">Kicsi betűméret</string>
     <string name="clock_date_show_normal">Normál betűméret</string>
     <string name="clock_date_style_title">Dátum stílusa</string>
     <string name="clock_date_style_normal">Normál</string>
@@ -177,5 +181,43 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Beállít</string>
     <string name="color_default">Alapértelmezett</string>
+	
+    <!-- Notification/Battery lights -->
+    <string name="edit_light_settings">-Fényjelzés beállítások</string>
+    <string name="pulse_speed_title">Villogás hossza és sebessége</string>
+    <string name="default_time">Normál</string>
+    <string name="custom_time">Egyéni</string>
+    <string name="dialog_delete_title">Törlés</string>
+    <string name="dialog_delete_message">Eltávolítja a kijelölt elemet?</string>
+    <string name="pulse_length_always_on">Mindig bekapcsolva</string>
+    <string name="pulse_length_very_short">Nagyon rövid</string>
+    <string name="pulse_length_short">Rövid</string>
+    <string name="pulse_length_normal">Normál</string>
+    <string name="pulse_length_long">Hosszú</string>
+    <string name="pulse_length_very_long">Nagyon hosszú</string>
+    <string name="pulse_speed_very_fast">Nagyon gyors</string>
+    <string name="pulse_speed_fast">Gyors</string>
+    <string name="pulse_speed_normal">Normál</string>
+    <string name="pulse_speed_slow">Lassú</string>
+    <string name="pulse_speed_very_slow">Nagyon lassú</string>
+    <string name="battery_light_title">Akkumulátor fényjelzés</string>
+    <string name="battery_low_pulse_title">Villog, ha az akkumulátorszint alacsony</string>
+    <string name="battery_light_list_title">Színek</string>
+    <string name="battery_light_low_color_title">Alacsony akkumulátorszint</string>
+    <string name="battery_light_medium_color_title">Töltés - Lassú és normál</string>
+    <string name="battery_light_medium_fast_color_title">Töltés - Gyors</string>
+    <string name="battery_light_full_color_title">Teljesen feltöltve</string>
+    <string name="notification_light_title">Értesítési fények</string>
+    <string name="notification_light_general_title">Általános</string>
+    <string name="notification_light_applist_title">Alkalmazások</string>
+    <string name="notification_light_phonelist_title">Telefon</string>
+    <string name="notification_light_use_custom">Egyéni érték használata</string>
+    <string name="notification_light_default_value">Alapértelmezett</string>
+    <string name="notification_light_missed_call_title">Nem fogadott hívás</string>
+    <string name="notification_light_voicemail_title">Hangüzenet</string>
+
+    <!-- Lockscreen charging current indicator  -->
+    <string name="lockscreen_charging_current_title">Töltési információ a záróképernyőn</string>
+    <string name="lockscreen_charging_current_summary">Megjeleníti a záróképernyőn a a maximális töltőáramot és feszültséget</string>
 
 </resources>
