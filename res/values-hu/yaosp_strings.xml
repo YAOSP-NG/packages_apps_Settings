@@ -214,7 +214,7 @@
 
     <!-- Lockscreen charging current indicator  -->
     <string name="lockscreen_charging_current_title">Töltési információ a záróképernyőn</string>
-    <string name="lockscreen_charging_current_summary">Megjeleníti a záróképernyőn a töltés állapotát és a töltés áramerősségét</string>
+    <string name="lockscreen_charging_current_summary">Megjeleníti a záróképernyőn a a maximális töltőáramot és feszültséget</string>
 
 
 </resources>
