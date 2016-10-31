@@ -142,7 +142,37 @@
     <string name="doze_brightness_summary">Уровень яркости подсветки doze (% от максимальной разрешенной яркости)</string>
 
     <!-- Clock Settings -->
+    <string name="time_group_title">Настройки времени</string>
+    <string name="clock_group_title">Внешний вид часов</string>
     <string name="clock_show_title">Показывать часы в строке состояния</string>
     <string name="clock_seconds_title">Показывать секунды</string>
+    <string name="clock_color_override_title">Переопределить цвет</string>
+    <string name="clock_color_title">Цвет</string>
+    <string name="clock_color_reset">По умолчанию</string>
+    <string name="clock_style_title">Расположение</string>
+    <string name="clock_style_right_clock">Часы справа</string>
+    <string name="clock_style_center_clock">Часы в центре</string>
+    <string name="clock_style_left_clock">Часы слева</string>
+    <string name="clock_am_pm_style_title">AM/PM</string>
+    <string name="clock_am_pm_style_normal">Обычный размер шрифта</string>
+    <string name="clock_am_pm_style_small">Маленький размер шрифта</string>
+    <string name="clock_am_pm_style_none">Не показывать</string>
+    <string name="clock_am_pm_style_info">Включен 24-часовой формат</string>
+    <string name="clock_date_show_title">Дата</string>
+    <string name="clock_date_show_summary">Показывать дату рядом со временем</string>
+    <string name="clock_date_show_none">Не показывать</string>
+    <string name="clock_date_show_small">Маленький размер шрифта</string>
+    <string name="clock_date_show_normal">Обычный размер шрифта</string>
+    <string name="clock_date_style_title">Стиль даты</string>
+    <string name="clock_date_style_normal">Обычный</string>
+    <string name="clock_date_style_lowercase">Строчными буквами</string>
+    <string name="clock_date_style_uppercase">Заглавными буквами</string>
+    <string name="clock_date_position">Расположение даты</string>
+    <string name="clock_date_position_right">Справа от времени</string>
+    <string name="clock_date_position_left">Слева от времени</string>
+    <string name="clock_date_format">Формат даты</string>
+    <string name="clock_date_format_edittext_title">Допустимы строки вида MM/dd/yy</string>
+    <string name="clock_date_format_edittext_summary">Введите строку</string>
+    <string name="clock_date_format_custom">Свой java формат</string>
 
 </resources>
