@@ -216,4 +216,9 @@
     <string name="lockscreen_charging_current_title">Information de charge dans l\'écran de vérouillage</string>
     <string name="lockscreen_charging_current_summary">Afficher courant et tension maximum de charge négociés dans l\'écran de vérouillage</string>
 
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Sonnerie progressive</string>
+    <string name="increasing_ring_min_volume_title">Volume de départ</string>
+    <string name="increasing_ring_ramp_up_time_title">Durée de progression</string>
+
 </resources>
