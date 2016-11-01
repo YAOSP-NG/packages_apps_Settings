@@ -15,6 +15,17 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Сброс</string>
+    <string name="help">Справка</string>
+    <string name="add">Добавить</string>
+    <string name="attention">Внимание</string>
+    <string name="enabled">Включено</string>
+    <string name="default_string">По умолчанию</string>
+    <string name="choose_app">Выбрать приложение</string>
+    <string name="reset_message">Вернуть настройки по умолчанию?</string>
+
     <!-- About phone screen, YAOSP build info -->
     <string name="yasop_version_title">Версия Yank555.lu AOSP</string>
     <string name="yasop_version_default">by Jean-Pierre Rasquin (yank555.lu@gmail.com)</string>
@@ -174,5 +185,53 @@
     <string name="clock_date_format_edittext_title">Допустимы строки вида MM/dd/yy</string>
     <string name="clock_date_format_edittext_summary">Введите строку</string>
     <string name="clock_date_format_custom">Свой java формат</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Выбрать цвет</string>
+    <string name="press_color_to_apply">Нажмите на цвет чтобы применить</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Применить</string>
+    <string name="color_default">По умолчанию</string>
+
+    <!-- Notification/Battery lights -->
+    <string name="edit_light_settings">Настройки светового индикатора</string>
+    <string name="pulse_speed_title">Длина и скорость пульсирования</string>
+    <string name="default_time">Средне</string>
+    <string name="custom_time">Пользовательское значение</string>
+    <string name="dialog_delete_title">Удалить</string>
+    <string name="dialog_delete_message">Удалить выбранную настройку?</string>
+    <string name="pulse_length_always_on">Постоянно</string>
+    <string name="pulse_length_very_short">Очень коротко</string>
+    <string name="pulse_length_short">Коротко</string>
+    <string name="pulse_length_normal">Средне</string>
+    <string name="pulse_length_long">Долго</string>
+    <string name="pulse_length_very_long">Очень долго</string>
+    <string name="pulse_speed_very_fast">Очень быстро</string>
+    <string name="pulse_speed_fast">Быстро</string>
+    <string name="pulse_speed_normal">Средне</string>
+    <string name="pulse_speed_slow">Медленно</string>
+    <string name="pulse_speed_very_slow">Очень медленно</string>
+    <string name="battery_light_title">Индикация батареи</string>
+    <string name="battery_low_pulse_title">Пульсировать при низком заряде батареи</string>
+    <string name="battery_light_list_title">Цвета</string>
+    <string name="battery_light_low_color_title">Низкий заряд батареи</string>
+    <string name="battery_light_medium_color_title">Медленная зарядка</string>
+    <string name="battery_light_medium_fast_color_title">Быстрая зарядка</string>
+    <string name="battery_light_full_color_title">Полностью заряжена</string>
+    <string name="notification_light_title">Индикация уведомлений</string>
+    <string name="notification_light_general_title">Общее</string>
+    <string name="notification_light_applist_title">Приложения</string>
+    <string name="notification_light_phonelist_title">Телефон</string>
+    <string name="notification_light_use_custom">Пользовательское значение</string>
+    <string name="notification_light_default_value">По умолчанию</string>
+    <string name="notification_light_missed_call_title">Пропущенный звонок</string>
+    <string name="notification_light_voicemail_title">Голосовая почта</string>
+
+    <!-- Lockscreen charging current indicator  -->
+    <string name="lockscreen_charging_current_title">Информация о зарядке на экране блокировки</string>
+    <string name="lockscreen_charging_current_summary">Показывать максимальную скорость зарядки и напряжение на экране блокировки</string>
 
 </resources>
