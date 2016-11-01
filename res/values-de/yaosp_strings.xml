@@ -221,4 +221,8 @@
     <string name="increasing_ring_min_volume_title">Start Lautstärke</string>
     <string name="increasing_ring_ramp_up_time_title">Zunehmende Lautstärke Zeit</string>
 
+    <!-- Reorient volume rockers with screen rotation -->
+    <string name="swap_volume_buttons_title">Neu ausrichten</string>
+    <string name="swap_volume_buttons_summary">Lautstärke-Tasten vertauschen, wenn der Bildschirm gedreht wird</string>
+
 </resources>
