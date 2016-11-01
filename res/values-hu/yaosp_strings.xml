@@ -11,6 +11,17 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+	
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Visszaállítás</string>
+    <string name="help">Segítség</string>
+    <string name="add">Hozzáad</string>
+    <string name="attention">Figyelem</string>
+    <string name="enabled">Engedélyezve</string>
+    <string name="default_string">Alapértelmezett</string>
+    <string name="choose_app">Válassz alkalmazást</string>
+    <string name="reset_message">Törlöd a jelenlegi beállításokat és visszaállítod az alaphelyzetet?</string>
 
     <!-- About device screen, CPU and RAM info. -->
     <string name="cpu_info">Processzor</string>
