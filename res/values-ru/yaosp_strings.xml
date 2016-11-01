@@ -15,6 +15,17 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Сброс</string>
+    <string name="help">Справка</string>
+    <string name="add">Добавить</string>
+    <string name="attention">Внимание</string>
+    <string name="enabled">Включено</string>
+    <string name="default_string">По умолчанию</string>
+    <string name="choose_app">Выбрать приложение</string>
+    <string name="reset_message">Вернуть настройки по умолчанию?</string>
+
     <!-- About phone screen, YAOSP build info -->
     <string name="yasop_version_title">Версия Yank555.lu AOSP</string>
     <string name="yasop_version_default">by Jean-Pierre Rasquin (yank555.lu@gmail.com)</string>
