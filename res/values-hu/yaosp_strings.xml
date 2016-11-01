@@ -109,7 +109,7 @@
     <!-- Network traffic -->
     <string name="network_traffic_title">Hálózati forgalom</string>
     <string name="show_network_traffic_state">Állapotsori forgalomkijelzés</string>
-    <string name="network_traffic_summary">Engedélyezi a hálózati forgalomkijelzést az állapotsoron</string>
+    <string name="network_traffic_summary">Engedélyezi az adatforgalom kijelzést az állapotsoron</string>
     <string name="show_network_traffic_unit">Mértékegység megjelenítése</string>
     <string name="show_network_traffic_frequency">Frissítés gyakorisága</string>
     <string name="show_network_traffic_disable">Letiltva</string>
@@ -123,7 +123,7 @@
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
     <string name="network_traffic_autohide">Automatikus elrejtés</string>
-    <string name="network_traffic_autohide_summary">Rejtse el az adatforgalmi indikátort, ha nincs hálózati forgalom</string>
+    <string name="network_traffic_autohide_summary">Rejtse el az adatforgalmi indikátort, ha nincs adatforgalom</string>
     <string name="network_traffic_autohide_threshold">Inaktivitás határértéke</string>
 	
     <!-- Charging vibration -->
@@ -165,23 +165,23 @@
     <string name="clock_style_center_clock">Óra középen</string>
     <string name="clock_style_left_clock">Óra baloldalon</string>
     <string name="clock_am_pm_style_title">AM/PM</string>
-    <string name="clock_am_pm_style_normal">Normál betűméret</string>
-    <string name="clock_am_pm_style_small">Kicsi betűméret</string>
+    <string name="clock_am_pm_style_normal">Normál betű</string>
+    <string name="clock_am_pm_style_small">Kisbetű</string>
     <string name="clock_am_pm_style_none">Ne jelenítse meg</string>
     <string name="clock_am_pm_style_info">24 órás formátum engedélyezve</string>
     <string name="clock_date_show_title">Dátum</string>
     <string name="clock_date_show_summary">Megjeleníti az egyéni dátumformátumot az óra mellett</string>
     <string name="clock_date_show_none">Ne jelenítse meg</string>
-    <string name="clock_date_show_small">Kicsi betűméret</string>
-    <string name="clock_date_show_normal">Normál betűméret</string>
+    <string name="clock_date_show_small">Kisbetű</string>
+    <string name="clock_date_show_normal">Normál betű</string>
     <string name="clock_date_style_title">Dátum stílusa</string>
     <string name="clock_date_style_normal">Normál</string>
-    <string name="clock_date_style_lowercase">Kisbetűs</string>
-    <string name="clock_date_style_uppercase">Nagybetűs</string>
+    <string name="clock_date_style_lowercase">Kisbetű</string>
+    <string name="clock_date_style_uppercase">Nagybetű</string>
     <string name="clock_date_position">Dátum pozíciója</string>
     <string name="clock_date_position_right">Órától jobbra</string>
     <string name="clock_date_position_left">Órától balra</string>
-    <string name="clock_date_format">Dátum formátuma</string>
+    <string name="clock_date_format">Dátum formátum</string>
     <string name="clock_date_format_edittext_title">Dátumformátum megadása pld. MM/dd/yy</string>
     <string name="clock_date_format_edittext_summary">Érték megadása</string>
     <string name="clock_date_format_custom">Egyéni java formátum</string>
