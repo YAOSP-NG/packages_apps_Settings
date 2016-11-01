@@ -107,10 +107,10 @@
     <string name="network_traffic_options_title">Hálózati forgalom beállítások</string>
 
     <!-- Network traffic -->
-    <string name="network_traffic_title">Hálózati forgalom</string>
-    <string name="show_network_traffic_state">Állapotsori forgalomkijelzés</string>
-    <string name="network_traffic_summary">Engedélyezi az adatforgalom kijelzést az állapotsoron</string>
-    <string name="show_network_traffic_unit">Mértékegység megjelenítése</string>
+    <string name="network_traffic_title">Hálózati forgalomfigyelő</string>
+    <string name="show_network_traffic_state">Forgalomkijelzés állapota</string>
+    <string name="network_traffic_summary">Engedélyezi az adatforgalom kijelzést az állapotsávon</string>
+    <string name="show_network_traffic_unit">Mértékegység</string>
     <string name="show_network_traffic_frequency">Frissítés gyakorisága</string>
     <string name="show_network_traffic_disable">Letiltva</string>
     <string name="show_network_traffic_up">Kimenő</string>
