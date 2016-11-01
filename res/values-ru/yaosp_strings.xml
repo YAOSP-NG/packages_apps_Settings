@@ -234,4 +234,13 @@
     <string name="lockscreen_charging_current_title">Информация о зарядке на экране блокировки</string>
     <string name="lockscreen_charging_current_summary">Показывать максимальную скорость зарядки и напряжение на экране блокировки</string>
 
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Возрастающая громкость звонка</string>
+    <string name="increasing_ring_min_volume_title">Начальная громкость</string>
+    <string name="increasing_ring_ramp_up_time_title">Период увеличения громкости</string>
+
+    <!-- Reorient volume rockers with screen rotation -->
+    <string name="swap_volume_buttons_title">Переопределять кнопки громкости</string>
+    <string name="swap_volume_buttons_summary">Менять местами кнопки громкости в зависимости от поворота устройства</string>
+
 </resources>
