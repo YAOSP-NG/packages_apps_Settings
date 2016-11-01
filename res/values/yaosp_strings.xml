@@ -239,4 +239,8 @@
     <string name="increasing_ring_min_volume_title">Start volume</string>
     <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
 
+    <!-- Reorient volume rockers with screen rotation -->
+    <string name="swap_volume_buttons_title">Reorient volume rockers</string>
+    <string name="swap_volume_buttons_summary">Swap volume buttons logically according to screen rotation</string>
+
 </resources>
