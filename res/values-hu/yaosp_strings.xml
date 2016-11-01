@@ -234,4 +234,13 @@
     <string name="lockscreen_charging_current_title">Töltési információ a záróképernyőn</string>
     <string name="lockscreen_charging_current_summary">Megjeleníti a záróképernyőn a a maximális töltőáramot és feszültséget</string>
 
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Emelkedő csengőhang</string>
+    <string name="increasing_ring_min_volume_title">Kezdő hangerő</string>
+    <string name="increasing_ring_ramp_up_time_title">Felfutási idő</string>
+
+    <!-- Reorient volume rockers with screen rotation -->
+    <string name="swap_volume_buttons_title">Hangerőszabályzó gombok felcserélése</string>
+    <string name="swap_volume_buttons_summary">A hangerőszabályzó gombokat felcseréli elforgatott képernyőnél</string>
+	
 </resources>
