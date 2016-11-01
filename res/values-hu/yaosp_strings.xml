@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (c) 2016 Yank555.lu's Android Open Source Project
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
+
           http://www.apache.org/licenses/LICENSE-2.0
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -11,7 +14,18 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
+	
+    <!-- General strings -->
+    <string name="ok">OK</string>
+    <string name="reset">Visszaállítás</string>
+    <string name="help">Segítség</string>
+    <string name="add">Hozzáad</string>
+    <string name="attention">Figyelem</string>
+    <string name="enabled">Engedélyezve</string>
+    <string name="default_string">Alapértelmezett</string>
+    <string name="choose_app">Válassz alkalmazást</string>
+    <string name="reset_message">Törlöd a jelenlegi beállításokat és visszaállítod az alaphelyzetet?</string>
+	
     <!-- About phone screen, YAOSP build info -->
     <string name="yasop_version_title">Yank555.lu AOSP verzió</string>
     <string name="yasop_version_default">by Jean-Pierre Rasquin (yank555.lu@gmail.com)</string>
@@ -93,10 +107,10 @@
     <string name="network_traffic_options_title">Hálózati forgalom beállítások</string>
 
     <!-- Network traffic -->
-    <string name="network_traffic_title">Hálózati forgalom</string>
-    <string name="show_network_traffic_state">Állapotsori forgalomkijelzés</string>
-    <string name="network_traffic_summary">Engedélyezi a hálózati forgalomkijelzést az állapotsoron</string>
-    <string name="show_network_traffic_unit">Mértékegység megjelenítése</string>
+    <string name="network_traffic_title">Hálózati forgalomfigyelő</string>
+    <string name="show_network_traffic_state">Forgalomkijelzés állapota</string>
+    <string name="network_traffic_summary">Engedélyezi az adatforgalom kijelzést az állapotsávon</string>
+    <string name="show_network_traffic_unit">Mértékegység</string>
     <string name="show_network_traffic_frequency">Frissítés gyakorisága</string>
     <string name="show_network_traffic_disable">Letiltva</string>
     <string name="show_network_traffic_up">Kimenő</string>
@@ -109,7 +123,7 @@
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
     <string name="network_traffic_autohide">Automatikus elrejtés</string>
-    <string name="network_traffic_autohide_summary">Rejtse el az adatforgalmi indikátort, ha nincs hálózati forgalom</string>
+    <string name="network_traffic_autohide_summary">Rejtse el az adatforgalmi indikátort, ha nincs adatforgalom</string>
     <string name="network_traffic_autohide_threshold">Inaktivitás határértéke</string>
 	
     <!-- Charging vibration -->
@@ -151,15 +165,15 @@
     <string name="clock_style_center_clock">Óra középen</string>
     <string name="clock_style_left_clock">Óra baloldalon</string>
     <string name="clock_am_pm_style_title">AM/PM</string>
-    <string name="clock_am_pm_style_normal">Normál betűméret</string>
-    <string name="clock_am_pm_style_small">Kicsi betűméret</string>
-    <string name="clock_am_pm_style_none">Ne jelenítse meg</string>
-    <string name="clock_am_pm_style_info">24 órás formátum engedélyezve</string>
+    <string name="clock_am_pm_style_normal">Normál</string>
+    <string name="clock_am_pm_style_small">Kisbetűs</string>
+    <string name="clock_am_pm_style_none">Elrejt</string>
+    <string name="clock_am_pm_style_info">24 órás formátum használata</string>
     <string name="clock_date_show_title">Dátum</string>
     <string name="clock_date_show_summary">Megjeleníti az egyéni dátumformátumot az óra mellett</string>
-    <string name="clock_date_show_none">Ne jelenítse meg</string>
-    <string name="clock_date_show_small">Kicsi betűméret</string>
-    <string name="clock_date_show_normal">Normál betűméret</string>
+    <string name="clock_date_show_none">Elrejt</string>
+    <string name="clock_date_show_small">Kisbetűs</string>
+    <string name="clock_date_show_normal">Normál</string>
     <string name="clock_date_style_title">Dátum stílusa</string>
     <string name="clock_date_style_normal">Normál</string>
     <string name="clock_date_style_lowercase">Kisbetűs</string>
@@ -167,7 +181,7 @@
     <string name="clock_date_position">Dátum pozíciója</string>
     <string name="clock_date_position_right">Órától jobbra</string>
     <string name="clock_date_position_left">Órától balra</string>
-    <string name="clock_date_format">Dátum formátuma</string>
+    <string name="clock_date_format">Dátumformátum</string>
     <string name="clock_date_format_edittext_title">Dátumformátum megadása pld. MM/dd/yy</string>
     <string name="clock_date_format_edittext_summary">Érték megadása</string>
     <string name="clock_date_format_custom">Egyéni java formátum</string>
@@ -183,12 +197,12 @@
     <string name="color_default">Alapértelmezett</string>
 	
     <!-- Notification/Battery lights -->
-    <string name="edit_light_settings">-Fényjelzés beállítások</string>
+    <string name="edit_light_settings">Fényjelzés beállítások</string>
     <string name="pulse_speed_title">Villogás hossza és sebessége</string>
     <string name="default_time">Normál</string>
     <string name="custom_time">Egyéni</string>
     <string name="dialog_delete_title">Törlés</string>
-    <string name="dialog_delete_message">Eltávolítja a kijelölt elemet?</string>
+    <string name="dialog_delete_message">Eltávolítod a kijelölt elemet?</string>
     <string name="pulse_length_always_on">Mindig bekapcsolva</string>
     <string name="pulse_length_very_short">Nagyon rövid</string>
     <string name="pulse_length_short">Rövid</string>
