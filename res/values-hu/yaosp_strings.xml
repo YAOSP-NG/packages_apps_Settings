@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (c) 2016 Yank555.lu's Android Open Source Project
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
+
           http://www.apache.org/licenses/LICENSE-2.0
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -22,6 +25,10 @@
     <string name="default_string">Alapértelmezett</string>
     <string name="choose_app">Válassz alkalmazást</string>
     <string name="reset_message">Törlöd a jelenlegi beállításokat és visszaállítod az alaphelyzetet?</string>
+	
+    <!-- About phone screen, YAOSP build info -->
+    <string name="yasop_version_title">Yank555.lu AOSP verzió</string>
+    <string name="yasop_version_default">by Jean-Pierre Rasquin (yank555.lu@gmail.com)</string>
 
     <!-- About device screen, CPU and RAM info. -->
     <string name="cpu_info">Processzor</string>
@@ -226,6 +233,5 @@
     <!-- Lockscreen charging current indicator  -->
     <string name="lockscreen_charging_current_title">Töltési információ a záróképernyőn</string>
     <string name="lockscreen_charging_current_summary">Megjeleníti a záróképernyőn a a maximális töltőáramot és feszültséget</string>
-
 
 </resources>
