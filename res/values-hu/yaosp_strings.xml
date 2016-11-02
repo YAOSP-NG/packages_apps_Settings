@@ -101,7 +101,7 @@
     <!-- Wakeup options -->
     <string name="display_category_wakeup_options_title">Ébresztési opciók</string>
     <string name="wakeup_when_plugged_unplugged_title">Töltésre felébred</string>
-    <string name="wakeup_when_plugged_unplugged_summary">A készülék felébred ha az áramforrást csatlakoztatod vagy lecsatlakoztatod</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Az eszköz felébred ha az áramforrást csatlakoztatod vagy lecsatlakoztatod</string>
 	
     <!-- Status bar - Network traffic -->
     <string name="network_traffic_options_title">Hálózati forgalom beállítások</string>
@@ -123,7 +123,7 @@
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
     <string name="network_traffic_autohide">Automatikus elrejtés</string>
-    <string name="network_traffic_autohide_summary">Rejtse el az adatforgalmi indikátort, ha nincs adatforgalom</string>
+    <string name="network_traffic_autohide_summary">Elrejti az adatforgalmi indikátort, ha nincs adatforgalom</string>
     <string name="network_traffic_autohide_threshold">Inaktivitás határértéke</string>
 	
     <!-- Charging vibration -->
@@ -218,8 +218,8 @@
     <string name="battery_low_pulse_title">Villog, ha az akkumulátorszint alacsony</string>
     <string name="battery_light_list_title">Színek</string>
     <string name="battery_light_low_color_title">Alacsony akkumulátorszint</string>
-    <string name="battery_light_medium_color_title">Töltés - Lassú és normál</string>
-    <string name="battery_light_medium_fast_color_title">Töltés - Gyors</string>
+    <string name="battery_light_medium_color_title">Lassú és normál töltés</string>
+    <string name="battery_light_medium_fast_color_title">Gyorstöltés</string>
     <string name="battery_light_full_color_title">Teljesen feltöltve</string>
     <string name="notification_light_title">Értesítési fények</string>
     <string name="notification_light_general_title">Általános</string>
@@ -232,7 +232,7 @@
 
     <!-- Lockscreen charging current indicator  -->
     <string name="lockscreen_charging_current_title">Töltési információ a záróképernyőn</string>
-    <string name="lockscreen_charging_current_summary">Megjeleníti a záróképernyőn a a maximális töltőáramot és feszültséget</string>
+    <string name="lockscreen_charging_current_summary">Megjeleníti a záróképernyőn a maximális töltőáramot és feszültséget</string>
 
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Emelkedő csengőhangerő</string>
