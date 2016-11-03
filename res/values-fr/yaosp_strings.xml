@@ -220,9 +220,9 @@
     <string name="notification_light_missed_call_title">Appel en absences</string>
     <string name="notification_light_voicemail_title">Messagerie vocale</string>
 
-    <!-- Lockscreen charging current indicator  -->
-    <string name="lockscreen_charging_current_title">Information de charge dans l\'écran de vérouillage</string>
-    <string name="lockscreen_charging_current_summary">Afficher courant et tension maximum de charge négociés dans l\'écran de vérouillage</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Information de charge dans l\'écran de vérouillage</string>
+    <string name="lockscreen_battery_info_summary">Afficher courant et tension maximum négociés ainsi que la température de la batterie dans l\'écran de vérouillage quand la batterie est en charge</string>
 
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Sonnerie progressive</string>
