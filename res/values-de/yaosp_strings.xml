@@ -220,9 +220,9 @@
     <string name="notification_light_missed_call_title">Anruf in Abwesenheit</string>
     <string name="notification_light_voicemail_title">Mailbox</string>
 
-    <!-- Lockscreen charging current indicator  -->
-    <string name="lockscreen_charging_current_title">Ladeinfo im Sperrbildschirm</string>
-    <string name="lockscreen_charging_current_summary">Höchstladestrom und Höchstladespannung im Sperrbildschirm anzeigen</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Ladeinfo im Sperrbildschirm</string>
+    <string name="lockscreen_battery_info_summary">Höchstladestrom, Höchstladespannung und Akkutemperatur im Sperrbildschirm wärend des Ladevorgangs anzeigen</string>
 
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Zunehmende Ruftonlautstärke</string>
