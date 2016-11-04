@@ -231,8 +231,8 @@
     <string name="notification_light_voicemail_title">Hangüzenet</string>
 
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_charging_current_title">Töltési információ a záróképernyőn</string>
-    <string name="lockscreen_charging_current_summary">Megjeleníti a záróképernyőn a maximális töltőáramot, feszültséget és az akkumulátor hőmérsékletét</string>
+    <string name="lockscreen_battery_info_title">Töltési információ a záróképernyőn</string>
+    <string name="lockscreen_battery_info_summary">Megjeleníti a záróképernyőn a maximális töltőáramot, feszültséget és az akkumulátor hőmérsékletét</string>
 
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Emelkedő csengőhangerő</string>
