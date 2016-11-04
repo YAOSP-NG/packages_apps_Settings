@@ -230,7 +230,7 @@
     <string name="notification_light_missed_call_title">Nem fogadott hívás</string>
     <string name="notification_light_voicemail_title">Hangüzenet</string>
 
-    <!-- Lockscreen charging current indicator  -->
+    <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_charging_current_title">Töltési információ a záróképernyőn</string>
     <string name="lockscreen_charging_current_summary">Megjeleníti a záróképernyőn a maximális töltőáramot, feszültséget és az akkumulátor hőmérsékletét</string>
 
