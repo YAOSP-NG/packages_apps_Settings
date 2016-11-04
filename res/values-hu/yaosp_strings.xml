@@ -232,7 +232,7 @@
 
     <!-- Lockscreen charging current indicator  -->
     <string name="lockscreen_charging_current_title">Töltési információ a záróképernyőn</string>
-    <string name="lockscreen_charging_current_summary">Megjeleníti a záróképernyőn a maximális töltőáramot és feszültséget</string>
+    <string name="lockscreen_charging_current_summary">Megjeleníti a záróképernyőn a maximális töltőáramot, feszültséget és az akkumulátor hőmérsékletét</string>
 
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Emelkedő csengőhangerő</string>
