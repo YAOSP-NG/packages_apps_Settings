@@ -243,4 +243,8 @@
     <string name="swap_volume_buttons_title">Hangerőszabályzó gombok felcserélése</string>
     <string name="swap_volume_buttons_summary">A hangerőszabályzó gombokat felcseréli elforgatott képernyőnél</string>
 	
+    <!-- Development options - Kill app long press back -->
+    <string name="kill_app_longpress_back">Előtérben futó alkalmazás bezárása</string>
+    <string name="kill_app_longpress_back_summary">Alkalmazás bezárása 2 mp-ig nyomva tartott vissza gombbal</string>
+	
 </resources>
