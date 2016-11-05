@@ -238,5 +238,8 @@
     <!-- ADB debugging notifications -->
     <string name="adb_notify">Benachrichtigung bei USB-Debugging</string>
     <string name="adb_notify_summary">Eine Benachrichtigung anzeigen, wenn USB- order Netzwerk-Debugging verbunden ist</string>
+    <string name="adb_over_network">ADB über Netzwerk</string>
+    <string name="adb_over_network_summary">TCP/IP Debugging über vorhandene Netzwerkverbindungen aktivieren (Wi-Fi, USB-Verbindungen). Diese Einstellung wird nach einem Neustart automatisch zurückgesetzt.</string>
+    <string name="adb_over_network_warning">ACHTUNG: Wenn Sie ADB über Netzwerk aktivieren, ist ihr Telefon für Zugriffe aus allen verbundenen Netzwerken offen, auch aus dem mobilen Datennetzwerk!\n\nAktivieren Sie diese Funktion nur, wenn Sie mit einem sicheren Netzwerk verbunden sind.\n\nWollen Sie diese Funktion wirklich aktivieren ?</string>
 
 </resources>
