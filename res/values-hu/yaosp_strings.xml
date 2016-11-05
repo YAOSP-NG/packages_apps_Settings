@@ -225,7 +225,7 @@
     <string name="notification_light_general_title">Általános</string>
     <string name="notification_light_applist_title">Alkalmazások</string>
     <string name="notification_light_phonelist_title">Telefon</string>
-    <string name="notification_light_use_custom">Egyéni érték használata</string>
+    <string name="notification_light_use_custom">Egyéni beállítások</string>
     <string name="notification_light_default_value">Alapértelmezett</string>
     <string name="notification_light_missed_call_title">Nem fogadott hívás</string>
     <string name="notification_light_voicemail_title">Hangüzenet</string>
