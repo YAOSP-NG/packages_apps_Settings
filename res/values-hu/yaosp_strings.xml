@@ -253,4 +253,11 @@
     <!-- Hostname setting -->
     <string name="device_hostname">Eszköz elérési neve</string>
 
+    <!-- ADB debugging notifications -->
+    <string name="adb_notify">Hibakeresési értesítés</string>
+    <string name="adb_notify_summary">Értesítés megjelenítése, amikor az USB vagy a hálózati hibakereső engedélyezve van</string>
+    <string name="adb_over_network">ADB hálózaton keresztül</string>
+    <string name="adb_over_network_summary">Engedélyezi a TCP/IP hibakeresést hálózati eszközön keresztül (Wi\u2011Fi, USB hálózatok). Újraindítás után visszaáll alaphelyzetbe</string>
+    <string name="adb_over_network_warning">FIGYELEM: Ha a funkció engedélyezve van az eszköz nyitva áll bármilyen behatolásra az összes kapcsolódó hálózaton keresztül!\n\nCsak biztonságos hálózatra csatlakozva ajánlott engedélyezni.\n\nBiztosan engedélyezni szeretnéd?</string>
+	
 </resources>
