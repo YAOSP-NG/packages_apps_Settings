@@ -247,4 +247,17 @@
     <string name="kill_app_longpress_back">Закрытие приложений кнопкой Назад</string>
     <string name="kill_app_longpress_back_summary">Принудительно закрыть активное приложение зажав кнопку Назад на 2 секунды</string>
 
+    <!-- Preference category for LAN development settings. [CHAR LIMIT=25] -->
+    <string name="debug_LAN_category">Настройки локальной сети</string>
+
+    <!-- Hostname setting -->
+    <string name="device_hostname">Имя устройства</string>
+
+    <!-- ADB debugging notifications -->
+    <string name="adb_notify">Уведомление об отладке</string>
+    <string name="adb_notify_summary">Показывать уведомление если включена отладка</string>
+    <string name="adb_over_network">Отладка по сети</string>
+    <string name="adb_over_network_summary">Включить отладку по TCP/IP через сетевые протоколы (Wi\u2011Fi, USB сети). Эта настройка будет сброшена после перезагрузки устройства.</string>
+    <string name="adb_over_network_warning">ВНИМАНИЕ: когда включена отладка по сети, ваше устройство уязвимо для сетевых атак!\n\nИспользуйте только находясь в доверенной сети.\n\nВы действительно хотите включить эту функцию?</string>
+
 </resources>
