@@ -230,9 +230,9 @@
     <string name="notification_light_missed_call_title">Пропущенный звонок</string>
     <string name="notification_light_voicemail_title">Голосовая почта</string>
 
-    <!-- Lockscreen charging current indicator  -->
-    <string name="lockscreen_charging_current_title">Информация о зарядке на экране блокировки</string>
-    <string name="lockscreen_charging_current_summary">Показывать максимальную скорость зарядки и напряжение на экране блокировки</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Информация о зарядке на экране блокировки</string>
+    <string name="lockscreen_battery_info_summary">Показывать максимальную скорость зарядки и напряжение на экране блокировки</string>
 
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Возрастающая громкость звонка</string>
@@ -242,5 +242,9 @@
     <!-- Reorient volume rockers with screen rotation -->
     <string name="swap_volume_buttons_title">Переопределять кнопки громкости</string>
     <string name="swap_volume_buttons_summary">Менять местами кнопки громкости в зависимости от поворота устройства</string>
+
+    <!-- Development options - Kill app long press back -->
+    <string name="kill_app_longpress_back">Закрытие приложений кнопкой Назад</string>
+    <string name="kill_app_longpress_back_summary">Принудительно закрыть активное приложение зажав кнопку Назад на 2 секунды</string>
 
 </resources>
