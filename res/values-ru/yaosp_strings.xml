@@ -230,9 +230,9 @@
     <string name="notification_light_missed_call_title">Пропущенный звонок</string>
     <string name="notification_light_voicemail_title">Голосовая почта</string>
 
-    <!-- Lockscreen charging current indicator  -->
-    <string name="lockscreen_charging_current_title">Информация о зарядке на экране блокировки</string>
-    <string name="lockscreen_charging_current_summary">Показывать максимальную скорость зарядки и напряжение на экране блокировки</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Информация о зарядке на экране блокировки</string>
+    <string name="lockscreen_battery_info_summary">Показывать максимальную скорость зарядки и напряжение на экране блокировки</string>
 
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Возрастающая громкость звонка</string>
@@ -242,5 +242,22 @@
     <!-- Reorient volume rockers with screen rotation -->
     <string name="swap_volume_buttons_title">Переопределять кнопки громкости</string>
     <string name="swap_volume_buttons_summary">Менять местами кнопки громкости в зависимости от поворота устройства</string>
+
+    <!-- Development options - Kill app long press back -->
+    <string name="kill_app_longpress_back">Закрытие приложений кнопкой Назад</string>
+    <string name="kill_app_longpress_back_summary">Принудительно закрыть активное приложение зажав кнопку Назад на 2 секунды</string>
+
+    <!-- Preference category for LAN development settings. [CHAR LIMIT=25] -->
+    <string name="debug_LAN_category">Настройки локальной сети</string>
+
+    <!-- Hostname setting -->
+    <string name="device_hostname">Имя устройства</string>
+
+    <!-- ADB debugging notifications -->
+    <string name="adb_notify">Уведомление об отладке</string>
+    <string name="adb_notify_summary">Показывать уведомление если включена отладка</string>
+    <string name="adb_over_network">Отладка по сети</string>
+    <string name="adb_over_network_summary">Включить отладку по TCP/IP через сетевые протоколы (Wi\u2011Fi, USB сети). Эта настройка будет сброшена после перезагрузки устройства.</string>
+    <string name="adb_over_network_warning">ВНИМАНИЕ: когда включена отладка по сети, ваше устройство уязвимо для сетевых атак!\n\nИспользуйте только находясь в доверенной сети.\n\nВы действительно хотите включить эту функцию?</string>
 
 </resources>
