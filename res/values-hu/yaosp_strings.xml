@@ -101,7 +101,7 @@
     <!-- Wakeup options -->
     <string name="display_category_wakeup_options_title">Ébresztési opciók</string>
     <string name="wakeup_when_plugged_unplugged_title">Töltésre felébred</string>
-    <string name="wakeup_when_plugged_unplugged_summary">A készülék felébred ha az áramforrást csatlakoztatod vagy lecsatlakoztatod</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Az eszköz felébred ha az áramforrást csatlakoztatod vagy lecsatlakoztatod</string>
 	
     <!-- Status bar - Network traffic -->
     <string name="network_traffic_options_title">Hálózati forgalom beállítások</string>
@@ -123,7 +123,7 @@
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
     <string name="network_traffic_autohide">Automatikus elrejtés</string>
-    <string name="network_traffic_autohide_summary">Rejtse el az adatforgalmi indikátort, ha nincs adatforgalom</string>
+    <string name="network_traffic_autohide_summary">Elrejti az adatforgalmi indikátort, ha nincs adatforgalom</string>
     <string name="network_traffic_autohide_threshold">Inaktivitás határértéke</string>
 	
     <!-- Charging vibration -->
@@ -218,20 +218,46 @@
     <string name="battery_low_pulse_title">Villog, ha az akkumulátorszint alacsony</string>
     <string name="battery_light_list_title">Színek</string>
     <string name="battery_light_low_color_title">Alacsony akkumulátorszint</string>
-    <string name="battery_light_medium_color_title">Töltés - Lassú és normál</string>
-    <string name="battery_light_medium_fast_color_title">Töltés - Gyors</string>
+    <string name="battery_light_medium_color_title">Lassú és normál töltés</string>
+    <string name="battery_light_medium_fast_color_title">Gyorstöltés</string>
     <string name="battery_light_full_color_title">Teljesen feltöltve</string>
     <string name="notification_light_title">Értesítési fények</string>
     <string name="notification_light_general_title">Általános</string>
     <string name="notification_light_applist_title">Alkalmazások</string>
     <string name="notification_light_phonelist_title">Telefon</string>
-    <string name="notification_light_use_custom">Egyéni érték használata</string>
+    <string name="notification_light_use_custom">Egyéni beállítások</string>
     <string name="notification_light_default_value">Alapértelmezett</string>
     <string name="notification_light_missed_call_title">Nem fogadott hívás</string>
     <string name="notification_light_voicemail_title">Hangüzenet</string>
 
-    <!-- Lockscreen charging current indicator  -->
-    <string name="lockscreen_charging_current_title">Töltési információ a záróképernyőn</string>
-    <string name="lockscreen_charging_current_summary">Megjeleníti a záróképernyőn a a maximális töltőáramot és feszültséget</string>
+    <!-- Lockscreen battery info indicator  -->
+    <string name="lockscreen_battery_info_title">Töltési információ a záróképernyőn</string>
+    <string name="lockscreen_battery_info_summary">Megjeleníti a záróképernyőn a maximális töltőáramot, feszültséget és az akkumulátor hőmérsékletét</string>
 
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Emelkedő csengőhangerő</string>
+    <string name="increasing_ring_min_volume_title">Kezdő hangerő</string>
+    <string name="increasing_ring_ramp_up_time_title">Felfutási idő</string>
+
+    <!-- Reorient volume rockers with screen rotation -->
+    <string name="swap_volume_buttons_title">Hangerőszabályzó gombok felcserélése</string>
+    <string name="swap_volume_buttons_summary">A hangerőszabályzó gombokat felcseréli elforgatott képernyőnél</string>
+	
+    <!-- Development options - Kill app long press back -->
+    <string name="kill_app_longpress_back">Előtérben futó alkalmazás bezárása</string>
+    <string name="kill_app_longpress_back_summary">Bezárja az alkalmazást 2 mp-ig nyomva tartott vissza gombbal</string>
+	
+    <!-- Preference category for LAN development settings. [CHAR LIMIT=25] -->
+    <string name="debug_LAN_category">LAN beállítás</string>
+
+    <!-- Hostname setting -->
+    <string name="device_hostname">Eszköz elérési neve</string>
+
+    <!-- ADB debugging notifications -->
+    <string name="adb_notify">Hibakeresési értesítés</string>
+    <string name="adb_notify_summary">Értesítés megjelenítése, amikor az USB vagy a hálózati hibakereső engedélyezve van</string>
+    <string name="adb_over_network">ADB hálózaton keresztül</string>
+    <string name="adb_over_network_summary">Engedélyezi a TCP/IP hibakeresést hálózati eszközön keresztül (Wi\u2011Fi, USB hálózatok). Újraindítás után visszaáll alaphelyzetbe</string>
+    <string name="adb_over_network_warning">FIGYELEM: Ha a funkció engedélyezve van az eszköz nyitva áll bármilyen behatolásra az összes kapcsolódó hálózaton keresztül!\n\nCsak biztonságos hálózatra csatlakozva ajánlott engedélyezni.\n\nBiztosan engedélyezni szeretnéd?</string>
+	
 </resources>
