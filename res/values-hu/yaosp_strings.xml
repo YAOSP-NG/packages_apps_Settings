@@ -260,4 +260,9 @@
     <string name="adb_over_network_summary">Engedélyezi a TCP/IP hibakeresést hálózati eszközön keresztül (Wi\u2011Fi, USB hálózatok). Újraindítás után visszaáll alaphelyzetbe</string>
     <string name="adb_over_network_warning">FIGYELEM: Ha a funkció engedélyezve van az eszköz nyitva áll bármilyen behatolásra az összes kapcsolódó hálózaton keresztül!\n\nCsak biztonságos hálózatra csatlakozva ajánlott engedélyezni.\n\nBiztosan engedélyezni szeretnéd?</string>
 	
+    <!-- Dynamic notification tint -->
+    <string name="notification_tint_title">Dinamikus alkalmazásnév és értesítési színek</string>
+    <string name="notification_tint_summary_off">Az alkalmazás nevének és értesítéseinek színét a téma kezeli</string>
+    <string name="notification_tint_summary_on">Az alkalmazás nevének és értesítéseinek színét az alkalmazásikon határozza meg</string>
+	
 </resources>
