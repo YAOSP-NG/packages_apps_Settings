@@ -31,6 +31,14 @@
             android:title="@string/battery_light_title"
             android:fragment="com.android.settings.notificationlight.BatteryLightSettings" />
 
+    <!-- Notification dynamic color  -->
+        <com.android.settings.preference.SecureSettingSwitchPreference
+            android:key="notification_title_tint"
+            android:title="@string/notification_tint_title"
+            android:summaryOn="@string/notification_tint_summary_on"
+            android:summaryOff="@string/notification_tint_summary_off"
+            android:defaultValue="true" />
+
     <!-- When device is locked -->
     <com.android.settings.notification.RestrictedDropDownPreference
             android:key="lock_screen_notifications"
