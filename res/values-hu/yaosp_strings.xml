@@ -262,7 +262,7 @@
 	
     <!-- Dynamic notification tint -->
     <string name="notification_tint_title">Dinamikus értesítési színek</string>
-    <string name="notification_tint_summary_off">Az alkalmazás értesítéseinek színét a téma kezeli</string>
-    <string name="notification_tint_summary_on">Az alkalmazás értesítéseinek színét az alkalmazásikon határozza meg</string>
+    <string name="notification_tint_summary_off">Az alkalmazás értesítéseinek színét a téma határozza meg</string>
+    <string name="notification_tint_summary_on">Az alkalmazás értesítéseinek színét az alkalmazásikon színe határozza meg</string>
 	
 </resources>
