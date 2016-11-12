@@ -64,11 +64,11 @@
     <string name="power_menu_bug_report_disabled">Hibajelentés le van tiltva a fejlesztői beállításokban</string>
 
     <!-- Rotation Modes  -->
-    <string name="display_rotation_title">Képernyőforgatás</string>
+    <string name="display_rotation_title">Képernyő elforgatás</string>
     <string name="display_rotation_disabled">Letiltva</string>
     <string name="display_rotation_unit">fok</string>
     <string name="display_lockscreen_rotation_title">Képernyőzár elforgatása</string>
-    <string name="display_rotation_category_title">Forgatási módok</string>
+    <string name="display_rotation_category_title">Forgatás módok</string>
     <string name="display_rotation_0_title">0 fok</string>
     <string name="display_rotation_90_title">90 fok</string>
     <string name="display_rotation_180_title">180 fok</string>
@@ -259,5 +259,21 @@
     <string name="adb_over_network">ADB hálózaton keresztül</string>
     <string name="adb_over_network_summary">Engedélyezi a TCP/IP hibakeresést hálózati eszközön keresztül (Wi\u2011Fi, USB hálózatok). Újraindítás után visszaáll alaphelyzetbe</string>
     <string name="adb_over_network_warning">FIGYELEM: Ha a funkció engedélyezve van az eszköz nyitva áll bármilyen behatolásra az összes kapcsolódó hálózaton keresztül!\n\nCsak biztonságos hálózatra csatlakozva ajánlott engedélyezni.\n\nBiztosan engedélyezni szeretnéd?</string>
+	
+    <!-- OMS7-N / Substratum -->
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Altalaj rétegek</string>
+    <string name="menu_show_substratum">Rétegek megjelenítése</string>
+    <string name="menu_hide_substratum">Rétegek elrejtése</string>
+	
+    <!-- Dynamic notification tint -->
+    <string name="notification_tint_title">Dinamikus értesítési színek</string>
+    <string name="notification_tint_summary_off">Az alkalmazás értesítéseinek színét a téma határozza meg</string>
+    <string name="notification_tint_summary_on">Az alkalmazás értesítéseinek színét az alkalmazásikon színe határozza meg</string>
+	
+    <!-- Doze invert -->
+    <string name="doze_notification_color_invert_title">Értesítési színek invertálása</string>
+    <string name="doze_notification_color_invert_summary_off">A környezeti kijelző értesítési színei nem invertálódnak</string>
+    <string name="doze_notification_color_invert_summary_on">A környezeti kijelző értesítési színei invertálódnak</string>
 	
 </resources>
