@@ -38,7 +38,7 @@
     <string name="device_info_title">Telefon információ</string>
 
     <!-- Vendor version -->
-    <string name="vendor_version">Vendor verzió</string>
+    <string name="vendor_version">Gyártó verziója</string>
     <string name="vendor_version_default">Ismeretlen</string>
 
     <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
