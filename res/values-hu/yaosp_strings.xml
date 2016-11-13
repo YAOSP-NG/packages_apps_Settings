@@ -262,7 +262,7 @@
 	
     <!-- OMS7-N / Substratum -->
     <!-- Manage applications: show substratum overlays -->
-    <string name="filter_substratum_apps">Altalaj rétegek</string>
+    <string name="filter_substratum_apps">Szubsztrátum</string>
     <string name="menu_show_substratum">Rétegek megjelenítése</string>
     <string name="menu_hide_substratum">Rétegek elrejtése</string>
 	
