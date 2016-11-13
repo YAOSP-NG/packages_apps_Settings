@@ -260,4 +260,20 @@
     <string name="adb_over_network_summary">Включить отладку по TCP/IP через сетевые протоколы (Wi\u2011Fi, USB сети). Эта настройка будет сброшена после перезагрузки устройства.</string>
     <string name="adb_over_network_warning">ВНИМАНИЕ: когда включена отладка по сети, ваше устройство уязвимо для сетевых атак!\n\nИспользуйте только находясь в доверенной сети.\n\nВы действительно хотите включить эту функцию?</string>
 
+    <!-- OMS7-N / Substratum -->
+    <!-- Manage applications: show substratum overlays -->
+    <string name="filter_substratum_apps">Слои Substratum</string>
+    <string name="menu_show_substratum">Показать слои</string>
+    <string name="menu_hide_substratum">Скрыть слои</string>
+
+    <!-- Dynamic notification tint -->
+    <string name="notification_tint_title">Динамический цвет заголовка уведомления</string>
+    <string name="notification_tint_summary_off">Цвет заголовка уведомления управляется темой</string>
+    <string name="notification_tint_summary_on">Цвет заголовка уведомления будет взят из значка приложения</string>
+
+    <!-- Doze invert -->
+    <string name="doze_notification_color_invert_title">Инвертирование уведомлений</string>
+    <string name="doze_notification_color_invert_summary_off">Уведомления в режиме Ambient не будут инвертированы</string>
+    <string name="doze_notification_color_invert_summary_on">Уведомления в режиме Ambient будут инвертированы</string>
+
 </resources>
