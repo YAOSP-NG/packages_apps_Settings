@@ -98,6 +98,8 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
     private Preference mFontSizePref;
 
+    private static final String KEY_PROXIMITY_WAKE = "proximity_on_wake";
+
     private static final String ROTATION_LOCKSCREEN = "Lockscreen";
     private static final String ROTATION_ANGLE_0 = "0";
     private static final String ROTATION_ANGLE_90 = "90";
@@ -108,6 +110,8 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final String KEY_DOZE = "doze";
     private static final String KEY_ADVANCED_DOZE_OPTIONS = "advanced_doze_options";
 
+    private static final String KEY_WAKEUP_CATEGORY = "category_wakeup_options";
+
     private TimeoutListPreference mScreenTimeoutPreference;
     private PreferenceScreen mDisplayRotationPreference;
     private ListPreference mNightModePreference;
@@ -117,6 +121,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private SwitchPreference mAutoBrightnessPreference;
     private SwitchPreference mCameraGesturePreference;
     private SwitchPreference mCameraDoubleTapPowerGesturePreference;
+    private PreferenceCategory mWakeUpOptions;
 
     private ContentObserver mAccelerometerRotationObserver =
             new ContentObserver(new Handler()) {
@@ -253,6 +258,15 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
             mNightModePreference.setValue(String.valueOf(currentNightMode));
             mNightModePreference.setOnPreferenceChangeListener(this);
         }
+
+        mWakeUpOptions = (PreferenceCategory) prefSet.findPreference(KEY_WAKEUP_CATEGORY);
+        boolean proximityCheckOnWake = getResources().getBoolean(
+                com.android.internal.R.bool.config_proximityCheckOnWake);
+        if (!proximityCheckOnWake) {
+            mWakeUpOptions.removePreference(findPreference(KEY_PROXIMITY_WAKE));
+            Settings.System.putInt(resolver, Settings.System.PROXIMITY_ON_WAKE, 0);
+        }
+
     }
 
     private static boolean allowAllRotations(Context context) {
