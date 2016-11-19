@@ -276,4 +276,8 @@
     <string name="doze_notification_color_invert_summary_off">Уведомления в режиме Ambient не будут инвертированы</string>
     <string name="doze_notification_color_invert_summary_on">Уведомления в режиме Ambient будут инвертированы</string>
 
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Запрещать случайное пробуждение</string>
+    <string name="proximity_wake_summary">Опрашивать датчик расстояния перед включением экрана по нажатию кнопки</string>
+
 </resources>
