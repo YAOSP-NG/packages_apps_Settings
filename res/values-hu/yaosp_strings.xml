@@ -38,7 +38,7 @@
     <string name="device_info_title">Telefon információ</string>
 
     <!-- Vendor version -->
-    <string name="vendor_version">Vendor verzió</string>
+    <string name="vendor_version">Gyártó verziója</string>
     <string name="vendor_version_default">Ismeretlen</string>
 
     <!-- Local (desktop) backup password menu title [CHAR LIMIT=25] -->
@@ -262,7 +262,7 @@
 	
     <!-- OMS7-N / Substratum -->
     <!-- Manage applications: show substratum overlays -->
-    <string name="filter_substratum_apps">Altalaj rétegek</string>
+    <string name="filter_substratum_apps">Szubsztrátum</string>
     <string name="menu_show_substratum">Rétegek megjelenítése</string>
     <string name="menu_hide_substratum">Rétegek elrejtése</string>
 	
@@ -275,5 +275,9 @@
     <string name="doze_notification_color_invert_title">Értesítési színek invertálása</string>
     <string name="doze_notification_color_invert_summary_off">A környezeti kijelző értesítési színei nem invertálódnak</string>
     <string name="doze_notification_color_invert_summary_on">A környezeti kijelző értesítési színei invertálódnak</string>
+	
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Véletlen ébresztés megakadályozása</string>
+    <string name="proximity_wake_summary">A közelségérzékelő szenzor szabályozza a készülék felébresztésének szükségességét a bekapcsológomb megnyomásakor</string>
 	
 </resources>
