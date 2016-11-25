@@ -76,7 +76,7 @@
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Gyors feloldás</string>
-    <string name="unlock_quick_unlock_control_summary">Automatikus feloldás, ha megfelelő PIN/jelszó került megadásra (Az OK gomb megnyomása nem szükséges)\nFigyelem: csak akkor fog működni ha a PIN 4 számjegyű !</string>
+    <string name="unlock_quick_unlock_control_summary">Automatikus feloldás, ha megfelelő PIN/jelszó került megadásra (Az OK gomb megnyomása nem szükséges)\nFigyelem: csak akkor fog működni ha a PIN 4 számjegyű!</string>
 
     <!-- Double-tap to sleep/wake -->
     <string name="double_tap_sleep_anywhere_title">Záróképernyő érintése alvó módhoz</string>
