@@ -76,4 +76,29 @@
     <string name="wakeup_when_plugged_unplugged_title">Wecken bei Aufladung</string>
     <string name="wakeup_when_plugged_unplugged_summary">Gerät aufwecken, wenn das Ladekabel ein- oder ausgesteckt wird.</string>
 
+    <!-- Status bar - Network traffic -->
+    <string name="network_traffic_options_title">Netzwerkverkehr Einstellungen</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Netzwerkverkehr Monitor</string>
+    <string name="show_network_traffic_state">Statusbar Netzwerk Monitor</string>
+    <string name="network_traffic_summary">Zeigt den Netzwerkverkehr in der Statusbar an</string>
+    <string name="show_network_traffic_unit">Einheit</string>
+    <string name="show_network_traffic_frequency">Update Intervall</string>
+    <string name="show_network_traffic_disable">Deaktiviert</string>
+    <string name="show_network_traffic_up">Ausgehender Verkehr</string>
+    <string name="show_network_traffic_down">Eingehender Verkehr</string>
+    <string name="show_network_traffic_all">Aus- und Eingehender Verkehr</string>
+    <string name="show_network_traffic_bit">Bits per Sekunde</string>
+    <string name="show_network_traffic_byte">Bytes per Sekunde</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Automatisch verstecken</string>
+    <string name="network_traffic_autohide_summary">Verstecke den Verkehrsmonitor wenn keine aktivität besteht.</string>
+    <string name="network_traffic_autohide_threshold">Inaktivitätsschwelle</string>
+    <string name="network_traffic_animate_arrows">Pfeile animieren</string>
+    <string name="network_traffic_animate_arrows_summary">Pfeile aufgrund von Netzwerkaktivität aufblinken (ausgehend oder eingehend)</string>
+
 </resources>
