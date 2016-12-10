@@ -150,7 +150,34 @@
     <string name="doze_brightness_summary">Brightness level of doze pulse screen (% of max allowed brightness)</string>
 
     <!-- Clock Settings -->
+    <string name="time_group_title">Time configuration</string>
+    <string name="clock_group_title">Clock appearance</string>
     <string name="clock_show_title">Show clock in statusbar</string>
     <string name="clock_seconds_title">Show seconds</string>
+    <string name="clock_style_title">Alignment</string>
+    <string name="clock_style_right_clock">Right clock</string>
+    <string name="clock_style_center_clock">Center clock</string>
+    <string name="clock_style_left_clock">Left clock</string>
+    <string name="clock_am_pm_style_title">AM/PM</string>
+    <string name="clock_am_pm_style_normal">Normal font size</string>
+    <string name="clock_am_pm_style_small">Small font size</string>
+    <string name="clock_am_pm_style_none">Don\'t show</string>
+    <string name="clock_am_pm_style_info">24-hour clock is enabled</string>
+    <string name="clock_date_show_title">Date</string>
+    <string name="clock_date_show_summary">Display custom date next to time</string>
+    <string name="clock_date_show_none">Don\'t show</string>
+    <string name="clock_date_show_small">Small font size</string>
+    <string name="clock_date_show_normal">Normal font size</string>
+    <string name="clock_date_style_title">Date style</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Lowercase</string>
+    <string name="clock_date_style_uppercase">Uppercase</string>
+    <string name="clock_date_position">Date position</string>
+    <string name="clock_date_position_right">Right of time</string>
+    <string name="clock_date_position_left">Left of time</string>
+    <string name="clock_date_format">Date format</string>
+    <string name="clock_date_format_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+    <string name="clock_date_format_edittext_summary">Enter string</string>
+    <string name="clock_date_format_custom">Custom java format</string>
 
 </resources>
