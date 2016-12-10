@@ -130,6 +130,9 @@
     <string name="clock_group_title">Apparance de l\'horloge</string>
     <string name="clock_show_title">Afficher l\'horloge dans la barre d\'état</string>
     <string name="clock_seconds_title">Afficher les secondes</string>
+    <string name="clock_color_override_title">Utiliser une couleur personalisée</string>
+    <string name="clock_color_title">Couleur</string>
+    <string name="clock_color_reset">Réinitialiser la couleur</string>
     <string name="clock_style_title">Alignement</string>
     <string name="clock_style_right_clock">Horloge à droite</string>
     <string name="clock_style_center_clock">Horloge au millieu</string>

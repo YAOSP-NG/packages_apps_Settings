@@ -30,6 +30,9 @@ import android.content.DialogInterface;
 import android.content.DialogInterface.OnCancelListener;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.pm.PackageManager;
+import android.content.res.Resources;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.os.UserManager;
 import android.provider.SearchIndexableResource;
@@ -41,6 +44,7 @@ import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.Preference.OnPreferenceChangeListener;
 import android.text.format.DateFormat;
+import android.util.Log;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TimePicker;
@@ -57,6 +61,8 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 
+import com.android.settings.preferences.colorpicker.ColorPickerPreference;
+
 import static com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
 
 public class DateTimeSettings extends SettingsPreferenceFragment
@@ -69,8 +75,11 @@ public class DateTimeSettings extends SettingsPreferenceFragment
     // The date value is dummy (independent of actual date).
     private Calendar mDummyDate;
 
+    private static final String TAG = "ClockStyle";
+
     private static final String KEY_AUTO_TIME           = "auto_time";
     private static final String KEY_AUTO_TIME_ZONE      = "auto_zone";
+    private static final String KEY_CLOCK_COLOR         = "clock_color";
     private static final String KEY_CLOCK_AM_PM_STYLE   = "clock_am_pm_style";
     private static final String KEY_CLOCK_STYLE         = "clock_style";
     private static final String KEY_CLOCK_DATE_SHOW     = "clock_date_show";
@@ -114,6 +123,7 @@ public class DateTimeSettings extends SettingsPreferenceFragment
     private SwitchPreference mAutoTimeZonePref;
     private Preference mTimeZone;
     private Preference mDatePref;
+    private ColorPickerPreference mClockColor;
     private ListPreference mClockAmPmStyle;
     private ListPreference mClockStyle;
     private ListPreference mClockDateShow;
@@ -149,6 +159,18 @@ public class DateTimeSettings extends SettingsPreferenceFragment
 
         mDummyDate = Calendar.getInstance();
 
+        PackageManager pm = getPackageManager();
+        Resources systemUiResources;
+        int defaultColor;
+        try {
+            systemUiResources = pm.getResourcesForApplication("com.android.systemui");
+            defaultColor = systemUiResources.getColor(systemUiResources.getIdentifier(
+                    "com.android.systemui:color/status_bar_clock_color", null, null));
+        } catch (Exception e) {
+            defaultColor = Color.WHITE;
+            Log.e(TAG, "can't access systemui resources",e);
+        }
+
         // If device admin requires auto time device policy manager will set
         // Settings.Global.AUTO_TIME to true. Note that this app listens to that change.
         mAutoTimePref.setChecked(autoTimeEnabled);
@@ -173,6 +195,13 @@ public class DateTimeSettings extends SettingsPreferenceFragment
         mTimePref.setEnabled(!autoTimeEnabled);
         mDatePref.setEnabled(!autoTimeEnabled);
         mTimeZone.setEnabled(!autoTimeZoneEnabled);
+
+        int intColor = Settings.Secure.getInt(getActivity().getContentResolver(),
+                    Settings.Secure.CLOCK_COLOR, defaultColor);
+        mClockColor = (ColorPickerPreference) findPreference(KEY_CLOCK_COLOR);
+        mClockColor.setOnPreferenceChangeListener(this);
+        mClockColor.setNewPreviewColor(intColor);
+        updateClockColorSummary(intColor);
 
         mClockAmPmStyle = (ListPreference) findPreference(KEY_CLOCK_AM_PM_STYLE);
         mClockAmPmStyle.setOnPreferenceChangeListener(this);
@@ -305,6 +334,14 @@ public class DateTimeSettings extends SettingsPreferenceFragment
             Settings.Global.putInt(
                     getContentResolver(), Settings.Global.AUTO_TIME_ZONE, autoZoneEnabled ? 1 : 0);
             mTimeZone.setEnabled(!autoZoneEnabled);
+
+        } else if (preference == mClockColor) {
+            String hex = ColorPickerPreference.convertToARGB(Integer.valueOf(String
+                    .valueOf(newValue)));
+            int intColor = ColorPickerPreference.convertToColorInt(hex);
+            Settings.Secure.putInt(getActivity().getContentResolver(),
+                    Settings.Secure.CLOCK_COLOR, intColor);
+            updateClockColorSummary(intColor);
 
         } else if (preference == mClockAmPmStyle) {
             int val = Integer.parseInt((String) newValue);
@@ -641,5 +678,26 @@ public class DateTimeSettings extends SettingsPreferenceFragment
             }
         }
         mClockDateFormat.setEntries(parsedDateEntries);
+    }
+
+    private void updateClockColorSummary(int newColor) {
+
+        PackageManager pm = getPackageManager();
+        Resources systemUiResources;
+        try {
+            systemUiResources = pm.getResourcesForApplication("com.android.systemui");
+        } catch (Exception e) {
+            mClockColor.setSummary(String.format("#%08x", (0xffffffff & newColor)));
+            Log.e(TAG, "can't access systemui resources",e);
+            return;
+        }
+
+        int defaultColor = systemUiResources.getColor(systemUiResources.getIdentifier(
+                "com.android.systemui:color/status_bar_clock_color", null, null));
+
+        mClockColor.setSummary(newColor == defaultColor ?
+                getResources().getString(R.string.color_default) :
+                String.format("#%08x", (0xffffffff & newColor)));
+
     }
 }
