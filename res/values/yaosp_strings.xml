@@ -154,6 +154,9 @@
     <string name="clock_group_title">Clock appearance</string>
     <string name="clock_show_title">Show clock in statusbar</string>
     <string name="clock_seconds_title">Show seconds</string>
+    <string name="clock_color_override_title">Use custom color</string>
+    <string name="clock_color_title">Color</string>
+    <string name="clock_color_reset">Reset color</string>
     <string name="clock_style_title">Alignment</string>
     <string name="clock_style_right_clock">Right clock</string>
     <string name="clock_style_center_clock">Center clock</string>
