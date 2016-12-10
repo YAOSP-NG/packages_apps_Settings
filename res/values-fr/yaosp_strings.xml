@@ -227,4 +227,8 @@
     <string name="swap_volume_buttons_title">Réorienter boutons de volume</string>
     <string name="swap_volume_buttons_summary">Permuter les boutons de volume lorsque l\'écran est tourné</string>
 
+    <!-- Development options - Kill app long press back -->
+    <string name="kill_app_longpress_back">Arrêt application par touche retour</string>
+    <string name="kill_app_longpress_back_summary">Forcer l\'arrêt de l\'application en avantplan en appuyant 2s sur la touche retour</string>
+
 </resources>

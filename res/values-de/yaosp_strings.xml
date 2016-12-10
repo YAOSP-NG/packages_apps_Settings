@@ -227,4 +227,8 @@
     <string name="swap_volume_buttons_title">Neu ausrichten</string>
     <string name="swap_volume_buttons_summary">Lautstärke-Tasten vertauschen, wenn der Bildschirm gedreht wird</string>
 
+    <!-- Development options - Kill app long press back -->
+    <string name="kill_app_longpress_back">Zurücktaste zum Anwendung schliessen</string>
+    <string name="kill_app_longpress_back_summary">Vordergrund Anwendung durch 2s langes drücken der Zurück-Taste schliessen</string>
+
 </resources>
