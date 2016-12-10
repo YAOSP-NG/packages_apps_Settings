@@ -34,4 +34,15 @@
     <string name="power_menu_sound_title">Ton</string>
     <string name="power_menu_bug_report_disabled">Fehler melden ist in den Entwicklereinstellungen deaktiviert</string>
 
+    <!-- Rotation Modes  -->
+    <string name="display_rotation_title">Bildschirmausrichtung</string>
+    <string name="display_rotation_disabled">Deaktiviert</string>
+    <string name="display_rotation_unit">Grad</string>
+    <string name="display_lockscreen_rotation_title">Drehen im Sperrbildschirm</string>
+    <string name="display_rotation_category_title">Drehung bei</string>
+    <string name="display_rotation_0_title">0 Grad</string>
+    <string name="display_rotation_90_title">90 Grad</string>
+    <string name="display_rotation_180_title">180 Grad</string>
+    <string name="display_rotation_270_title">270 Grad</string>
+
 </resources>
