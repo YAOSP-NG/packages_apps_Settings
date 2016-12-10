@@ -19,50 +19,106 @@
         android:title="@string/date_and_time"
         settings:keywords="@string/keywords_date_and_time">
 
-    <com.android.settingslib.RestrictedSwitchPreference
-        android:key="auto_time"
-        android:title="@string/date_time_auto"
-        android:summaryOn="@string/date_time_auto_summaryOn"
-        android:summaryOff="@string/date_time_auto_summaryOff"
-        settings:useAdditionalSummary="true"
-        settings:restrictedSwitchSummary="@string/enabled_by_admin" />
+    <PreferenceCategory
+            android:key="clock_group_title"
+            android:title="@string/clock_group_title">
 
-    <SwitchPreference
-        android:key="auto_zone"
-        android:title="@string/zone_auto"
-        android:summaryOn="@string/zone_auto_summaryOn"
-        android:summaryOff="@string/zone_auto_summaryOff" />
+        <com.android.settings.preference.SecureSettingSwitchPreference
+            android:key="clock_show"
+            android:title="@string/clock_show_title"
+            android:defaultValue="true" />
 
-    <Preference 
-        android:key="date"
-        android:title="@string/date_time_set_date"
-        android:summary="03/10/2008" />
+        <com.android.settings.preference.SecureSettingSwitchPreference
+            android:key="clock_seconds"
+            android:title="@string/clock_seconds_title"
+            android:defaultValue="false"
+            android:dependency="clock_show" />
 
-    <Preference
-        android:key="time"
-        android:title="@string/date_time_set_time"
-        android:summary="12:00am" />
+        <SwitchPreference
+            android:key="24 hour"
+            android:title="@string/date_time_24hour"
+            android:dependency="clock_show" />
 
-    <PreferenceScreen
-        android:fragment="com.android.settings.ZonePicker"
-        android:key="timezone"
-        android:title="@string/date_time_set_timezone"
-        android:summary="GMT-8:00" />
+        <ListPreference
+            android:key="clock_am_pm_style"
+            android:dialogTitle="@string/clock_am_pm_style_title"
+            android:title="@string/clock_am_pm_style_title"
+            android:entries="@array/clock_am_pm_style_entries"
+            android:entryValues="@array/clock_am_pm_style_values"
+            android:dependency="clock_show" />
 
-    <com.android.settings.preference.SecureSettingSwitchPreference
-        android:key="clock_show"
-        android:title="@string/clock_show_title"
-        android:defaultValue="true" />
+        <ListPreference
+            android:key="clock_style"
+            android:entries="@array/clock_style_entries"
+            android:entryValues="@array/clock_style_values"
+            android:title="@string/clock_style_title"
+            android:dependency="clock_show" />
 
-    <com.android.settings.preference.SecureSettingSwitchPreference
-        android:key="clock_seconds"
-        android:title="@string/clock_seconds_title"
-        android:defaultValue="false"
-        android:dependency="clock_show" />
+        <ListPreference
+            android:key="clock_date_show"
+            android:title="@string/clock_date_show_title"
+            android:summary="@string/clock_date_show_summary"
+            android:entries="@array/clock_date_show_entries"
+            android:entryValues="@array/clock_date_show_values"
+            android:dependency="clock_show" />
 
-    <SwitchPreference
-        android:key="24 hour"
-        android:title="@string/date_time_24hour"
-        android:dependency="clock_show" />
+        <ListPreference
+            android:key="clock_date_style"
+            android:title="@string/clock_date_style_title"
+            android:entries="@array/clock_date_style_entries"
+            android:entryValues="@array/clock_date_style_values"
+            android:dependency="clock_show" />
+
+        <ListPreference
+            android:key="clock_date_position"
+            android:title="@string/clock_date_position"
+            android:entries="@array/clock_date_position_entries"
+            android:entryValues="@array/clock_date_position_values"
+            android:dependency="clock_show" />
+
+        <ListPreference
+            android:key="clock_date_format"
+            android:title="@string/clock_date_format"
+            android:entries="@array/clock_date_format_entries_values"
+            android:entryValues="@array/clock_date_format_entries_values"
+            android:dependency="clock_show" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:key="time_group_title"
+            android:title="@string/time_group_title">
+
+        <com.android.settingslib.RestrictedSwitchPreference
+            android:key="auto_time"
+            android:title="@string/date_time_auto"
+            android:summaryOn="@string/date_time_auto_summaryOn"
+            android:summaryOff="@string/date_time_auto_summaryOff"
+            settings:useAdditionalSummary="true"
+            settings:restrictedSwitchSummary="@string/enabled_by_admin" />
+
+        <SwitchPreference
+            android:key="auto_zone"
+            android:title="@string/zone_auto"
+            android:summaryOn="@string/zone_auto_summaryOn"
+            android:summaryOff="@string/zone_auto_summaryOff" />
+
+        <Preference 
+            android:key="date"
+            android:title="@string/date_time_set_date"
+            android:summary="03/10/2008" />
+
+        <Preference
+            android:key="time"
+            android:title="@string/date_time_set_time"
+            android:summary="12:00am" />
+
+        <PreferenceScreen
+            android:fragment="com.android.settings.ZonePicker"
+            android:key="timezone"
+            android:title="@string/date_time_set_timezone"
+            android:summary="GMT-8:00" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
