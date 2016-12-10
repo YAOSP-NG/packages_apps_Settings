@@ -276,4 +276,8 @@
     <string name="doze_notification_color_invert_summary_off">Ambient notifications will not be inverted</string>
     <string name="doze_notification_color_invert_summary_on">Ambient notifications will be inverted</string>
 
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Prevent accidental wake up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen when pressing the power button</string>
+
 </resources>
