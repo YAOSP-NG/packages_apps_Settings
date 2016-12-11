@@ -120,17 +120,17 @@
     <string name="doze_wakeup_doubletap_summary_on">Benötigt ein doppeltes antippen im Ambient-Display um das Gerät einzuschalten</string>
     <string name="doze_wakeup_doubletap_summary_off">Benötigt ein einfaches antippen im Ambient-Display um das Gerät einzuschalten (Standard)</string>
     <string name="doze_trigger_pickup_title">Auslösen durch Aufheben des Gerätes</string>
-    <string name="doze_trigger_pickup_summary_on">Aufheben wird als Auslöser genutzt</string>
+    <string name="doze_trigger_pickup_summary_on">Aufheben wird als Auslöser genutzt (Standard)</string>
     <string name="doze_trigger_pickup_summary_off">Aufheben wird nicht als Auslöser genutzt</string>
     <string name="doze_trigger_sigmotion_title">Auslösen durch eine deutliche Bewegung</string>
-    <string name="doze_trigger_sigmotion_summary_on">Eine deutliche Bewegung wird als Auslöser genutzt</string>
+    <string name="doze_trigger_sigmotion_summary_on">Eine deutliche Bewegung wird als Auslöser genutzt (Standard)</string>
     <string name="doze_trigger_sigmotion_summary_off">Eine deutliche Bewegung wird nicht als Auslöser genutzt</string>
+    <string name="doze_trigger_doubletap_title">Auslösen durch doppeltes Antippen</string>
+    <string name="doze_trigger_doubletap_summary_on">Eine doppeltes Antippen wird als Auslöser genutzt (Standard)</string>
+    <string name="doze_trigger_doubletap_summary_off">Eine doppeltes Antippen wird als Auslöser genutzt</string>
     <string name="doze_trigger_notification_title">Auslösen durch eine Benachrichtigung</string>
-    <string name="doze_trigger_notification_summary_on">Benachrichtigung wird als Auslöser genutzt</string>
+    <string name="doze_trigger_notification_summary_on">Benachrichtigung wird als Auslöser genutzt (Standard)</string>
     <string name="doze_trigger_notification_summary_off">Benachrichtigung wird nicht als Auslöser genutzt</string>
-    <string name="doze_schedule_title">Wiederholungsmuster</string>
-    <string name="doze_schedule_summary_on">Es werden vordefinierte Intervalle (normalerweise [1 s, 10 s, 30 s, 60 s, 120 s]) für wiederholtes Einschalten des Displays verwendet (Standard)</string>
-    <string name="doze_schedule_summary_off">Einmaliges Einschalten des Displays je Benachrichtigung</string>
     <string name="doze_brightness_title">Ambient-Display-Helligkeit</string>
     <string name="doze_brightness_summary">Helligkeit des Ambient-Display (% der maximal erlaubten Helligkeit)</string>
 
