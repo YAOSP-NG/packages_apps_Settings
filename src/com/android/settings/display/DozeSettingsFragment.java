@@ -37,6 +37,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 
+import com.android.internal.hardware.AmbientDisplayConfiguration;
 import com.android.internal.logging.MetricsLogger;
 import com.android.internal.logging.MetricsProto.MetricsEvent;
 import com.android.settings.preferences.CustomSeekBarPreference;
@@ -51,7 +52,7 @@ public class DozeSettingsFragment extends SettingsPreferenceFragment implements
     private static final String KEY_DOZE_TRIGGER_PICKUP = "doze_trigger_pickup";
     private static final String KEY_DOZE_TRIGGER_SIGMOTION = "doze_trigger_sigmotion";
     private static final String KEY_DOZE_TRIGGER_NOTIFICATION = "doze_trigger_notification";
-    private static final String KEY_DOZE_SCHEDULE = "doze_schedule";
+    private static final String KEY_DOZE_TRIGGER_DOUBLETAP = "doze_trigger_doubletap";
     private static final String KEY_DOZE_BRIGHTNESS = "doze_brightness";
 
     private static final String SYSTEMUI_METADATA_NAME = "com.android.systemui";
@@ -61,8 +62,10 @@ public class DozeSettingsFragment extends SettingsPreferenceFragment implements
     private SwitchPreference mDozeTriggerPickup;
     private SwitchPreference mDozeTriggerSigmotion;
     private SwitchPreference mDozeTriggerNotification;
-    private SwitchPreference mDozeSchedule;
+    private SwitchPreference mDozeTriggerDoubleTap;
     private CustomSeekBarPreference mDozeBrightness;
+
+    private AmbientDisplayConfiguration mConfig;
 
     private float mBrightnessScale;
     private float mDefaultBrightnessScale;
@@ -77,6 +80,8 @@ public class DozeSettingsFragment extends SettingsPreferenceFragment implements
         super.onCreate(savedInstanceState);
 
         final Activity activity = getActivity();
+        mConfig = new AmbientDisplayConfiguration(activity);
+
         PreferenceScreen prefSet = getPreferenceScreen();
         Resources res = getResources();
 
@@ -91,7 +96,7 @@ public class DozeSettingsFragment extends SettingsPreferenceFragment implements
         mDozeWakeupDoubleTap.setOnPreferenceChangeListener(this);
 
         // Doze triggers
-        if (isPickupSensorUsedByDefault(activity)) {
+        if (isPickupSensorUsedByDefault(mConfig)) {
             mDozeTriggerPickup = (SwitchPreference) findPreference(KEY_DOZE_TRIGGER_PICKUP);
             mDozeTriggerPickup.setOnPreferenceChangeListener(this);
         } else {
@@ -103,12 +108,14 @@ public class DozeSettingsFragment extends SettingsPreferenceFragment implements
         } else {
             removePreference(KEY_DOZE_TRIGGER_SIGMOTION);
         }
+        if (isDoubleTapSensorUsedByDefault(mConfig)) {
+            mDozeTriggerDoubleTap = (SwitchPreference) findPreference(KEY_DOZE_TRIGGER_DOUBLETAP);
+            mDozeTriggerDoubleTap.setOnPreferenceChangeListener(this);
+        } else {
+            removePreference(KEY_DOZE_TRIGGER_DOUBLETAP);
+        }
         mDozeTriggerNotification = (SwitchPreference) findPreference(KEY_DOZE_TRIGGER_NOTIFICATION);
         mDozeTriggerNotification.setOnPreferenceChangeListener(this);
-
-        // Doze schedule
-        mDozeSchedule = (SwitchPreference) findPreference(KEY_DOZE_SCHEDULE);
-        mDozeSchedule.setOnPreferenceChangeListener(this);
 
         // Doze brightness
         mDefaultBrightnessScale =
@@ -143,15 +150,15 @@ public class DozeSettingsFragment extends SettingsPreferenceFragment implements
             Settings.System.putInt(getContentResolver(),
                     Settings.System.DOZE_TRIGGER_SIGMOTION, value ? 1 : 0);
         }
+        if (preference == mDozeTriggerDoubleTap) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.DOZE_TRIGGER_DOUBLETAP, value ? 1 : 0);
+        }
         if (preference == mDozeTriggerNotification) {
             boolean value = (Boolean) newValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.DOZE_TRIGGER_NOTIFICATION, value ? 1 : 0);
-        }
-        if (preference == mDozeSchedule) {
-            boolean value = (Boolean) newValue;
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.DOZE_SCHEDULE, value ? 1 : 0);
         }
         if (preference == mDozeBrightness) {
             float valNav = (float) ((Integer) newValue);
@@ -191,15 +198,15 @@ public class DozeSettingsFragment extends SettingsPreferenceFragment implements
                     Settings.System.DOZE_TRIGGER_SIGMOTION, 1);
             mDozeTriggerSigmotion.setChecked(value != 0);
         }
+        if (mDozeTriggerDoubleTap != null) {
+            int value = Settings.System.getInt(getContentResolver(),
+                    Settings.System.DOZE_TRIGGER_DOUBLETAP, 1);
+            mDozeTriggerDoubleTap.setChecked(value != 0);
+        }
         if (mDozeTriggerNotification != null) {
             int value = Settings.System.getInt(getContentResolver(),
                     Settings.System.DOZE_TRIGGER_NOTIFICATION, 1);
             mDozeTriggerNotification.setChecked(value != 0);
-        }
-        if (mDozeSchedule != null) {
-            int value = Settings.System.getInt(getContentResolver(),
-                    Settings.System.DOZE_SCHEDULE, 1);
-            mDozeSchedule.setChecked(value != 0);
         }
         if (mDozeBrightness != null) {
             mBrightnessScale = Settings.System.getFloat(getContentResolver(),
@@ -208,12 +215,16 @@ public class DozeSettingsFragment extends SettingsPreferenceFragment implements
         }
     }
 
-    private static boolean isPickupSensorUsedByDefault(Context context) {
-        return getConfigBoolean(context, "doze_pulse_on_pick_up");
+    private static boolean isPickupSensorUsedByDefault(AmbientDisplayConfiguration config) {
+        return config.pulseOnPickupAvailable();
     }
 
     private static boolean isSigmotionSensorUsedByDefault(Context context) {
         return getConfigBoolean(context, "doze_pulse_on_significant_motion");
+    }
+
+    private static boolean isDoubleTapSensorUsedByDefault(AmbientDisplayConfiguration config) {
+        return config.pulseOnDoubleTapAvailable();
     }
 
     private static int dozeTimeoutDefault(Context context) {

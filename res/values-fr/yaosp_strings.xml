@@ -120,19 +120,19 @@
     <string name="doze_timeout_summary">Durée d\'activation de l\'écran lors d\'un événement</string>
     <string name="doze_wakeup_doubletap_title">Appuyez deux fois pour activer</string>
     <string name="doze_wakeup_doubletap_summary_on">Nécessite d\'appuyer deux fois pour activer l\'appareil en mode veille (doze)</string>
-    <string name="doze_wakeup_doubletap_summary_off">Nécessite d\'appuyer une seule fois pour activer l\'appareil en mode veille (doze) (default)</string>
+    <string name="doze_wakeup_doubletap_summary_off">Nécessite d\'appuyer une seule fois pour activer l\'appareil en mode veille (doze) (défaut)</string>
     <string name="doze_trigger_pickup_title">Déclenchement par détection de geste</string>
-    <string name="doze_trigger_pickup_summary_on">L\'impulsion sera déclenchée par la détection d\'un mouvement de l\'appareil</string>
+    <string name="doze_trigger_pickup_summary_on">L\'impulsion sera déclenchée par la détection d\'un mouvement de l\'appareil (défaut)</string>
     <string name="doze_trigger_pickup_summary_off">L\'impulsion ne sera pas déclenchée par la détection d\'un mouvement de l\'appareil</string>
     <string name="doze_trigger_sigmotion_title">Déclenchement par mouvement important</string>
-    <string name="doze_trigger_sigmotion_summary_on">L\'impulsion sera déclenchée par des mouvements importants</string>
+    <string name="doze_trigger_sigmotion_summary_on">L\'impulsion sera déclenchée par des mouvements importants (défaut)</string>
     <string name="doze_trigger_sigmotion_summary_off">L\'impulsion ne sera pas déclenchée par des mouvements importants</string>
+    <string name="doze_trigger_doubletap_title">Déclenchement par double appui</string>
+    <string name="doze_trigger_doubletap_summary_on">L\'impulsion sera déclenchée par la détection d\'un double appui sur l\'écran (défaut)</string>
+    <string name="doze_trigger_doubletap_summary_off">L\'impulsion ne sera pas déclenchée par la détection d\'un double appui sur l\'écran</string>
     <string name="doze_trigger_notification_title">Déclenchement par une notification</string>
-    <string name="doze_trigger_notification_summary_on">L\'impulsion sera déclenchée par les notifications</string>
+    <string name="doze_trigger_notification_summary_on">L\'impulsion sera déclenchée par les notifications (défaut)</string>
     <string name="doze_trigger_notification_summary_off">L\'impulsion ne sera pas déclenchée par les notifications</string>
-    <string name="doze_schedule_title">Répétition de l\'impulsion</string>
-    <string name="doze_schedule_summary_on">L\'intervalle prédéfini des répétitions sera utilisé: [1s, 10s, 30s, 60s, 120s] (par défaut)</string>
-    <string name="doze_schedule_summary_off">Une seule impulson par notification</string>
     <string name="doze_brightness_title">Niveau de luminosité de l\'affichage en mode veille</string>
     <string name="doze_brightness_summary">Luminosité de l\'affichage en mode veille (% de la luminosité maximale)</string>
 

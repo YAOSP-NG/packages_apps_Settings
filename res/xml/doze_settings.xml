@@ -51,19 +51,18 @@
             android:persistent="false" />
 
     <SwitchPreference
+            android:key="doze_trigger_doubletap"
+            android:title="@string/doze_trigger_doubletap_title"
+            android:summaryOn="@string/doze_trigger_doubletap_summary_on"
+            android:summaryOff="@string/doze_trigger_doubletap_summary_off"
+            android:persistent="false" />
+
+    <SwitchPreference
             android:key="doze_trigger_notification"
             android:title="@string/doze_trigger_notification_title"
             android:summaryOn="@string/doze_trigger_notification_summary_on"
             android:summaryOff="@string/doze_trigger_notification_summary_off"
             android:persistent="false" />
-
-    <SwitchPreference
-            android:key="doze_schedule"
-            android:title="@string/doze_schedule_title"
-            android:summaryOn="@string/doze_schedule_summary_on"
-            android:summaryOff="@string/doze_schedule_summary_off"
-            android:persistent="false"
-            android:dependency="doze_trigger_notification" />
 
     <com.android.settings.preferences.CustomSeekBarPreference
             android:key="doze_brightness"
