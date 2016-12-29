@@ -280,5 +280,10 @@
     <string name="proximity_wake_title">Запрещать случайное пробуждение</string>
     <string name="proximity_wake_summary">Опрашивать датчик расстояния перед включением экрана по нажатию кнопки</string>
 
+    <!-- Keyguard Voice assist -->
+    <string name="keyguard_voice_assist_title">Голосовой помощник на экране блокировки</string>
+    <string name="keyguard_voice_assist_summary_on">Показывать голосовой помощник (если доступен) в качестве левого нижнего ярлыка на экране блокировки (по умолчанию)</string>
+    <string name="keyguard_voice_assist_summary_off">Всегда показывать телефон в качестве левого нижнего ярлыка на экране блокировки</string>
+
 </resources>
 
