@@ -280,4 +280,9 @@
     <string name="proximity_wake_title">Véletlen ébresztés megakadályozása</string>
     <string name="proximity_wake_summary">A közelségérzékelő szenzor szabályozza a készülék felébresztésének szükségességét a bekapcsológomb megnyomásakor</string>
 	
+    <!-- Keyguard Voice assist -->
+    <string name="keyguard_voice_assist_title">Hangalapú keresés megjelenítése a záróképernyőn</string>
+    <string name="keyguard_voice_assist_summary_on">Parancsikon megjelenítése (ha elérhető) a záróképernyő bal alsó sarkában (alapértelmezett)</string>
+    <string name="keyguard_voice_assist_summary_off">Parancsikon állandó megjelenítése a záróképernyő bal alsó sarkában</string>
+	
 </resources>
