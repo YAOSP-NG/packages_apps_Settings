@@ -288,4 +288,9 @@
     <string name="proximity_wake_title">Prevent accidental wake up</string>
     <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen when pressing the power button</string>
 
+    <!-- Keyguard Voice assist -->
+    <string name="keyguard_voice_assist_title">Show voice assist on lockscreen</string>
+    <string name="keyguard_voice_assist_summary_on">Show voice assist (if available) as bottom left shortcut on lockscreen (default)</string>
+    <string name="keyguard_voice_assist_summary_off">Always show phone as bottom left shortcut on lockscreen</string>
+
 </resources>

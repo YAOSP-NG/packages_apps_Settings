@@ -270,4 +270,9 @@
     <string name="proximity_wake_title">Prévention contre le réveil accidentel</string>
     <string name="proximity_wake_summary">Vérifier le détecteur de proximité avant de réveiller le téléphone en appuyant la bouton marche/arrêt</string>
 
+    <!-- Keyguard Voice assist -->
+    <string name="keyguard_voice_assist_title">Afficher la recherche vocale dans l\'écran de vérouillage</string>
+    <string name="keyguard_voice_assist_summary_on">Afficher un raccourci vers la recherche vocale (si disponible) dans l\'écran de vérouillage en bas à gauche (défaut)</string>
+    <string name="keyguard_voice_assist_summary_off">Toujours afficher un raccourci vers le téléphone dans l\'écran de vérouillage en bas à gauche</string>
+
 </resources>
