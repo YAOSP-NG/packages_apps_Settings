@@ -262,4 +262,9 @@
     <string name="proximity_wake_title">Schutz gegen ungewolltes Aufwecken</string>
     <string name="proximity_wake_summary">Den Näherungssensor prüfen vor dem Aufwecken des Gerätes beim drücken der Power-Taste</string>
 
+    <!-- Keyguard Voice assist -->
+    <string name="keyguard_voice_assist_title">Sprachsuche im Sperrbildscirm anzeigen</string>
+    <string name="keyguard_voice_assist_summary_on">Verknüpfung zur Sprachsuche (falls verfügbar) unten links im Sperrbildscirm anzeigen (default)</string>
+    <string name="keyguard_voice_assist_summary_off">Immer Verknüpfung zum Telefon unten links im Sperrbildscirm anzeigen</string>
+
 </resources>
