@@ -38,12 +38,14 @@ public class NetworkTraffic extends SettingsPreferenceFragment
     private static final String NETWORK_TRAFFIC_UNIT = "network_traffic_unit";
     private static final String NETWORK_TRAFFIC_PERIOD = "network_traffic_period";
     private static final String NETWORK_TRAFFIC_AUTOHIDE = "network_traffic_autohide";
+    private static final String NETWORK_TRAFFIC_ANIMATE_ARROWS = "network_traffic_animate_arrows";
     private static final String NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD = "network_traffic_autohide_threshold";
 
     private ListPreference mNetTrafficState;
     private ListPreference mNetTrafficUnit;
     private ListPreference mNetTrafficPeriod;
     private SwitchPreference mNetTrafficAutohide;
+    private SwitchPreference mNetTrafficAnimateArrows;
     private CustomSeekBarPreference mNetTrafficAutohideThreshold;
 
     private int mNetTrafficVal;
@@ -79,6 +81,12 @@ public class NetworkTraffic extends SettingsPreferenceFragment
                 Settings.System.NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD, 10);
         mNetTrafficAutohideThreshold.setValue(netTrafficAutohideThreshold / 1);
         mNetTrafficAutohideThreshold.setOnPreferenceChangeListener(this);
+
+        mNetTrafficAnimateArrows =
+                (SwitchPreference) prefSet.findPreference(NETWORK_TRAFFIC_ANIMATE_ARROWS);
+        mNetTrafficAnimateArrows.setChecked((Settings.System.getInt(getContentResolver(),
+                Settings.System.NETWORK_TRAFFIC_ANIMATE_ARROWS, 0) == 1));
+        mNetTrafficAnimateArrows.setOnPreferenceChangeListener(this);
 
         // TrafficStats will return UNSUPPORTED if the device does not support it.
         if (TrafficStats.getTotalTxBytes() != TrafficStats.UNSUPPORTED &&
@@ -122,6 +130,7 @@ public class NetworkTraffic extends SettingsPreferenceFragment
             mNetTrafficAutohide.setEnabled(true);
             mNetTrafficAutohideThreshold.setEnabled(true);
         }
+        mNetTrafficAnimateArrows.setEnabled(mIndex == 3);
     }
    
     public boolean onPreferenceChange(Preference preference, Object newValue) {
@@ -149,6 +158,11 @@ public class NetworkTraffic extends SettingsPreferenceFragment
                     Settings.System.NETWORK_TRAFFIC_STATE, mNetTrafficVal);
             int index = mNetTrafficPeriod.findIndexOfValue((String) newValue);
             mNetTrafficPeriod.setSummary(mNetTrafficPeriod.getEntries()[index]);
+            return true;
+        } else if (preference == mNetTrafficAnimateArrows) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.NETWORK_TRAFFIC_ANIMATE_ARROWS, value ? 1 : 0);
             return true;
         } else if (preference == mNetTrafficAutohide) {
             boolean value = (Boolean) newValue;

@@ -107,6 +107,8 @@
     <string name="network_traffic_autohide">Automatisch verstecken</string>
     <string name="network_traffic_autohide_summary">Verstecke den Verkehrsmonitor wenn keine aktivität besteht.</string>
     <string name="network_traffic_autohide_threshold">Inaktivitätsschwelle</string>
+    <string name="network_traffic_animate_arrows">Pfeile animieren</string>
+    <string name="network_traffic_animate_arrows_summary">Pfeile aufgrund von Netzwerkaktivität aufblinken (ausgehend oder eingehend)</string>
 
     <!-- Charging vibration -->
     <string name="charging_vibration_title">Ladevibration</string>

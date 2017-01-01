@@ -125,6 +125,8 @@
     <string name="network_traffic_autohide">Auto hide</string>
     <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
+    <string name="network_traffic_animate_arrows">Animate arrows</string>
+    <string name="network_traffic_animate_arrows_summary">Highlight arrows when there is activity (outgoing or incoming respectively)</string>
 
     <!-- Charging vibration -->
     <string name="charging_vibration_title">Charging vibration</string>
