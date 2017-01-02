@@ -125,6 +125,8 @@
     <string name="network_traffic_autohide">Скрывать автоматически</string>
     <string name="network_traffic_autohide_summary">Скрывать монитор трафика когда нет сетевой активности</string>
     <string name="network_traffic_autohide_threshold">Порог неактивности</string>
+    <string name="network_traffic_animate_arrows">Анимировать стрелки</string>
+    <string name="network_traffic_animate_arrows_summary">Подсвечивать стрелки при сетевой активности (входящей или исходящей соответственно)</string>
 
     <!-- Charging vibration -->
     <string name="charging_vibration_title">Вибрация при зарядке</string>
