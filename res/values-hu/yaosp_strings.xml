@@ -61,7 +61,7 @@
     <string name="power_menu_lockdown_title">Eszköz lezárása</string>
     <string name="power_menu_bug_report_title">Hibajelentés</string>
     <string name="power_menu_sound_title">Hang mód</string>
-    <string name="power_menu_bug_report_disabled">Hibajelentés le van tiltva a fejlesztői beállításokban</string>
+    <string name="power_menu_bug_report_disabled">A hibajelentés le van tiltva a fejlesztői beállításokban</string>
 
     <!-- Rotation Modes  -->
     <string name="display_rotation_title">Képernyő elforgatás</string>
@@ -107,9 +107,9 @@
     <string name="network_traffic_options_title">Hálózati forgalom beállítások</string>
 
     <!-- Network traffic -->
-    <string name="network_traffic_title">Hálózati forgalomfigyelő</string>
-    <string name="show_network_traffic_state">Forgalomkijelzés állapota</string>
-    <string name="network_traffic_summary">Engedélyezi az adatforgalom kijelzést az állapotsávon</string>
+    <string name="network_traffic_title">Hálózati adatforgalom kijelző</string>
+    <string name="show_network_traffic_state">Adatforgalom kijelzés állapota</string>
+    <string name="network_traffic_summary">Engedélyezi a hálózati adatforgalom kijelzést az állapotsávon</string>
     <string name="show_network_traffic_unit">Mértékegység</string>
     <string name="show_network_traffic_frequency">Frissítés gyakorisága</string>
     <string name="show_network_traffic_disable">Letiltva</string>
@@ -123,9 +123,11 @@
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
     <string name="network_traffic_autohide">Automatikus elrejtés</string>
-    <string name="network_traffic_autohide_summary">Elrejti az adatforgalmi indikátort, ha nincs adatforgalom</string>
+    <string name="network_traffic_autohide_summary">Elrejti az adatforgalom kijelzést, ha nincs hálózati forgalom</string>
     <string name="network_traffic_autohide_threshold">Inaktivitás határértéke</string>
-	
+    <string name="network_traffic_animate_arrows">Animált nyilak</string>
+    <string name="network_traffic_animate_arrows_summary">Aktivitáskor kiemeli az adatforgalom jelző nyilat (kimenő és bejövőre vonatkozóan)</string>
+
     <!-- Charging vibration -->
     <string name="charging_vibration_title">Töltésnél rezeg</string>
 	
