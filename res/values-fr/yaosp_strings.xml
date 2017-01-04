@@ -243,4 +243,8 @@
     <!-- Hostname setting -->
     <string name="device_hostname">Nom d\'hôte de l\'appareil</string>
 
+    <!-- ADB debugging notifications -->
+    <string name="adb_notify">Notification de débogage USB</string>
+    <string name="adb_notify_summary">Afficher une notification lorsque le débogage USB ou réseau est actif</string>
+
 </resources>
