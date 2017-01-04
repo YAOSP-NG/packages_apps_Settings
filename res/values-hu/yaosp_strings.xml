@@ -61,7 +61,7 @@
     <string name="power_menu_lockdown_title">Eszköz lezárása</string>
     <string name="power_menu_bug_report_title">Hibajelentés</string>
     <string name="power_menu_sound_title">Hang mód</string>
-    <string name="power_menu_bug_report_disabled">Hibajelentés le van tiltva a fejlesztői beállításokban</string>
+    <string name="power_menu_bug_report_disabled">A hibajelentés le van tiltva a fejlesztői beállításokban</string>
 
     <!-- Rotation Modes  -->
     <string name="display_rotation_title">Képernyő elforgatás</string>
