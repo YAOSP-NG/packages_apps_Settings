@@ -126,7 +126,7 @@
     <string name="network_traffic_autohide_summary">Elrejti az adatforgalom kijelzést, ha nincs hálózati forgalom</string>
     <string name="network_traffic_autohide_threshold">Inaktivitás határértéke</string>
     <string name="network_traffic_animate_arrows">Animált nyilak</string>
-    <string name="network_traffic_animate_arrows_summary">Aktivitáskor kiemeli az adatforgalmat jelző nyilat (kimenő és bejövőre vonatkozóan)</string>
+    <string name="network_traffic_animate_arrows_summary">Aktivitáskor kiemeli az adatforgalom jelző nyilat (kimenő és bejövőre vonatkozóan)</string>
 
     <!-- Charging vibration -->
     <string name="charging_vibration_title">Töltésnél rezeg</string>
