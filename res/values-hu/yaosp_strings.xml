@@ -107,9 +107,9 @@
     <string name="network_traffic_options_title">Hálózati forgalom beállítások</string>
 
     <!-- Network traffic -->
-    <string name="network_traffic_title">Hálózati forgalomfigyelő</string>
-    <string name="show_network_traffic_state">Forgalomkijelzés állapota</string>
-    <string name="network_traffic_summary">Engedélyezi az adatforgalom kijelzést az állapotsávon</string>
+    <string name="network_traffic_title">Hálózati adatforgalom kijelző</string>
+    <string name="show_network_traffic_state">Adatforgalom kijelzés állapota</string>
+    <string name="network_traffic_summary">Engedélyezi a hálózati adatforgalom kijelzést az állapotsávon</string>
     <string name="show_network_traffic_unit">Mértékegység</string>
     <string name="show_network_traffic_frequency">Frissítés gyakorisága</string>
     <string name="show_network_traffic_disable">Letiltva</string>
@@ -123,7 +123,7 @@
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
     <string name="network_traffic_autohide">Automatikus elrejtés</string>
-    <string name="network_traffic_autohide_summary">Elrejti az adatforgalmi indikátort, ha nincs adatforgalom</string>
+    <string name="network_traffic_autohide_summary">Elrejti az adatforgalom kijelzést, ha nincs hálózati forgalom</string>
     <string name="network_traffic_autohide_threshold">Inaktivitás határértéke</string>
     <string name="network_traffic_animate_arrows">Animált nyilak</string>
     <string name="network_traffic_animate_arrows_summary">Aktivitáskor kiemeli az adatforgalmat jelző nyilat (kimenő és bejövőre vonatkozóan)</string>
