@@ -260,4 +260,9 @@
     <string name="keyguard_voice_assist_summary_on">Afficher un raccourci vers la recherche vocale (si disponible) dans l\'écran de vérouillage en bas à gauche (défaut)</string>
     <string name="keyguard_voice_assist_summary_off">Toujours afficher un raccourci vers le téléphone dans l\'écran de vérouillage en bas à gauche</string>
 
+    <!-- Lockscreen pin ripple -->
+    <string name="lockscreen_pin_ripple_title">Afficher l\'ondulation sur les boutons du pavé numérique</string>
+    <string name="lockscreen_pin_ripple_summary_on">Afficher l\'ondulation sur les boutons du pavé numérique lorsque vous entrez votre PIN (défaut)</string>
+    <string name="lockscreen_pin_ripple_summary_off">Masquer l\'ondulation sur les boutons du pavé numérique lorsque vous entrez votre PIN</string>
+
 </resources>
