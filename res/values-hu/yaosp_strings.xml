@@ -280,7 +280,7 @@
 	
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Véletlen ébresztés megakadályozása</string>
-    <string name="proximity_wake_summary">A közelségérzékelő szenzor szabályozza a készülék felébresztésének szükségességét a bekapcsológomb megnyomásakor</string>
+    <string name="proximity_wake_summary">A közelségérzékelő szenzor ellenőrzi a képernyő bekapcsolásának szükségességét a bekapcsológomb megnyomásakor</string>
 	
     <!-- Keyguard Voice assist -->
     <string name="keyguard_voice_assist_title">Hangalapú keresés a képernyőzáron</string>
