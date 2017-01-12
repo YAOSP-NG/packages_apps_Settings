@@ -275,3 +275,9 @@
     <string name="keyguard_voice_assist_summary_on">Verknüpfung zur Sprachsuche (falls verfügbar) unten links im Sperrbildscirm anzeigen (Standard)</string>
     <string name="keyguard_voice_assist_summary_off">Immer Verknüpfung zum Telefon unten links im Sperrbildscirm anzeigen</string>
 
+    <!-- Lockscreen pin ripple -->
+    <string name="lockscreen_pin_ripple_title">Show ripple on keypad buttons</string>
+    <string name="lockscreen_pin_ripple_summary_on">Ripple bei der Eingabe von PIN anzeigen (Standard)</string>
+    <string name="lockscreen_pin_ripple_summary_off">Ripple bei der Eingabe von PIN verstecken</string>
+
+</resources>

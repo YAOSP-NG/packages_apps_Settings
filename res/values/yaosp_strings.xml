@@ -293,4 +293,9 @@
     <string name="keyguard_voice_assist_summary_on">Show voice assist (if available) as bottom left shortcut on lockscreen (default)</string>
     <string name="keyguard_voice_assist_summary_off">Always show phone as bottom left shortcut on lockscreen</string>
 
+    <!-- Lockscreen pin ripple -->
+    <string name="lockscreen_pin_ripple_title">Show ripple on keypad buttons</string>
+    <string name="lockscreen_pin_ripple_summary_on">Show ripple on keypad buttons when entering pin numbers (default)</string>
+    <string name="lockscreen_pin_ripple_summary_off">Hide ripple on keypad buttons when entering pin numbers</string>
+
 </resources>

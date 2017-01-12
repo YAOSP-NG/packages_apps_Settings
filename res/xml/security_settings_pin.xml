@@ -47,6 +47,13 @@
             android:summaryOff="@string/keyguard_voice_assist_summary_off"
             android:defaultValue="true" />
 
+        <com.android.settings.preference.SystemSettingSwitchPreference
+            android:key="lockscreen_pin_ripple"
+            android:title="@string/lockscreen_pin_ripple_title"
+            android:summaryOn="@string/lockscreen_pin_ripple_summary_on"
+            android:summaryOff="@string/lockscreen_pin_ripple_summary_off"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
