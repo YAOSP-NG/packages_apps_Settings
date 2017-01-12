@@ -79,8 +79,8 @@
     <string name="unlock_quick_unlock_control_summary">Automatikus feloldás, ha megfelelő PIN/jelszó került megadásra (Az OK gomb megnyomása nem szükséges)\nFigyelem: Kizárólag abban az esetben működik ha a PIN 4 számjegyű!</string>
 
     <!-- Double-tap to sleep/wake -->
-    <string name="double_tap_sleep_anywhere_title">Záróképernyő érintése alvó módhoz</string>
-    <string name="double_tap_sleep_anywhere_summary">Érintsd meg kétszer a záróképernyőt bárhol az alvó módhoz</string>
+    <string name="double_tap_sleep_anywhere_title">Képernyőzár érintése alvó módhoz</string>
+    <string name="double_tap_sleep_anywhere_summary">Érintsd meg kétszer a kijelzőt bárhol az alvó módhoz</string>
     <string name="double_tap_sleep_nav_bar_title">Navigációs sáv érintése alvó módhoz</string>
     <string name="double_tap_sleep_nav_bar_summary">Érintsd meg kétszer a navigációs sávot az alvó módhoz</string>
 	
@@ -233,8 +233,8 @@
     <string name="notification_light_voicemail_title">Hangüzenet</string>
 
     <!-- Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Töltési információ a záróképernyőn</string>
-    <string name="lockscreen_battery_info_summary">Megjeleníti a záróképernyőn a jelenlegi maximális töltőáramot, feszültséget és az akkumulátor hőmérsékletét töltés közben</string>
+    <string name="lockscreen_battery_info_title">Töltési információ a képernyőzáron</string>
+    <string name="lockscreen_battery_info_summary">Megjeleníti a képernyőzáron a jelenlegi maximális töltőáramot, feszültséget és az akkumulátor hőmérsékletét töltés közben</string>
 
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">Emelkedő csengőhangerő</string>
@@ -274,17 +274,22 @@
     <string name="notification_tint_summary_on">Az alkalmazás értesítéseinek színét az alkalmazásikon színe határozza meg</string>
 	
     <!-- Doze invert -->
-    <string name="doze_notification_color_invert_title">Értesítési színek invertálása</string>
-    <string name="doze_notification_color_invert_summary_off">A környezeti kijelző értesítési színei nem invertálódnak</string>
-    <string name="doze_notification_color_invert_summary_on">A környezeti kijelző értesítési színei invertálódnak</string>
+    <string name="doze_notification_color_invert_title">Értesítés invertálása</string>
+    <string name="doze_notification_color_invert_summary_off">A környezeti értesítések nem invertálódnak</string>
+    <string name="doze_notification_color_invert_summary_on">A környezeti értesítések invertálódnak</string>
 	
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Véletlen ébresztés megakadályozása</string>
     <string name="proximity_wake_summary">A közelségérzékelő szenzor szabályozza a készülék felébresztésének szükségességét a bekapcsológomb megnyomásakor</string>
 	
     <!-- Keyguard Voice assist -->
-    <string name="keyguard_voice_assist_title">Hangalapú keresés megjelenítése a záróképernyőn</string>
-    <string name="keyguard_voice_assist_summary_on">Parancsikon megjelenítése (ha elérhető) a záróképernyő bal alsó sarkában (alapértelmezett)</string>
-    <string name="keyguard_voice_assist_summary_off">Parancsikon állandó megjelenítése a záróképernyő bal alsó sarkában</string>
+    <string name="keyguard_voice_assist_title">Hangalapú keresés a képernyőzáron</string>
+    <string name="keyguard_voice_assist_summary_on">Parancsikon megjelenítése (ha elérhető) a képernyőzár bal alsó sarkában (alapértelmezett)</string>
+    <string name="keyguard_voice_assist_summary_off">Parancsikon állandó megjelenítése a képernyőzár bal alsó sarkában</string>
 	
+    <!-- Lockscreen pin ripple -->
+    <string name="lockscreen_pin_ripple_title">Képernyőzár PIN fodrozódás</string>
+    <string name="lockscreen_pin_ripple_summary_on">Fodrozódás megjelenítése a PIN kód bevitelnél (alapértelmezett)</string>
+    <string name="lockscreen_pin_ripple_summary_off">Fodrozódás elrejtése a PIN kód bevitelnél</string>
+
 </resources>
