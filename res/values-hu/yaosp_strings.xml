@@ -289,7 +289,7 @@
 	
     <!-- Lockscreen pin ripple -->
     <string name="lockscreen_pin_ripple_title">Képernyőzár PIN fodrozódás</string>
-    <string name="lockscreen_pin_ripple_summary_on">Fodrozódás megjelenítése a PIN kód bevitelnél (alapértelmezett)</string>
-    <string name="lockscreen_pin_ripple_summary_off">Fodrozódás elrejtése a PIN kód bevitelnél</string>
+    <string name="lockscreen_pin_ripple_summary_on">Fodrozódás bekapcsolva a PIN kód bevitelnél (alapértelmezett)</string>
+    <string name="lockscreen_pin_ripple_summary_off">Fodrozódás kikapcsolva a PIN kód bevitelnél</string>
 
 </resources>
