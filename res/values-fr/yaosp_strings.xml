@@ -128,8 +128,8 @@
     <string name="doze_trigger_sigmotion_summary_on">L\'impulsion sera déclenchée par des mouvements importants (défaut)</string>
     <string name="doze_trigger_sigmotion_summary_off">L\'impulsion ne sera pas déclenchée par des mouvements importants</string>
     <string name="doze_trigger_doubletap_title">Déclenchement par double appui</string>
-    <string name="doze_trigger_doubletap_summary_on">L\'impulsion sera déclenchée par la détection d\'un double appui sur l\'écran (défaut)</string>
-    <string name="doze_trigger_doubletap_summary_off">L\'impulsion ne sera pas déclenchée par la détection d\'un double appui sur l\'écran</string>
+    <string name="doze_trigger_doubletap_summary_on">L\'impulsion sera déclenchée par la détection d\'un double appui sur l\'écran</string>
+    <string name="doze_trigger_doubletap_summary_off">L\'impulsion ne sera pas déclenchée par la détection d\'un double appui sur l\'écran (défaut)</string>
     <string name="doze_trigger_notification_title">Déclenchement par une notification</string>
     <string name="doze_trigger_notification_summary_on">L\'impulsion sera déclenchée par les notifications (défaut)</string>
     <string name="doze_trigger_notification_summary_off">L\'impulsion ne sera pas déclenchée par les notifications</string>

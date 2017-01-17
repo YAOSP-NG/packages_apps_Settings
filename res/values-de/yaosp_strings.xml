@@ -128,8 +128,8 @@
     <string name="doze_trigger_sigmotion_summary_on">Eine deutliche Bewegung wird als Auslöser genutzt (Standard)</string>
     <string name="doze_trigger_sigmotion_summary_off">Eine deutliche Bewegung wird nicht als Auslöser genutzt</string>
     <string name="doze_trigger_doubletap_title">Auslösen durch doppeltes Antippen</string>
-    <string name="doze_trigger_doubletap_summary_on">Eine doppeltes Antippen wird als Auslöser genutzt (Standard)</string>
-    <string name="doze_trigger_doubletap_summary_off">Eine doppeltes Antippen wird als Auslöser genutzt</string>
+    <string name="doze_trigger_doubletap_summary_on">Eine doppeltes Antippen wird als Auslöser genutzt</string>
+    <string name="doze_trigger_doubletap_summary_off">Eine doppeltes Antippen wird als Auslöser genutzt (Standard)</string>
     <string name="doze_trigger_notification_title">Auslösen durch eine Benachrichtigung</string>
     <string name="doze_trigger_notification_summary_on">Benachrichtigung wird als Auslöser genutzt (Standard)</string>
     <string name="doze_trigger_notification_summary_off">Benachrichtigung wird nicht als Auslöser genutzt</string>
