@@ -146,8 +146,8 @@
     <string name="doze_trigger_sigmotion_summary_on">Doze включится при срабатывании датчика движения (по умолчанию)</string>
     <string name="doze_trigger_sigmotion_summary_off">Датчик движения не будет вызывать включение doze</string>
     <string name="doze_trigger_doubletap_title">Двойное постукивание</string>
-    <string name="doze_trigger_doubletap_summary_on">Doze включится при двойном постукивании по экрану (по умолчанию)</string>
-    <string name="doze_trigger_doubletap_summary_off">Двойное постукивание не будет вызывать включение doze</string>
+    <string name="doze_trigger_doubletap_summary_on">Doze включится при двойном постукивании по экрану</string>
+    <string name="doze_trigger_doubletap_summary_off">Двойное постукивание не будет вызывать включение doze (по умолчанию)</string>
     <string name="doze_trigger_notification_title">Уведомления</string>
     <string name="doze_trigger_notification_summary_on">Doze включится при получении уведомления (по умолчанию)</string>
     <string name="doze_trigger_notification_summary_off">Уведомления не будут вызывать включение doze</string>
