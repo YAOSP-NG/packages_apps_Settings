@@ -146,8 +146,8 @@
     <string name="doze_trigger_sigmotion_summary_on">A kijelzőt egy jelentősebb mozgás aktiválja (alapértelmezett)</string>
     <string name="doze_trigger_sigmotion_summary_off">A jelentősebb mozgást érzékelő szenzor nincs beállítva az aktiváláshoz</string>
     <string name="doze_trigger_doubletap_title">Dupla érintésre aktiválódó</string>
-    <string name="doze_trigger_doubletap_summary_on">A környezeti kijelző mód dupla érintésre aktiválódik (alapértelmezett)</string>
-    <string name="doze_trigger_doubletap_summary_off">A dupla érintést érzékelő szenzor nincs beállítva az aktiváláshoz</string>
+    <string name="doze_trigger_doubletap_summary_on">A környezeti kijelző mód dupla érintésre aktiválódik</string>
+    <string name="doze_trigger_doubletap_summary_off">A dupla érintést érzékelő szenzor nincs beállítva az aktiváláshoz (alapértelmezett)</string>
     <string name="doze_trigger_notification_title">Értesítésre aktiválódó</string>
     <string name="doze_trigger_notification_summary_on">A környezeti kijelzőt az értesítések aktiválják (alapértelmezett)</string>
     <string name="doze_trigger_notification_summary_off">Az értesítések nem aktiválják a környezeti kijelzőt</string>
