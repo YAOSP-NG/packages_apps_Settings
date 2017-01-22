@@ -132,7 +132,7 @@
     <string name="charging_vibration_title">Töltésnél rezeg</string>
 	
     <!-- Doze options -->
-    <string name="display_category_doze_options_title">Környezeti kijelző beállítások (doze)</string>
+    <string name="display_category_doze_options_title">Környezeti kijelző beállítások</string>
     <string name="doze_settings_title">Környezeti kijelző haladó beállítások</string>
     <string name="doze_timeout_title">Környezeti kijelző időkorlát</string>
     <string name="doze_timeout_summary">Az az időtartam, amíg a kijelző bekapcsolva marad az értesítés hatására</string>
@@ -140,17 +140,17 @@
     <string name="doze_wakeup_doubletap_summary_on">Az ébresztéshez dupla érintés szükséges a környezeti kijelző módból</string>
     <string name="doze_wakeup_doubletap_summary_off">Az ébresztéshez egy érintés szükséges a környezeti kijelző módból (alapértelmezett)</string>
     <string name="doze_trigger_pickup_title">Felemelő mozdulatra aktiválódó</string>
-    <string name="doze_trigger_pickup_summary_on">A kijelzőt a készülék felemelése aktiválja (alapértelmezett)</string>
-    <string name="doze_trigger_pickup_summary_off">A felemelő mozdulatot érzékelő szenzor nincs beállítva az aktiváláshoz</string>
+    <string name="doze_trigger_pickup_summary_on">A környezeti kijelzőt a készülék felemelése aktiválja (alapértelmezett)</string>
+    <string name="doze_trigger_pickup_summary_off">A felemelő mozdulatot érzékelő szenzor nincs beállítva a környezeti kijelző aktiválásához</string>
     <string name="doze_trigger_sigmotion_title">Jelentősebb mozgásra aktiválódó</string>
-    <string name="doze_trigger_sigmotion_summary_on">A kijelzőt egy jelentősebb mozgás aktiválja (alapértelmezett)</string>
-    <string name="doze_trigger_sigmotion_summary_off">A jelentősebb mozgást érzékelő szenzor nincs beállítva az aktiváláshoz</string>
+    <string name="doze_trigger_sigmotion_summary_on">A környezeti kijelzőt egy jelentősebb mozgás aktiválja (alapértelmezett)</string>
+    <string name="doze_trigger_sigmotion_summary_off">A jelentősebb mozgást érzékelő szenzor nincs beállítva a környezeti kijelző aktiválásához</string>
     <string name="doze_trigger_doubletap_title">Dupla érintésre aktiválódó</string>
-    <string name="doze_trigger_doubletap_summary_on">A környezeti kijelző mód dupla érintésre aktiválódik</string>
-    <string name="doze_trigger_doubletap_summary_off">A dupla érintést érzékelő szenzor nincs beállítva az aktiváláshoz (alapértelmezett)</string>
+    <string name="doze_trigger_doubletap_summary_on">A környezeti kijelzőt dupla érintés aktiválja</string>
+    <string name="doze_trigger_doubletap_summary_off">A dupla érintés nincs beállítva a környezeti kijelző aktiválásához (alapértelmezett)</string>
     <string name="doze_trigger_notification_title">Értesítésre aktiválódó</string>
     <string name="doze_trigger_notification_summary_on">A környezeti kijelzőt az értesítések aktiválják (alapértelmezett)</string>
-    <string name="doze_trigger_notification_summary_off">Az értesítések nem aktiválják a környezeti kijelzőt</string>
+    <string name="doze_trigger_notification_summary_off">Az értesítések nincsenek beállítva a környezeti kijelző aktiválásához</string>
     <string name="doze_brightness_title">Környezeti kijelző fényerőszint</string>
     <string name="doze_brightness_summary">A környezeti kijelző fényereje (max az engedélyezett fényerő %-a)</string>
 	
@@ -274,9 +274,9 @@
     <string name="notification_tint_summary_on">Az alkalmazás értesítéseinek színét az alkalmazásikon színe határozza meg</string>
 	
     <!-- Doze invert -->
-    <string name="doze_notification_color_invert_title">Értesítés invertálása</string>
-    <string name="doze_notification_color_invert_summary_off">A környezeti értesítések nem invertálódnak</string>
-    <string name="doze_notification_color_invert_summary_on">A környezeti értesítések invertálódnak</string>
+    <string name="doze_notification_color_invert_title">Értesítési szín invertálása</string>
+    <string name="doze_notification_color_invert_summary_off">Az értesítés színe nem invertálódik</string>
+    <string name="doze_notification_color_invert_summary_on">Az értesítés színe invertálódik</string>
 	
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Véletlen ébresztés megakadályozása</string>
