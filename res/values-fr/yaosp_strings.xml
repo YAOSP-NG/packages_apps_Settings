@@ -116,8 +116,14 @@
     <!-- Doze options -->
     <string name="display_category_doze_options_title">Options de l\'affichage en mode veille (doze)</string>
     <string name="doze_settings_title">Options avancées de l\'affichage en mode veille</string>
+    <string name="doze_fade_in_pickup_title">Durée d\'apparition de l\'impulsion (mouvement)</string>
+    <string name="doze_fade_in_pickup_summary">Durée d\'apparition de l\'impulsion lors d\'un mouvement de l\'appareil (défaut 100)</string>
+    <string name="doze_fade_in_doubletap_title">Durée d\'apparition de l\'impulsion (double appui)</string>
+    <string name="doze_fade_in_doubletap_summary">Durée d\'apparition de l\'impulsion suite à un double appui sur l\'écran (défaut 900)</string>
     <string name="doze_timeout_title">Durée d\'activation de l\'impulsion</string>
-    <string name="doze_timeout_summary">Durée d\'activation de l\'écran lors d\'un événement</string>
+    <string name="doze_timeout_summary">Durée d\'activation de l\'écran lors d\'un événement (défaut 6000)</string>
+    <string name="doze_fade_out_title">Durée de disparition de l\'impulsion</string>
+    <string name="doze_fade_out_summary">Durée de la disparition de l\'impulsion (défaut 600)</string>
     <string name="doze_wakeup_doubletap_title">Appuyez deux fois pour activer</string>
     <string name="doze_wakeup_doubletap_summary_on">Nécessite d\'appuyer deux fois pour activer l\'appareil en mode veille (doze)</string>
     <string name="doze_wakeup_doubletap_summary_off">Nécessite d\'appuyer une seule fois pour activer l\'appareil en mode veille (doze) (défaut)</string>

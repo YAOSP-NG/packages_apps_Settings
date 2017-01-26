@@ -47,7 +47,10 @@ import com.android.settings.SettingsPreferenceFragment;
 public class DozeSettingsFragment extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener {
 
+    private static final String KEY_DOZE_FADE_IN_PICKUP = "doze_fade_in_pickup";
+    private static final String KEY_DOZE_FADE_IN_DOUBLETAP = "doze_fade_in_doubletap";
     private static final String KEY_DOZE_TIMEOUT = "doze_timeout";
+    private static final String KEY_DOZE_FADE_OUT = "doze_fade_out";
     private static final String KEY_DOZE_WAKEUP_DOUBLETAP = "doze_wakeup_doubletap";
     private static final String KEY_DOZE_TRIGGER_PICKUP = "doze_trigger_pickup";
     private static final String KEY_DOZE_TRIGGER_SIGMOTION = "doze_trigger_sigmotion";
@@ -57,7 +60,10 @@ public class DozeSettingsFragment extends SettingsPreferenceFragment implements
 
     private static final String SYSTEMUI_METADATA_NAME = "com.android.systemui";
 
+    private CustomSeekBarPreference mDozeFadeInPickup;
+    private CustomSeekBarPreference mDozeFadeInDoubleTap;
     private CustomSeekBarPreference mDozeTimeout;
+    private CustomSeekBarPreference mDozeFadeOut;
     private SwitchPreference mDozeWakeupDoubleTap;
     private SwitchPreference mDozeTriggerPickup;
     private SwitchPreference mDozeTriggerSigmotion;
@@ -87,9 +93,26 @@ public class DozeSettingsFragment extends SettingsPreferenceFragment implements
 
         addPreferencesFromResource(R.xml.doze_settings);
 
+        // Doze fade in seekbar for pickup
+        mDozeFadeInPickup = (CustomSeekBarPreference) findPreference(KEY_DOZE_FADE_IN_PICKUP);
+        mDozeFadeInPickup.setOnPreferenceChangeListener(this);
+
+        // Doze fade in seekbar for doubletap
+        if (isDoubleTapSensorUsedByDefault(mConfig) || isTapToWakeAvailable(res)) {
+            mDozeFadeInDoubleTap =
+                    (CustomSeekBarPreference) findPreference(KEY_DOZE_FADE_IN_DOUBLETAP);
+            mDozeFadeInDoubleTap.setOnPreferenceChangeListener(this);
+        } else {
+            removePreference(KEY_DOZE_FADE_IN_DOUBLETAP);
+        }            
+
         // Doze timeout seekbar
         mDozeTimeout = (CustomSeekBarPreference) findPreference(KEY_DOZE_TIMEOUT);
         mDozeTimeout.setOnPreferenceChangeListener(this);
+
+        // Doze fade out seekbar
+        mDozeFadeOut = (CustomSeekBarPreference) findPreference(KEY_DOZE_FADE_OUT);
+        mDozeFadeOut.setOnPreferenceChangeListener(this);
 
         // Double-tap to wake from doze
         mDozeWakeupDoubleTap = (SwitchPreference) findPreference(KEY_DOZE_WAKEUP_DOUBLETAP);
@@ -133,10 +156,25 @@ public class DozeSettingsFragment extends SettingsPreferenceFragment implements
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mDozeFadeInPickup) {
+            int dozeFadeInPickup = (Integer) newValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.DOZE_FADE_IN_PICKUP, dozeFadeInPickup);
+        }
+        if (preference == mDozeFadeInDoubleTap) {
+            int dozeFadeInDoubleTap = (Integer) newValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.DOZE_FADE_IN_DOUBLETAP, dozeFadeInDoubleTap);
+        }
         if (preference == mDozeTimeout) {
             int dozeTimeout = (Integer) newValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.DOZE_TIMEOUT, dozeTimeout);
+        }
+        if (preference == mDozeFadeOut) {
+            int dozeFadeOut = (Integer) newValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.DOZE_FADE_OUT, dozeFadeOut);
         }
         if (preference == mDozeWakeupDoubleTap) {
             boolean value = (Boolean) newValue;
@@ -181,10 +219,25 @@ public class DozeSettingsFragment extends SettingsPreferenceFragment implements
         final Activity activity = getActivity();
 
         // Update doze preferences
+        if (mDozeFadeInPickup != null) {
+            final int statusDozeFadeInPickup = Settings.System.getInt(getContentResolver(),
+                    Settings.System.DOZE_FADE_IN_PICKUP, dozeFadeInDefault(activity, true));
+            mDozeFadeInPickup.setValue(statusDozeFadeInPickup);
+        }
+        if (mDozeFadeInDoubleTap != null) {
+            final int statusDozeFadeInDoubleTap = Settings.System.getInt(getContentResolver(),
+                    Settings.System.DOZE_FADE_IN_DOUBLETAP, dozeFadeInDefault(activity, false));
+            mDozeFadeInDoubleTap.setValue(statusDozeFadeInDoubleTap);
+        }
         if (mDozeTimeout != null) {
             final int statusDozeTimeout = Settings.System.getInt(getContentResolver(),
                     Settings.System.DOZE_TIMEOUT, dozeTimeoutDefault(activity));
             mDozeTimeout.setValue(statusDozeTimeout);
+        }
+        if (mDozeFadeOut != null) {
+            final int statusDozeFadeOut = Settings.System.getInt(getContentResolver(),
+                    Settings.System.DOZE_FADE_OUT, dozeFadeOutDefault(activity));
+            mDozeFadeOut.setValue(statusDozeFadeOut);
         }
         if (mDozeWakeupDoubleTap != null) {
             int value = Settings.System.getInt(getContentResolver(),
@@ -239,8 +292,18 @@ public class DozeSettingsFragment extends SettingsPreferenceFragment implements
         return config.pulseOnDoubleTapAvailable();
     }
 
+    private static int dozeFadeInDefault(Context context, boolean pickupOrDoubleTap) {
+        return pickupOrDoubleTap
+                ? getConfigInteger(context, "doze_pulse_duration_in_pickup")
+                : getConfigInteger(context, "doze_pulse_duration_in");
+    }
+
     private static int dozeTimeoutDefault(Context context) {
         return getConfigInteger(context, "doze_pulse_duration_visible");
+    }
+
+    private static int dozeFadeOutDefault(Context context) {
+        return getConfigInteger(context, "doze_pulse_duration_out");
     }
 
     private static Boolean getConfigBoolean(Context context, String configBooleanName) {

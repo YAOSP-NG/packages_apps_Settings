@@ -116,8 +116,14 @@
     <!-- Doze options -->
     <string name="display_category_doze_options_title">Ambient-Display-Einstellungen (Doze)</string>
     <string name="doze_settings_title">Erweiterte Ambient-Display-Einstelllungen</string>
+    <string name="doze_fade_in_pickup_title">Ambient-Display-Einblendzeit (aufheben)</string>
+    <string name="doze_fade_in_pickup_summary">Zeitdauer, wie die Benachrichtigungen beim aufheben eingeblendet wird (Standard 100)</string>
+    <string name="doze_fade_in_doubletap_title">Ambient-Display-Einblendzeit (doppeltes Antippen)</string>
+    <string name="doze_fade_in_doubletap_summary">Zeitdauer, wie die Benachrichtigungen beim doppelten Antippen eingeblendet wird (Standard 900)</string>
     <string name="doze_timeout_title">Ambient-Display-Zeitdauer</string>
-    <string name="doze_timeout_summary">Zeitdauer, die der Bildschirm bei Benachrichtigungen anbleibt</string>
+    <string name="doze_timeout_summary">Zeitdauer, die der Bildschirm bei Benachrichtigungen anbleibt (Standard 6000)</string>
+    <string name="doze_fade_out_title">Ambient-Display-Ausblendzeit</string>
+    <string name="doze_fade_out_summary">Zeitdauer, wie die Benachrichtigungen ausgeblendet wird (Standard 600)</string>
     <string name="doze_wakeup_doubletap_title">Doppeltes Antippen zum einschalten</string>
     <string name="doze_wakeup_doubletap_summary_on">Benötigt ein doppeltes antippen im Ambient-Display um das Gerät einzuschalten</string>
     <string name="doze_wakeup_doubletap_summary_off">Benötigt ein einfaches antippen im Ambient-Display um das Gerät einzuschalten (Standard)</string>

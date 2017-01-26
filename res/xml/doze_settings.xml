@@ -20,14 +20,53 @@
         android:title="@string/doze_settings_title">
 
     <com.android.settings.preferences.CustomSeekBarPreference
+            android:key="doze_fade_in_pickup"
+            android:title="@string/doze_fade_in_pickup_title"
+            android:summary="@string/doze_fade_in_pickup_summary"
+            settings:maximum="10000"
+            settings:minimum="0"
+            settings:interval="100"
+            settings:units="ms"
+            android:persistent="false" />
+
+    <com.android.settings.preferences.CustomSeekBarPreference
+            android:key="doze_fade_in_doubletap"
+            android:title="@string/doze_fade_in_doubletap_title"
+            android:summary="@string/doze_fade_in_doubletap_summary"
+            settings:maximum="10000"
+            settings:minimum="0"
+            settings:interval="100"
+            settings:units="ms"
+            android:persistent="false" />
+
+    <com.android.settings.preferences.CustomSeekBarPreference
             android:key="doze_timeout"
             android:title="@string/doze_timeout_title"
             android:summary="@string/doze_timeout_summary"
             settings:maximum="30000"
             settings:minimum="500"
-            settings:interval="500"
+            settings:interval="100"
             settings:units="ms"
             android:persistent="false" />
+
+    <com.android.settings.preferences.CustomSeekBarPreference
+            android:key="doze_fade_out"
+            android:title="@string/doze_fade_out_title"
+            android:summary="@string/doze_fade_out_summary"
+            settings:maximum="10000"
+            settings:minimum="0"
+            settings:interval="100"
+            settings:units="ms"
+            android:persistent="false" />
+
+    <com.android.settings.preferences.CustomSeekBarPreference
+            android:key="doze_brightness"
+            android:title="@string/doze_brightness_title"
+            android:summary="@string/doze_brightness_summary"
+            settings:maximum="100"
+            settings:minimum="0"
+            settings:interval="1"
+            settings:units="%" />
 
      <SwitchPreference
             android:key="doze_wakeup_doubletap"
@@ -63,15 +102,6 @@
             android:summaryOn="@string/doze_trigger_notification_summary_on"
             android:summaryOff="@string/doze_trigger_notification_summary_off"
             android:persistent="false" />
-
-    <com.android.settings.preferences.CustomSeekBarPreference
-            android:key="doze_brightness"
-            android:title="@string/doze_brightness_title"
-            android:summary="@string/doze_brightness_summary"
-            settings:maximum="100"
-            settings:minimum="0"
-            settings:interval="1"
-            settings:units="%" />
 
     <com.android.settings.preference.SecureSettingSwitchPreference
             android:key="doze_notification_invert_enabled"
