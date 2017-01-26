@@ -133,7 +133,7 @@
 	
     <!-- Doze options -->
     <string name="display_category_doze_options_title">Környezeti kijelző (doze) beállítások</string>
-    <string name="doze_settings_title">Haladó környezeti kijelző beállítások</string>
+    <string name="doze_settings_title">Környezeti kijelző haladó beállítások</string>
     <string name="doze_fade_in_pickup_title">Környezeti kijelző halványulás (felemelés)</string>
     <string name="doze_fade_in_pickup_summary">Idő, miután a kijelzőn elhalványul az értesítés a felemelést követően (alapértelmezett 100)</string>
     <string name="doze_fade_in_doubletap_title">Környezeti kijelző halványulás (dupla érintés)</string>
