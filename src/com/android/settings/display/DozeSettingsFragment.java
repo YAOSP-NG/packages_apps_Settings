@@ -158,53 +158,53 @@ public class DozeSettingsFragment extends SettingsPreferenceFragment implements
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mDozeFadeInPickup) {
             int dozeFadeInPickup = (Integer) newValue;
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.DOZE_FADE_IN_PICKUP, dozeFadeInPickup);
+            Settings.Secure.putInt(getContentResolver(),
+                    Settings.Secure.DOZE_FADE_IN_PICKUP, dozeFadeInPickup);
         }
         if (preference == mDozeFadeInDoubleTap) {
             int dozeFadeInDoubleTap = (Integer) newValue;
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.DOZE_FADE_IN_DOUBLETAP, dozeFadeInDoubleTap);
+            Settings.Secure.putInt(getContentResolver(),
+                    Settings.Secure.DOZE_FADE_IN_DOUBLETAP, dozeFadeInDoubleTap);
         }
         if (preference == mDozeTimeout) {
             int dozeTimeout = (Integer) newValue;
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.DOZE_TIMEOUT, dozeTimeout);
+            Settings.Secure.putInt(getContentResolver(),
+                    Settings.Secure.DOZE_TIMEOUT, dozeTimeout);
         }
         if (preference == mDozeFadeOut) {
             int dozeFadeOut = (Integer) newValue;
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.DOZE_FADE_OUT, dozeFadeOut);
+            Settings.Secure.putInt(getContentResolver(),
+                    Settings.Secure.DOZE_FADE_OUT, dozeFadeOut);
         }
         if (preference == mDozeWakeupDoubleTap) {
             boolean value = (Boolean) newValue;
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.DOUBLE_TAP_WAKE_DOZE, value ? 1 : 0);
+            Settings.Secure.putInt(getContentResolver(),
+                    Settings.Secure.DOZE_WAKEUP_DOUBLETAP, value ? 1 : 0);
         }
         if (preference == mDozeTriggerPickup) {
             boolean value = (Boolean) newValue;
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.DOZE_TRIGGER_PICKUP, value ? 1 : 0);
+            Settings.Secure.putInt(getContentResolver(),
+                    Settings.Secure.DOZE_TRIGGER_PICKUP, value ? 1 : 0);
         }
         if (preference == mDozeTriggerSigmotion) {
             boolean value = (Boolean) newValue;
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.DOZE_TRIGGER_SIGMOTION, value ? 1 : 0);
+            Settings.Secure.putInt(getContentResolver(),
+                    Settings.Secure.DOZE_TRIGGER_SIGMOTION, value ? 1 : 0);
         }
         if (preference == mDozeTriggerDoubleTap) {
             boolean value = (Boolean) newValue;
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.DOZE_TRIGGER_DOUBLETAP, value ? 1 : 0);
+            Settings.Secure.putInt(getContentResolver(),
+                    Settings.Secure.DOZE_TRIGGER_DOUBLETAP, value ? 1 : 0);
         }
         if (preference == mDozeTriggerNotification) {
             boolean value = (Boolean) newValue;
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.DOZE_TRIGGER_NOTIFICATION, value ? 1 : 0);
+            Settings.Secure.putInt(getContentResolver(),
+                    Settings.Secure.DOZE_TRIGGER_NOTIFICATION, value ? 1 : 0);
         }
         if (preference == mDozeBrightness) {
             float valNav = (float) ((Integer) newValue);
-            Settings.System.putFloat(getContentResolver(),
-                    Settings.System.DOZE_BRIGHTNESS, valNav / 100);
+            Settings.Secure.putFloat(getContentResolver(),
+                    Settings.Secure.DOZE_BRIGHTNESS, valNav / 100);
         }
         return true;
     }
@@ -220,53 +220,53 @@ public class DozeSettingsFragment extends SettingsPreferenceFragment implements
 
         // Update doze preferences
         if (mDozeFadeInPickup != null) {
-            final int statusDozeFadeInPickup = Settings.System.getInt(getContentResolver(),
-                    Settings.System.DOZE_FADE_IN_PICKUP, dozeFadeInDefault(activity, true));
+            final int statusDozeFadeInPickup = Settings.Secure.getInt(getContentResolver(),
+                    Settings.Secure.DOZE_FADE_IN_PICKUP, dozeFadeInDefault(activity, true));
             mDozeFadeInPickup.setValue(statusDozeFadeInPickup);
         }
         if (mDozeFadeInDoubleTap != null) {
-            final int statusDozeFadeInDoubleTap = Settings.System.getInt(getContentResolver(),
-                    Settings.System.DOZE_FADE_IN_DOUBLETAP, dozeFadeInDefault(activity, false));
+            final int statusDozeFadeInDoubleTap = Settings.Secure.getInt(getContentResolver(),
+                    Settings.Secure.DOZE_FADE_IN_DOUBLETAP, dozeFadeInDefault(activity, false));
             mDozeFadeInDoubleTap.setValue(statusDozeFadeInDoubleTap);
         }
         if (mDozeTimeout != null) {
-            final int statusDozeTimeout = Settings.System.getInt(getContentResolver(),
-                    Settings.System.DOZE_TIMEOUT, dozeTimeoutDefault(activity));
+            final int statusDozeTimeout = Settings.Secure.getInt(getContentResolver(),
+                    Settings.Secure.DOZE_TIMEOUT, dozeTimeoutDefault(activity));
             mDozeTimeout.setValue(statusDozeTimeout);
         }
         if (mDozeFadeOut != null) {
-            final int statusDozeFadeOut = Settings.System.getInt(getContentResolver(),
-                    Settings.System.DOZE_FADE_OUT, dozeFadeOutDefault(activity));
+            final int statusDozeFadeOut = Settings.Secure.getInt(getContentResolver(),
+                    Settings.Secure.DOZE_FADE_OUT, dozeFadeOutDefault(activity));
             mDozeFadeOut.setValue(statusDozeFadeOut);
         }
         if (mDozeWakeupDoubleTap != null) {
-            int value = Settings.System.getInt(getContentResolver(),
-                    Settings.System.DOUBLE_TAP_WAKE_DOZE, 0);
+            int value = Settings.Secure.getInt(getContentResolver(),
+                    Settings.Secure.DOZE_WAKEUP_DOUBLETAP, 0);
             mDozeWakeupDoubleTap.setChecked(value != 0);
         }
         if (mDozeTriggerPickup != null) {
-            int value = Settings.System.getInt(getContentResolver(),
-                    Settings.System.DOZE_TRIGGER_PICKUP, 1);
+            int value = Settings.Secure.getInt(getContentResolver(),
+                    Settings.Secure.DOZE_TRIGGER_PICKUP, 1);
             mDozeTriggerPickup.setChecked(value != 0);
         }
         if (mDozeTriggerSigmotion != null) {
-            int value = Settings.System.getInt(getContentResolver(),
-                    Settings.System.DOZE_TRIGGER_SIGMOTION, 1);
+            int value = Settings.Secure.getInt(getContentResolver(),
+                    Settings.Secure.DOZE_TRIGGER_SIGMOTION, 1);
             mDozeTriggerSigmotion.setChecked(value != 0);
         }
         if (mDozeTriggerDoubleTap != null) {
-            int value = Settings.System.getInt(getContentResolver(),
-                    Settings.System.DOZE_TRIGGER_DOUBLETAP, 0);
+            int value = Settings.Secure.getInt(getContentResolver(),
+                    Settings.Secure.DOZE_TRIGGER_DOUBLETAP, 0);
             mDozeTriggerDoubleTap.setChecked(value != 0);
         }
         if (mDozeTriggerNotification != null) {
-            int value = Settings.System.getInt(getContentResolver(),
-                    Settings.System.DOZE_TRIGGER_NOTIFICATION, 1);
+            int value = Settings.Secure.getInt(getContentResolver(),
+                    Settings.Secure.DOZE_TRIGGER_NOTIFICATION, 1);
             mDozeTriggerNotification.setChecked(value != 0);
         }
         if (mDozeBrightness != null) {
-            mBrightnessScale = Settings.System.getFloat(getContentResolver(),
-                    Settings.System.DOZE_BRIGHTNESS, mDefaultBrightnessScale);
+            mBrightnessScale = Settings.Secure.getFloat(getContentResolver(),
+                    Settings.Secure.DOZE_BRIGHTNESS, mDefaultBrightnessScale);
             mDozeBrightness.setValue((int) (mBrightnessScale * 100));
         }
     }
