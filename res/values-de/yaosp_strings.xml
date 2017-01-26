@@ -227,6 +227,11 @@
     <string name="swap_volume_buttons_title">Neu ausrichten</string>
     <string name="swap_volume_buttons_summary">Lautstärke-Tasten vertauschen, wenn der Bildschirm gedreht wird</string>
 
+    <!-- Development options - Recents enable paging -->
+    <string name="recents_enable_paging">Blättern in kürzlich geöffneten Apps</string>
+    <string name="recents_enable_paging_summary_on">Recents Knopf in kürzlich geöffneten Apps blättert durch die Apps</string>
+    <string name="recents_enable_paging_summary_off">Recents Knopf in kürzlich geöffneten Apps wechselt zur letzten App (Standard)</string>
+
     <!-- Development options - Kill app long press back -->
     <string name="kill_app_longpress_back">Zurücktaste zum Anwendung schliessen</string>
     <string name="kill_app_longpress_back_summary">Vordergrund Anwendung durch 2s langes drücken der Zurück-Taste schliessen</string>

@@ -227,6 +227,11 @@
     <string name="swap_volume_buttons_title">Réorienter boutons de volume</string>
     <string name="swap_volume_buttons_summary">Permuter les boutons de volume lorsque l\'écran est tourné</string>
 
+    <!-- Development options - Recents enable paging -->
+    <string name="recents_enable_paging">Feuilleter à travers les application récentes</string>
+    <string name="recents_enable_paging_summary_on">Le bouton recents dans l\'écran des applications récentes permet de feuilleter à travers les applications récentes</string>
+    <string name="recents_enable_paging_summary_off">Le bouton recents dans l\'écran des applications récentes permet de passer à l\application précédante (défaut)</string>
+
     <!-- Development options - Kill app long press back -->
     <string name="kill_app_longpress_back">Arrêt application par touche retour</string>
     <string name="kill_app_longpress_back_summary">Forcer l\'arrêt de l\'application en avantplan en appuyant 2s sur la touche retour</string>
