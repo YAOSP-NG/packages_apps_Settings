@@ -251,6 +251,11 @@
     <string name="swap_volume_buttons_title">Reorient volume rockers</string>
     <string name="swap_volume_buttons_summary">Swap volume buttons logically according to screen rotation</string>
 
+    <!-- Development options - Recents enable paging -->
+    <string name="recents_enable_paging">Enable paging in recents</string>
+    <string name="recents_enable_paging_summary_on">Tapping recents button while in recents screen will page through apps</string>
+    <string name="recents_enable_paging_summary_off">Tapping recents button while in recents screen will switch to last app (default)</string>
+
     <!-- Development options - Kill app long press back -->
     <string name="kill_app_longpress_back">Kill app back button</string>
     <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back key for 2 secs</string>
