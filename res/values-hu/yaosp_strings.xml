@@ -132,10 +132,16 @@
     <string name="charging_vibration_title">Töltésnél rezeg</string>
 	
     <!-- Doze options -->
-    <string name="display_category_doze_options_title">Környezeti kijelző beállítások</string>
-    <string name="doze_settings_title">Környezeti kijelző haladó beállítások</string>
+    <string name="display_category_doze_options_title">Környezeti kijelző (doze) beállítások</string>
+    <string name="doze_settings_title">Haladó környezeti kijelző beállítások</string>
+    <string name="doze_fade_in_pickup_title">Környezeti kijelző halványulás (felemelés)</string>
+    <string name="doze_fade_in_pickup_summary">Idő, miután a kijelzőn elhalványul az értesítés a felemelést követően (alapértelmezett 100)</string>
+    <string name="doze_fade_in_doubletap_title">Környezeti kijelző halványulás (dupla érintés)</string>
+    <string name="doze_fade_in_doubletap_summary">Idő, miután a kijelzőn elhalványul az értesítés a dupla érintést követően (alapértelmezett 900)</string>
     <string name="doze_timeout_title">Környezeti kijelző időkorlát</string>
-    <string name="doze_timeout_summary">Az az időtartam, amíg a kijelző bekapcsolva marad az értesítés hatására</string>
+    <string name="doze_timeout_summary">Idő, amíg a kijelző bekapcsolva marad az értesítést követően (alapértelmezett 6000)</string>
+    <string name="doze_fade_out_title">Környezeti kijelző elsötétedés</string>
+    <string name="doze_fade_out_summary">Idő, amíg a kijelző elsötétedik az értesítés halványulását követően (alapértelmezett 600)</string>
     <string name="doze_wakeup_doubletap_title">Dupla érintésre ébresztés alvó módból</string>
     <string name="doze_wakeup_doubletap_summary_on">Az ébresztéshez dupla érintés szükséges a környezeti kijelző módból</string>
     <string name="doze_wakeup_doubletap_summary_off">Az ébresztéshez egy érintés szükséges a környezeti kijelző módból (alapértelmezett)</string>
@@ -146,13 +152,13 @@
     <string name="doze_trigger_sigmotion_summary_on">A környezeti kijelzőt egy jelentősebb mozgás aktiválja (alapértelmezett)</string>
     <string name="doze_trigger_sigmotion_summary_off">A jelentősebb mozgást érzékelő szenzor nincs beállítva a környezeti kijelző aktiválásához</string>
     <string name="doze_trigger_doubletap_title">Dupla érintésre aktiválódó</string>
-    <string name="doze_trigger_doubletap_summary_on">A környezeti kijelzőt dupla érintés aktiválja</string>
+    <string name="doze_trigger_doubletap_summary_on">A környezeti kijelzőt a dupla érintés aktiválja</string>
     <string name="doze_trigger_doubletap_summary_off">A dupla érintés nincs beállítva a környezeti kijelző aktiválásához (alapértelmezett)</string>
     <string name="doze_trigger_notification_title">Értesítésre aktiválódó</string>
     <string name="doze_trigger_notification_summary_on">A környezeti kijelzőt az értesítések aktiválják (alapértelmezett)</string>
     <string name="doze_trigger_notification_summary_off">Az értesítések nincsenek beállítva a környezeti kijelző aktiválásához</string>
     <string name="doze_brightness_title">Környezeti kijelző fényerőszint</string>
-    <string name="doze_brightness_summary">A környezeti kijelző fényereje (max az engedélyezett fényerő %-a)</string>
+    <string name="doze_brightness_summary">Környezeti kijelző fényereje (max az engedélyezett fényerő %-a)</string>
 	
     <!-- Clock Settings -->
     <string name="time_group_title">Idő beállítás</string>
