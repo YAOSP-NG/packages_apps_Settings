@@ -245,6 +245,11 @@
     <string name="swap_volume_buttons_title">Hangerőszabályzó gombok felcserélése</string>
     <string name="swap_volume_buttons_summary">A hangerőszabályzó gombokat felcseréli elforgatott képernyőnél</string>
 	
+    <!-- Development options - Recents enable paging -->
+    <string name="recents_enable_paging">Engedélyezi a lapozást az előzményekben</string>
+    <string name="recents_enable_paging_summary_on">Az előzmények gomb végiglapozza az alkalmazásokat</string>
+    <string name="recents_enable_paging_summary_off">Az előzmények gomb az utolsó megnyitott alkalmazásra vált (alapértelmezett)</string>
+	
     <!-- Development options - Kill app long press back -->
     <string name="kill_app_longpress_back">Előtérben futó alkalmazás bezárása</string>
     <string name="kill_app_longpress_back_summary">Bezárja az alkalmazást 2 mp-ig nyomva tartott vissza gombbal</string>
