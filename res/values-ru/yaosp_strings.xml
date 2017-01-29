@@ -134,8 +134,14 @@
     <!-- Doze options -->
     <string name="display_category_doze_options_title">Настройки Ambient display (doze)</string>
     <string name="doze_settings_title">Расширенные настройки doze</string>
+    <string name="doze_fade_in_pickup_title">Включение подсветки (при взятии в руку)</string>
+    <string name="doze_fade_in_pickup_summary">Продолжительность включения экрана в режим doze при взятии устройства в руку (по умолчанию 100)</string>
+    <string name="doze_fade_in_doubletap_title">Включение подсветки (при двойном постукивании)</string>
+    <string name="doze_fade_in_doubletap_summary">Продолжительность включения экрана в режим doze при двойном постукивании (по умолчанию 900)</string>
     <string name="doze_timeout_title">Время подсветки doze</string>
-    <string name="doze_timeout_summary">Продолжительность подсветки экрана при уведомлении</string>
+    <string name="doze_timeout_summary">Продолжительность подсветки экрана при уведомлении (по умолчанию 6000)</string>
+    <string name="doze_fade_out_title">Затухание doze</string>
+    <string name="doze_fade_out_summary">Продолжительность затухания экрана после получения уведомления (по умолчанию 600)</string>
     <string name="doze_wakeup_doubletap_title">Пробуждение постукиванием</string>
     <string name="doze_wakeup_doubletap_summary_on">Будить устройство двойным постукиванием по экрану в режиме doze</string>
     <string name="doze_wakeup_doubletap_summary_off">Будить устройство одиночным постукиванием по экрану в режиме doze (по умолчанию)</string>
@@ -244,6 +250,11 @@
     <!-- Reorient volume rockers with screen rotation -->
     <string name="swap_volume_buttons_title">Переопределять кнопки громкости</string>
     <string name="swap_volume_buttons_summary">Менять местами кнопки громкости в зависимости от поворота устройства</string>
+
+    <!-- Development options - Recents enable paging -->
+    <string name="recents_enable_paging">Пролистывание последних приложений</string>
+    <string name="recents_enable_paging_summary_on">Нажатие на кнопку последних приложений при их просмотре будет пролистывать приложения</string>
+    <string name="recents_enable_paging_summary_off">Нажатие на кнопку последних приложений при их просмотре переключит на последнее запущенное (по умолчанию)</string>
 
     <!-- Development options - Kill app long press back -->
     <string name="kill_app_longpress_back">Закрытие приложений кнопкой Назад</string>
