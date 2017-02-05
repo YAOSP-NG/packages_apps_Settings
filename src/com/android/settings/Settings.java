@@ -159,4 +159,7 @@ public class Settings extends SettingsActivity {
     public static class DeviceSettings extends SettingsActivity { /* empty */ }
     public static class PersonalSettings extends SettingsActivity { /* empty */ }
     public static class SystemSettings extends SettingsActivity { /* empty */ }
+
+    // Additions.
+    public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }
