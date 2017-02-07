@@ -85,18 +85,6 @@
                 android:title="@string/lift_to_wake_title" />
 
         <SwitchPreference
-                android:key="doze"
-                android:title="@string/doze_title"
-                android:summary="@string/doze_summary" />
-
-        <com.android.settings.preference.SystemSettingSwitchPreference
-                android:key="double_tap_wake_doze"
-                android:title="@string/double_tap_wake_doze_title"
-                android:summary="@string/double_tap_wake_doze_summary"
-                android:defaultValue="false"
-                android:dependency="doze" />
-
-        <SwitchPreference
                 android:key="tap_to_wake"
                 android:title="@string/tap_to_wake"
                 android:summary="@string/tap_to_wake_summary" />
@@ -152,4 +140,21 @@
 
          </PreferenceCategory>
 
+        <PreferenceCategory
+            android:key="category_doze_options"
+            android:title="@string/display_category_doze_options_title" >
+
+            <SwitchPreference
+                    android:key="doze"
+                    android:title="@string/doze_title"
+                    android:summary="@string/doze_summary"
+                    android:persistent="false" />
+
+            <PreferenceScreen
+                android:fragment="com.android.settings.DozeSettingsFragment"
+                android:key="advanced_doze_options"
+                android:title="@string/doze_settings_title"
+                android:dependency="doze" />
+
+         </PreferenceCategory>
 </PreferenceScreen>
