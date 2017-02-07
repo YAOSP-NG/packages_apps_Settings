@@ -54,8 +54,6 @@
     <string name="double_tap_sleep_anywhere_summary">Doppelt Tippen Auf dem Sperrbildschirm um das Display aus zuschalten</string>
     <string name="double_tap_sleep_nav_bar_title">Ruhezustand durch doppeltes Tippen der Navigationsleiste</string>
     <string name="double_tap_sleep_nav_bar_summary">Zweimal die Navigationsleiste antippen, versetzt das Gerät in den Ruhezustand</string>
-    <string name="double_tap_wake_doze_title">Doppeltes Antippen zum einschalten</string>
-    <string name="double_tap_wake_doze_summary">Benötigt ein doppeltes antippen im Ambient-Display um das Gerät einzuschalten</string>
 
     <!-- Expanded desktop -->
     <string name="power_menu_expanded_desktop">Erweiterter Desktop</string>
@@ -103,5 +101,34 @@
 
     <!-- Charging vibration -->
     <string name="charging_vibration_title">Ladevibration</string>
+
+    <!-- Doze options -->
+    <string name="display_category_doze_options_title">Ambient-Display-Einstellungen (Doze)</string>
+    <string name="doze_settings_title">Erweiterte Ambient-Display-Einstelllungen</string>
+    <string name="doze_fade_in_pickup_title">Ambient-Display-Einblendzeit (aufheben)</string>
+    <string name="doze_fade_in_pickup_summary">Zeitdauer, wie die Benachrichtigungen beim aufheben eingeblendet wird (Standard 100)</string>
+    <string name="doze_fade_in_doubletap_title">Ambient-Display-Einblendzeit (doppeltes Antippen)</string>
+    <string name="doze_fade_in_doubletap_summary">Zeitdauer, wie die Benachrichtigungen beim doppelten Antippen eingeblendet wird (Standard 900)</string>
+    <string name="doze_timeout_title">Ambient-Display-Zeitdauer</string>
+    <string name="doze_timeout_summary">Zeitdauer, die der Bildschirm bei Benachrichtigungen anbleibt (Standard 6000)</string>
+    <string name="doze_fade_out_title">Ambient-Display-Ausblendzeit</string>
+    <string name="doze_fade_out_summary">Zeitdauer, wie die Benachrichtigungen ausgeblendet wird (Standard 600)</string>
+    <string name="doze_wakeup_doubletap_title">Doppeltes Antippen zum einschalten</string>
+    <string name="doze_wakeup_doubletap_summary_on">Benötigt ein doppeltes antippen im Ambient-Display um das Gerät einzuschalten</string>
+    <string name="doze_wakeup_doubletap_summary_off">Benötigt ein einfaches antippen im Ambient-Display um das Gerät einzuschalten (Standard)</string>
+    <string name="doze_trigger_pickup_title">Auslösen durch Aufheben des Gerätes</string>
+    <string name="doze_trigger_pickup_summary_on">Aufheben wird als Auslöser genutzt (Standard)</string>
+    <string name="doze_trigger_pickup_summary_off">Aufheben wird nicht als Auslöser genutzt</string>
+    <string name="doze_trigger_sigmotion_title">Auslösen durch eine deutliche Bewegung</string>
+    <string name="doze_trigger_sigmotion_summary_on">Eine deutliche Bewegung wird als Auslöser genutzt (Standard)</string>
+    <string name="doze_trigger_sigmotion_summary_off">Eine deutliche Bewegung wird nicht als Auslöser genutzt</string>
+    <string name="doze_trigger_doubletap_title">Auslösen durch doppeltes Antippen</string>
+    <string name="doze_trigger_doubletap_summary_on">Eine doppeltes Antippen wird als Auslöser genutzt</string>
+    <string name="doze_trigger_doubletap_summary_off">Eine doppeltes Antippen wird als Auslöser genutzt (Standard)</string>
+    <string name="doze_trigger_notification_title">Auslösen durch eine Benachrichtigung</string>
+    <string name="doze_trigger_notification_summary_on">Benachrichtigung wird als Auslöser genutzt (Standard)</string>
+    <string name="doze_trigger_notification_summary_off">Benachrichtigung wird nicht als Auslöser genutzt</string>
+    <string name="doze_brightness_title">Ambient-Display-Helligkeit</string>
+    <string name="doze_brightness_summary">Helligkeit des Ambient-Display (% der maximal erlaubten Helligkeit)</string>
 
 </resources>

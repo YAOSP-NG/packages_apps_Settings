@@ -54,8 +54,6 @@
     <string name="double_tap_sleep_anywhere_summary">Appuyez deux fois sur l\'écran de vérouillage pour mettre votre appareil en veille</string>
     <string name="double_tap_sleep_nav_bar_title">Appuyez barre de navigation pour désactiver</string>
     <string name="double_tap_sleep_nav_bar_summary">Appuyez deux fois sur la barre de navigation pour mettre votre appareil en veille</string>
-    <string name="double_tap_wake_doze_title">Appuyez deux fois pour activer</string>
-    <string name="double_tap_wake_doze_summary">Nécessite d\'appuyer deux fois pour activer l\'appareil en mode veille (doze)</string>
 
     <!-- Expanded desktop -->
     <string name="power_menu_expanded_desktop">Bureau étendu</string>
@@ -103,5 +101,34 @@
 
     <!-- Charging vibration -->
     <string name="charging_vibration_title">Vibration relative à la charge</string>
+
+    <!-- Doze options -->
+    <string name="display_category_doze_options_title">Options de l\'affichage en mode veille (doze)</string>
+    <string name="doze_settings_title">Options avancées de l\'affichage en mode veille</string>
+    <string name="doze_fade_in_pickup_title">Durée d\'apparition de l\'impulsion (mouvement)</string>
+    <string name="doze_fade_in_pickup_summary">Durée d\'apparition de l\'impulsion lors d\'un mouvement de l\'appareil (défaut 100)</string>
+    <string name="doze_fade_in_doubletap_title">Durée d\'apparition de l\'impulsion (double appui)</string>
+    <string name="doze_fade_in_doubletap_summary">Durée d\'apparition de l\'impulsion suite à un double appui sur l\'écran (défaut 900)</string>
+    <string name="doze_timeout_title">Durée d\'activation de l\'impulsion</string>
+    <string name="doze_timeout_summary">Durée d\'activation de l\'écran lors d\'un événement (défaut 6000)</string>
+    <string name="doze_fade_out_title">Durée de disparition de l\'impulsion</string>
+    <string name="doze_fade_out_summary">Durée de la disparition de l\'impulsion (défaut 600)</string>
+    <string name="doze_wakeup_doubletap_title">Appuyez deux fois pour activer</string>
+    <string name="doze_wakeup_doubletap_summary_on">Nécessite d\'appuyer deux fois pour activer l\'appareil en mode veille (doze)</string>
+    <string name="doze_wakeup_doubletap_summary_off">Nécessite d\'appuyer une seule fois pour activer l\'appareil en mode veille (doze) (défaut)</string>
+    <string name="doze_trigger_pickup_title">Déclenchement par détection de geste</string>
+    <string name="doze_trigger_pickup_summary_on">L\'impulsion sera déclenchée par la détection d\'un mouvement de l\'appareil (défaut)</string>
+    <string name="doze_trigger_pickup_summary_off">L\'impulsion ne sera pas déclenchée par la détection d\'un mouvement de l\'appareil</string>
+    <string name="doze_trigger_sigmotion_title">Déclenchement par mouvement important</string>
+    <string name="doze_trigger_sigmotion_summary_on">L\'impulsion sera déclenchée par des mouvements importants (défaut)</string>
+    <string name="doze_trigger_sigmotion_summary_off">L\'impulsion ne sera pas déclenchée par des mouvements importants</string>
+    <string name="doze_trigger_doubletap_title">Déclenchement par double appui</string>
+    <string name="doze_trigger_doubletap_summary_on">L\'impulsion sera déclenchée par la détection d\'un double appui sur l\'écran</string>
+    <string name="doze_trigger_doubletap_summary_off">L\'impulsion ne sera pas déclenchée par la détection d\'un double appui sur l\'écran (défaut)</string>
+    <string name="doze_trigger_notification_title">Déclenchement par une notification</string>
+    <string name="doze_trigger_notification_summary_on">L\'impulsion sera déclenchée par les notifications (défaut)</string>
+    <string name="doze_trigger_notification_summary_off">L\'impulsion ne sera pas déclenchée par les notifications</string>
+    <string name="doze_brightness_title">Niveau de luminosité de l\'affichage en mode veille</string>
+    <string name="doze_brightness_summary">Luminosité de l\'affichage en mode veille (% de la luminosité maximale)</string>
 
 </resources>
