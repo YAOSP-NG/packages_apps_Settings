@@ -302,5 +302,9 @@
     <string name="lockscreen_pin_ripple_title">Képernyőzár PIN fodrozódás</string>
     <string name="lockscreen_pin_ripple_summary_on">Fodrozódás bekapcsolva a PIN kód bevitelnél (alapértelmezett)</string>
     <string name="lockscreen_pin_ripple_summary_off">Fodrozódás kikapcsolva a PIN kód bevitelnél</string>
+	
+    <!-- Volume rocker wake -->
+    <string name="volbtn_wake_device_title">Ébresztés a hangerő gombokkal</string>
+    <string name="volbtn_wake_device_summary">A hangerő gomb megnyomása felébreszti a készüléket\nNem működik az ébresztés funkció ha a zene vezérlés és a lejátszás aktív</string>
 
 </resources>
