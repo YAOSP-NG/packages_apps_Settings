@@ -26,6 +26,13 @@
             <intent android:action="android.intent.action.SHOW_BRIGHTNESS_DIALOG" />
         </PreferenceScreen>
 
+        <com.android.settings.preference.SecureSettingSwitchPreference
+                android:key="qs_show_brightness"
+                android:title="@string/qs_show_brightness_slider_title"
+                android:summaryOn="@string/qs_show_brightness_slider_summary_on"
+                android:summaryOff="@string/qs_show_brightness_slider_summary_off"
+                android:defaultValue="true" />
+
         <SwitchPreference
                 android:key="auto_brightness"
                 android:title="@string/auto_brightness_title"

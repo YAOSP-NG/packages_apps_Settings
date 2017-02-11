@@ -289,4 +289,9 @@
     <string name="volbtn_wake_device_title">Réveil par boutons de volume</string>
     <string name="volbtn_wake_device_summary">Appuyer sur un des deux boutons de volume réveillera le téléphone</string>
 
+    <!-- Show brightness slider in QS pannel -->
+    <string name="qs_show_brightness_slider_title">Afficher le curseur de luminosité</string>
+    <string name="qs_show_brightness_slider_summary_on">Afficher le curseur de luminosité dans le panel QS (default)</string>
+    <string name="qs_show_brightness_slider_summary_off">Masquer le curseur de luminosité dans le panel QS</string>
+
 </resources>
