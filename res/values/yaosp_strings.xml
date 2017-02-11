@@ -301,4 +301,9 @@
     <string name="volbtn_wake_device_title">Volume button wake</string>
     <string name="volbtn_wake_device_summary">Pressing either volume button will wake your device</string>
 
+    <!-- Show brightness slider in QS pannel -->
+    <string name="qs_show_brightness_slider_title">Show brightness slider</string>
+    <string name="qs_show_brightness_slider_summary_on">Show brightness slider in QS panel (default)</string>
+    <string name="qs_show_brightness_slider_summary_off">Hide brightness slider from QS panel</string>
+
 </resources>

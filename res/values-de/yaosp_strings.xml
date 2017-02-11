@@ -283,4 +283,9 @@
     <string name="volbtn_wake_device_title">Aufwecken per Lautstärke-Tasten</string>
     <string name="volbtn_wake_device_summary">Das Drücken einer der beiden Lautstärke-Tasten wird das Gerät aufwecken</string>
 
+    <!-- Show brightness slider in QS pannel -->
+    <string name="qs_show_brightness_slider_title">Helligkeitsschieber anzeigen</string>
+    <string name="qs_show_brightness_slider_summary_on">Helligkeitsschieber im QS panel anzeigen (Standard)</string>
+    <string name="qs_show_brightness_slider_summary_off">Helligkeitsschieber im QS panel verstecken</string>
+
 </resources>
