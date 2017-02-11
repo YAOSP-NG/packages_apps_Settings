@@ -62,6 +62,13 @@
                 android:summary="@string/swap_volume_buttons_summary"
                 android:defaultValue = "false" />
 
+        <!-- Wake device on volume buttons press -->
+        <com.android.settings.preference.SystemSettingSwitchPreference
+                android:key="volume_wake_screen"
+                android:title="@string/volbtn_wake_device_title"
+                android:summary="@string/volbtn_wake_device_summary"
+                android:defaultValue="false" />
+
         <!-- Also vibrate for calls -->
         <SwitchPreference
                 android:key="vibrate_when_ringing"

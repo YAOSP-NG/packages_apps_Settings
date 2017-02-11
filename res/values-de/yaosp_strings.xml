@@ -285,4 +285,8 @@
     <string name="lockscreen_pin_ripple_summary_on">Ripple bei der Eingabe von PIN anzeigen (Standard)</string>
     <string name="lockscreen_pin_ripple_summary_off">Ripple bei der Eingabe von PIN verstecken</string>
 
+    <!-- Volume rocker wake -->
+    <string name="volbtn_wake_device_title">Aufwecken per Lautstärke-Tasten</string>
+    <string name="volbtn_wake_device_summary">Das Drücken einer der beiden Lautstärke-Tasten wird das Gerät aufwecken\nFunktioniert ggf. nicht wenn Musiksteuerung per Lautstärke-Tasten aktiv ist und es wird gerade Musik abgespielt</string>
+
 </resources>
