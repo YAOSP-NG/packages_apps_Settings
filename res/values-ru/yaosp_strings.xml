@@ -303,4 +303,8 @@
     <string name="lockscreen_pin_ripple_summary_on">Показывать эффект волны на цифровых кнопках при вводе пин-кода (по умолчанию)</string>
     <string name="lockscreen_pin_ripple_summary_off">Не показывать эффект волны на цифровых кнопках при вводе пин-кода</string>
 
+    <!-- Volume rocker wake -->
+    <string name="volbtn_wake_device_title">Пробуждение кнопками громкости</string>
+    <string name="volbtn_wake_device_summary">Нажатие на любую из кнопок управления громкостью разбудит устройство\nМожет не работать во время воспроизведения музыки</string>
+
 </resources>
