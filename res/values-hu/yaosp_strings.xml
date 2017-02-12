@@ -306,5 +306,10 @@
     <!-- Volume rocker wake -->
     <string name="volbtn_wake_device_title">Ébresztés a hangerőszabályzó gombokkal</string>
     <string name="volbtn_wake_device_summary">A hangerőszabályzó gomb megnyomásakor a készülék felébred</string>
+	
+    <!-- Show brightness slider in QS pannel -->
+    <string name="qs_show_brightness_slider_title">Fényerőszabályzó sáv</string>
+    <string name="qs_show_brightness_slider_summary_on">Megjeleníti a fényerőszabályzó sávot a gyorsbeállítás panelen (alapértelmezett)</string>
+    <string name="qs_show_brightness_slider_summary_off">Elrejti a fényerőszabályzó sávot a gyorsbeállítás panelen</string>
 
 </resources>
