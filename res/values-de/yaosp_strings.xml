@@ -288,4 +288,8 @@
     <string name="qs_show_brightness_slider_summary_on">Helligkeitsschieber im QS panel anzeigen (Standard)</string>
     <string name="qs_show_brightness_slider_summary_off">Helligkeitsschieber im QS panel verstecken</string>
 
+    <!-- Camera sound switch -->
+    <string name="camera_sounds_title">Kameraverschlusston</string>
+    <string name="camera_sounds_summary_off">Achtung - In einigen Ländern kann das Abstellen des Kameraverschlusstons gesetzeswidrig sein !</string>
+
 </resources>

@@ -306,4 +306,8 @@
     <string name="qs_show_brightness_slider_summary_on">Show brightness slider in QS panel (default)</string>
     <string name="qs_show_brightness_slider_summary_off">Hide brightness slider from QS panel</string>
 
+    <!-- Camera sound switch -->
+    <string name="camera_sounds_title">Camera shutter sound</string>
+    <string name="camera_sounds_summary_off">Warning - Disabling camera shutter sound may be illegal in certain countries !</string>
+
 </resources>
