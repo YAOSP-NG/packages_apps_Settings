@@ -307,4 +307,9 @@
     <string name="volbtn_wake_device_title">Пробуждение кнопками громкости</string>
     <string name="volbtn_wake_device_summary">Нажатие на любую из кнопок управления громкостью разбудит устройство</string>
 
+    <!-- Show brightness slider in QS pannel -->
+    <string name="qs_show_brightness_slider_title">Показать ползунок яркости</string>
+    <string name="qs_show_brightness_slider_summary_on">Показать ползунок яркости на панели быстрых настроек (по умолчанию)</string>
+    <string name="qs_show_brightness_slider_summary_off">Скрыть ползунок яркости с панели быстрых настроек</string>
+
 </resources>
