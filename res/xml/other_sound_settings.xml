@@ -71,4 +71,11 @@
             android:title="@string/emergency_tone_title"
             android:summary="%s" />
 
+    <!-- Camera shutter sound -->
+    <SwitchPreference
+        android:key="camera_sounds"
+        android:title="@string/camera_sounds_title"
+        android:summaryOff="@string/camera_sounds_summary_off"
+        android:defaultValue="true" />
+
 </PreferenceScreen>

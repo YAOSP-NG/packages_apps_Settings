@@ -294,4 +294,8 @@
     <string name="qs_show_brightness_slider_summary_on">Afficher le curseur de luminosité dans le panel QS (default)</string>
     <string name="qs_show_brightness_slider_summary_off">Masquer le curseur de luminosité dans le panel QS</string>
 
+    <!-- Camera sound switch -->
+    <string name="camera_sounds_title">Son de l\'appareil photo</string>
+    <string name="camera_sounds_summary_off">Avertissement - Désactiver Son de l\'appareil photo peut être illégal dans certains pays !</string>
+
 </resources>
