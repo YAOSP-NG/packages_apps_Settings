@@ -314,6 +314,6 @@
 	
     <!-- Camera sound switch -->
     <string name="camera_sounds_title">Kamera zárhang</string>
-    <string name="camera_sounds_summary_off">Figyelem - A kamera zárhang tiltása egyes országokban illegális lehet!</string>
+    <string name="camera_sounds_summary_off">Figyelem - A kamera zárhang tiltása illegális lehet egyes országokban!</string>
 
 </resources>
