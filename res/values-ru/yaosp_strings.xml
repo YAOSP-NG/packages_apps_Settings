@@ -303,4 +303,17 @@
     <string name="lockscreen_pin_ripple_summary_on">Показывать эффект волны на цифровых кнопках при вводе пин-кода (по умолчанию)</string>
     <string name="lockscreen_pin_ripple_summary_off">Не показывать эффект волны на цифровых кнопках при вводе пин-кода</string>
 
+    <!-- Volume rocker wake -->
+    <string name="volbtn_wake_device_title">Пробуждение кнопками громкости</string>
+    <string name="volbtn_wake_device_summary">Нажатие на любую из кнопок управления громкостью разбудит устройство</string>
+
+    <!-- Show brightness slider in QS pannel -->
+    <string name="qs_show_brightness_slider_title">Показать ползунок яркости</string>
+    <string name="qs_show_brightness_slider_summary_on">Показать ползунок яркости на панели быстрых настроек (по умолчанию)</string>
+    <string name="qs_show_brightness_slider_summary_off">Скрыть ползунок яркости с панели быстрых настроек</string>
+
+    <!-- Camera sound switch -->
+    <string name="camera_sounds_title">Звук затвора камеры</string>
+    <string name="camera_sounds_summary_off">Внимание - отключение звука затвора камеры может быть запрещено законом в некоторых странах!</string>
+
 </resources>
