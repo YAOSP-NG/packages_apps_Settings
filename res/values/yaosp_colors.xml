@@ -39,4 +39,12 @@
     <!-- Storage Summary Title -->
     <color name="storage_summary_title_color">#ff607d8b</color>
 
+    <!-- Bluetooth pairing pin confirm dialog -->
+    <color name="bluetooth_pairing_caption">@*android:color/secondary_text_material_light</color>
+    <color name="bluetooth_pairing_code_message">@*android:color/secondary_text_material_light</color>
+    <color name="bluetooth_phonebook_sharing_message_confirm_pin">@*android:color/secondary_text_material_light</color>
+
+    <!-- External Icon Tint -->
+    <color name="external_tile_icon_tint_color">?android:attr/colorAccent</color>
+
 </resources>
