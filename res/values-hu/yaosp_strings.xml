@@ -311,5 +311,9 @@
     <string name="qs_show_brightness_slider_title">Fényerőszabályzó sáv</string>
     <string name="qs_show_brightness_slider_summary_on">Megjeleníti a fényerőszabályzó sávot a gyorsbeállítás panelen (alapértelmezett)</string>
     <string name="qs_show_brightness_slider_summary_off">Elrejti a fényerőszabályzó sávot a gyorsbeállítás panelen</string>
+	
+    <!-- Camera sound switch -->
+    <string name="camera_sounds_title">Kamera zárhang</string>
+    <string name="camera_sounds_summary_off">Figyelem - A kamera zárhang tiltása egyes országokban illegális lehet !</string>
 
 </resources>
