@@ -250,4 +250,18 @@
     <string name="adb_over_network_summary">TCP/IP Debugging über vorhandene Netzwerkverbindungen aktivieren (Wi-Fi, USB-Verbindungen). Diese Einstellung wird nach einem Neustart automatisch zurückgesetzt.</string>
     <string name="adb_over_network_warning">ACHTUNG: Wenn Sie ADB über Netzwerk aktivieren, ist ihr Telefon für Zugriffe aus allen verbundenen Netzwerken offen, auch aus dem mobilen Datennetzwerk!\n\nAktivieren Sie diese Funktion nur, wenn Sie mit einem sicheren Netzwerk verbunden sind.\n\nWollen Sie diese Funktion wirklich aktivieren ?</string>
 
+    <!-- Dynamic notification tint -->
+    <string name="notification_tint_title">Dynamische Färbung des App-Namens in der Benachrichtigung</string>
+    <string name="notification_tint_summary_off">App-Namen in der Benachrichtigung wird vom Theme gesteuert</string>
+    <string name="notification_tint_summary_on">App-Namen in der Benachrichtigung wird vom Icon der App ermittelt</string>
+
+    <!-- Doze invert -->
+    <string name="doze_notification_color_invert_title">Benachrichtigung invertieren</string>
+    <string name="doze_notification_color_invert_summary_off">Ambient-Display Benachrichtigung wird nicht invertiert</string>
+    <string name="doze_notification_color_invert_summary_on">Ambient-Display Benachrichtigung wird invertiert</string>
+
+    <!-- Proximity wake -->
+    <string name="proximity_wake_title">Schutz gegen ungewolltes Aufwecken</string>
+    <string name="proximity_wake_summary">Den Näherungssensor prüfen vor dem Aufwecken des Gerätes beim drücken der Power-Taste</string>
+
 </resources>
