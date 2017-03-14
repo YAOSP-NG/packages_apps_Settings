@@ -13,17 +13,17 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
    <!-- Manage applications: show substratum overlays -->
-   <string name="filter_substratum_apps">Substratum overlays</string>
-   <string name="menu_show_substratum">Show overlays</string>
-   <string name="menu_hide_substratum">Hide overlays</string>
+   <string name="filter_substratum_apps">Szubsztrátum fedvények</string>
+   <string name="menu_show_substratum">Fedvények megjelenítése</string>
+   <string name="menu_hide_substratum">Fedvények elrejtése</string>
 
    <!-- Manage applications: show substratum icon overlays -->
-   <string name="filter_substratum_icons">Substratum icon overlays</string>
-   <string name="menu_show_substratum_icons">Show icon overlays</string>
-   <string name="menu_hide_substratum_icons">Hide icon overlays</string>
+   <string name="filter_substratum_icons">Szubsztrátum ikon fedvények</string>
+   <string name="menu_show_substratum_icons">Ikon fedvények megjelenítése</string>
+   <string name="menu_hide_substratum_icons">Ikon fedvények elrejtése</string>
 
    <!-- Force authorize substratum packages -->
-   <string name="force_authorize_substratum_packages_title">Force authorize every theme app</string>
-   <string name="force_authorize_substratum_packages_summary">Allow theme apps from unknown sources</string>
+   <string name="force_authorize_substratum_packages_title">Téma gyors engedélyezése minden alkalmazásra</string>
+   <string name="force_authorize_substratum_packages_summary">Engedélyezi a témát minden ismeretlen forrásból származó alkalmazásra</string>
 
 </resources>
