@@ -23,7 +23,7 @@
    <string name="menu_hide_substratum_icons">Ikon fedvények elrejtése</string>
 
    <!-- Force authorize substratum packages -->
-   <string name="force_authorize_substratum_packages_title">Téma gyors engedélyezése minden alkalmazásra</string>
-   <string name="force_authorize_substratum_packages_summary">Engedélyezi a témát minden ismeretlen forrásból származó alkalmazásra</string>
+   <string name="force_authorize_substratum_packages_title">Téma gyors engedélyezése az összes alkalmazásra</string>
+   <string name="force_authorize_substratum_packages_summary">Engedélyezi a témát az összes ismeretlen forrásból származó alkalmazásra</string>
 
 </resources>
